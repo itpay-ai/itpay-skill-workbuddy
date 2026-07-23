@@ -12,5 +12,6 @@ jobs:
       contents: write
       pull-requests: write
     with:
-      bundle-format: npm-tree
+      bundle-format: single-file-esm
+      track-skill-diff: true
       version-files: package.json

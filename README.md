@@ -6,7 +6,7 @@ WorkBuddy Skill package with a pinned, offline `@itpay/cli` bundle.
 
 - Uploadable Skill root: `skills/itpay/`.
 - Required entry: `skills/itpay/SKILL.md`.
-- Runtime: Node.js 18+; no global ItPay install and no runtime npm download.
+- Runtime: Node.js 18+ with a single-file CLI bundle; no `node_modules`, global ItPay install, or runtime npm download.
 - Agent Type: `workbuddy` for the whole flow.
 - Commands that persist `~/.itpay-v3` require the WorkBuddy Shell call to set `dangerouslyDisableSandbox: true`; denial stops the flow.
 - Network scope is limited to the official ItPay Backend. Checkout is displayed for human completion; sensitive payment credentials never enter chat or CLI arguments.
@@ -22,7 +22,7 @@ WorkBuddy also exposes SkillHub and enterprise self-built Skills, but no public 
 ```bash
 npm test
 cd skills/itpay
-zip -qr ../../itpay-workbuddy-2.0.15.zip .
+zip -qr ../../itpay-workbuddy.zip .
 ```
 
 Test on macOS and Windows with no global `itpay`, a path containing spaces, a Chinese OS username, default permission prompts, and a temporary HOME for non-production smoke checks.

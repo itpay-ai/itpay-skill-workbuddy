@@ -37,17 +37,14 @@ Use the CLI as the only ItPay control surface. Never recreate API calls or hardc
 ## Bootstrap
 
 ```bash
-npm install -g @itpay/cli
-itpay readyz --json
-itpay skill show itpay --json
-itpay install --json
-itpay install <agent_type> --json
-itpay --agent-type <agent_type> readyz --json
+node <skill-root>/scripts/itpay.mjs --version
+node <skill-root>/scripts/itpay.mjs readyz --json
+node <skill-root>/scripts/itpay.mjs skill show itpay --json
 ```
 
 Follow the returned `next.command`. After typed `readyz`, read this complete Skill again, then continue to Catalog.
 
-If `backend_contract_incompatible` returns `result.required_cli_version`, stop every ItPay business command. Run only its exact `npm install -g @itpay/cli@<version>` recovery; never substitute `latest`. Confirm `itpay --version` exactly matches the required version, then restart with typed `readyz`. Never change Agent Type or Device identity to bypass compatibility.
+If `backend_contract_incompatible` returns `result.required_cli_version`, stop every ItPay business command and ask the human to update the WorkBuddy Skill. Never install a global CLI or switch launchers. After the Skill update, confirm the bundled version exactly matches the required version, then restart with typed `readyz`. Never change Agent Type or Device identity to bypass compatibility.
 
 ## Identity And Sessions
 
