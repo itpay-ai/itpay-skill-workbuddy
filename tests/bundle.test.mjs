@@ -32,8 +32,7 @@ test("upload bundle contains no npm tree", () => {
   assert.equal(existsSync(new URL("../vendor/itpay-cli/package", import.meta.url)), false);
   assert.equal(existsSync(new URL("../vendor/itpay-cli/itpay-cli.bundle.mjs", import.meta.url)), true);
   assert.equal(existsSync(new URL("../vendor/itpay-cli/docs/agent/buyer/quickstart.json", import.meta.url)), true);
-  assert.equal(existsSync(new URL("../vendor/itpay-cli/licenses/commander/LICENSE", import.meta.url)), true);
-  assert.equal(existsSync(new URL("../vendor/itpay-cli/licenses/qrcode/license", import.meta.url)), true);
+  assert.equal(filesBelow(skillRoot).some((path) => /^licen[cs]e(?:[._-].*)?$/i.test(path.split(/[\\/]/).at(-1))), false);
 });
 
 test("WorkBuddy Skill keeps its platform contract", () => {

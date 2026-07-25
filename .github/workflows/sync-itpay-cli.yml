@@ -13,6 +13,7 @@ jobs:
       pull-requests: write
     with:
       bundle-format: single-file-esm
+      include-licenses: false
       skill-path: .
       track-skill-diff: true
       version-files: package.json
