@@ -6,10 +6,10 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 
-const lock = JSON.parse(readFileSync(new URL("../skills/itpay/bundle.lock.json", import.meta.url)));
-const launcher = fileURLToPath(new URL("../skills/itpay/scripts/itpay.mjs", import.meta.url));
-const skillRoot = fileURLToPath(new URL("../skills/itpay", import.meta.url));
-const skill = readFileSync(new URL("../skills/itpay/SKILL.md", import.meta.url), "utf8");
+const lock = JSON.parse(readFileSync(new URL("../bundle.lock.json", import.meta.url)));
+const launcher = fileURLToPath(new URL("../scripts/itpay.mjs", import.meta.url));
+const skillRoot = fileURLToPath(new URL("..", import.meta.url));
+const skill = readFileSync(new URL("../SKILL.md", import.meta.url), "utf8");
 
 function filesBelow(path) {
   return readdirSync(path, { withFileTypes: true }).flatMap((entry) => {
@@ -27,11 +27,13 @@ test("bundled CLI matches the locked version", () => {
 
 test("upload bundle contains no npm tree", () => {
   assert.equal(filesBelow(skillRoot).some((path) => path.split(/[\\/]/).includes("node_modules")), false);
-  assert.equal(existsSync(new URL("../skills/itpay/vendor/itpay-cli/package", import.meta.url)), false);
-  assert.equal(existsSync(new URL("../skills/itpay/vendor/itpay-cli/itpay-cli.bundle.mjs", import.meta.url)), true);
-  assert.equal(existsSync(new URL("../skills/itpay/vendor/itpay-cli/docs/agent/buyer/quickstart.json", import.meta.url)), true);
-  assert.equal(existsSync(new URL("../skills/itpay/vendor/itpay-cli/licenses/commander/LICENSE", import.meta.url)), true);
-  assert.equal(existsSync(new URL("../skills/itpay/vendor/itpay-cli/licenses/qrcode/license", import.meta.url)), true);
+  assert.equal(existsSync(new URL("../SKILL.md", import.meta.url)), true);
+  assert.equal(existsSync(new URL("../skills/itpay/SKILL.md", import.meta.url)), false);
+  assert.equal(existsSync(new URL("../vendor/itpay-cli/package", import.meta.url)), false);
+  assert.equal(existsSync(new URL("../vendor/itpay-cli/itpay-cli.bundle.mjs", import.meta.url)), true);
+  assert.equal(existsSync(new URL("../vendor/itpay-cli/docs/agent/buyer/quickstart.json", import.meta.url)), true);
+  assert.equal(existsSync(new URL("../vendor/itpay-cli/licenses/commander/LICENSE", import.meta.url)), true);
+  assert.equal(existsSync(new URL("../vendor/itpay-cli/licenses/qrcode/license", import.meta.url)), true);
 });
 
 test("WorkBuddy Skill keeps its platform contract", () => {
@@ -46,7 +48,10 @@ test("installed Skill works from a path with spaces without global npm or itpay"
   try {
     const installed = join(sandbox, "itpay");
     const home = join(sandbox, "home");
-    cpSync(skillRoot, installed, { recursive: true });
+    mkdirSync(installed);
+    for (const entry of ["SKILL.md", "agents", "bundle.lock.json", "scripts", "vendor"]) {
+      cpSync(join(skillRoot, entry), join(installed, entry), { recursive: true });
+    }
     mkdirSync(home);
     const installedLauncher = join(installed, "scripts", "itpay.mjs");
     const env = { ...process.env, HOME: home, PATH: "" };
