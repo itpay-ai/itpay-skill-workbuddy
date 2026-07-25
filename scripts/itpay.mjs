@@ -12,7 +12,7 @@ const child = spawn(process.execPath, [entry, ...process.argv.slice(2)], {
     ...process.env,
     ITPAY_AGENT_TYPE: "workbuddy",
     ITPAY_CLI_DOCS_DIR: resolve(skillRoot, "vendor/itpay-cli/docs/agent/buyer"),
-    ITPAY_CLI_SKILLS_DIR: dirname(skillRoot),
+    ITPAY_CLI_SKILLS_DIR: skillRoot,
   },
 });
 child.on("exit", (code) => process.exit(code ?? 1));

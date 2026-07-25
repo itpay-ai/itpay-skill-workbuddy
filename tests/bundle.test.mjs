@@ -43,10 +43,10 @@ test("WorkBuddy Skill keeps its platform contract", () => {
   assert.doesNotMatch(skill, /npm install -g/);
 });
 
-test("installed Skill works from a path with spaces without global npm or itpay", () => {
+test("installed Skill works from an arbitrary path without global npm or itpay", () => {
   const sandbox = mkdtempSync(join(tmpdir(), "itpay workbuddy "));
   try {
-    const installed = join(sandbox, "itpay");
+    const installed = join(sandbox, "renamed WorkBuddy upload");
     const home = join(sandbox, "home");
     mkdirSync(installed);
     for (const entry of ["SKILL.md", "agents", "bundle.lock.json", "scripts", "vendor"]) {
