@@ -36,9 +36,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/error.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/error.js
 var require_error = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/error.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/error.js"(exports) {
     var CommanderError2 = class extends Error {
       /**
        * Constructs the CommanderError class
@@ -71,9 +71,9 @@ var require_error = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/argument.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/argument.js
 var require_argument = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/argument.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/argument.js"(exports) {
     var { InvalidArgumentError: InvalidArgumentError2 } = require_error();
     var Argument2 = class {
       /**
@@ -198,9 +198,9 @@ var require_argument = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/help.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/help.js
 var require_help = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/help.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/help.js"(exports) {
     var { humanReadableArgName } = require_argument();
     var Help2 = class {
       constructor() {
@@ -612,9 +612,9 @@ var require_help = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/option.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/option.js
 var require_option = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/option.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/option.js"(exports) {
     var { InvalidArgumentError: InvalidArgumentError2 } = require_error();
     var Option2 = class {
       /**
@@ -884,9 +884,9 @@ var require_option = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/suggestSimilar.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/suggestSimilar.js
 var require_suggestSimilar = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/suggestSimilar.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/suggestSimilar.js"(exports) {
     var maxDistance = 3;
     function editDistance(a, b) {
       if (Math.abs(a.length - b.length) > maxDistance)
@@ -964,9 +964,9 @@ var require_suggestSimilar = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/command.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/command.js
 var require_command = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/lib/command.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/lib/command.js"(exports) {
     var EventEmitter = __require("node:events").EventEmitter;
     var childProcess = __require("node:child_process");
     var path3 = __require("node:path");
@@ -3007,9 +3007,9 @@ Expecting one of '${allowedValues.join("', '")}'`);
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/index.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/index.js
 var require_commander = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/index.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/index.js"(exports) {
     var { Argument: Argument2 } = require_argument();
     var { Command: Command2 } = require_command();
     var { CommanderError: CommanderError2, InvalidArgumentError: InvalidArgumentError2 } = require_error();
@@ -3029,18 +3029,18 @@ var require_commander = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/can-promise.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/can-promise.js
 var require_can_promise = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/can-promise.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/can-promise.js"(exports, module) {
     module.exports = function() {
       return typeof Promise === "function" && Promise.prototype && Promise.prototype.then;
     };
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/utils.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/utils.js
 var require_utils = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/utils.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/utils.js"(exports) {
     var toSJISFunction;
     var CODEWORDS_COUNT = [
       0,
@@ -3117,9 +3117,9 @@ var require_utils = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/error-correction-level.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/error-correction-level.js
 var require_error_correction_level = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/error-correction-level.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/error-correction-level.js"(exports) {
     exports.L = { bit: 1 };
     exports.M = { bit: 0 };
     exports.Q = { bit: 3 };
@@ -3162,9 +3162,9 @@ var require_error_correction_level = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/bit-buffer.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/bit-buffer.js
 var require_bit_buffer = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/bit-buffer.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/bit-buffer.js"(exports, module) {
     function BitBuffer() {
       this.buffer = [];
       this.length = 0;
@@ -3197,9 +3197,9 @@ var require_bit_buffer = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/bit-matrix.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/bit-matrix.js
 var require_bit_matrix = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/bit-matrix.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/bit-matrix.js"(exports, module) {
     function BitMatrix(size) {
       if (!size || size < 1) {
         throw new Error("BitMatrix size must be defined and greater than 0");
@@ -3226,9 +3226,9 @@ var require_bit_matrix = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/alignment-pattern.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/alignment-pattern.js
 var require_alignment_pattern = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/alignment-pattern.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/alignment-pattern.js"(exports) {
     var getSymbolSize = require_utils().getSymbolSize;
     exports.getRowColCoords = function getRowColCoords(version) {
       if (version === 1) return [];
@@ -3261,9 +3261,9 @@ var require_alignment_pattern = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/finder-pattern.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/finder-pattern.js
 var require_finder_pattern = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/finder-pattern.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/finder-pattern.js"(exports) {
     var getSymbolSize = require_utils().getSymbolSize;
     var FINDER_PATTERN_SIZE = 7;
     exports.getPositions = function getPositions(version) {
@@ -3280,9 +3280,9 @@ var require_finder_pattern = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/mask-pattern.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/mask-pattern.js
 var require_mask_pattern = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/mask-pattern.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/mask-pattern.js"(exports) {
     exports.Patterns = {
       PATTERN000: 0,
       PATTERN001: 1,
@@ -3422,9 +3422,9 @@ var require_mask_pattern = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/error-correction-code.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/error-correction-code.js
 var require_error_correction_code = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/error-correction-code.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/error-correction-code.js"(exports) {
     var ECLevel = require_error_correction_level();
     var EC_BLOCKS_TABLE = [
       // L  M  Q  H
@@ -3783,9 +3783,9 @@ var require_error_correction_code = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/galois-field.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/galois-field.js
 var require_galois_field = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/galois-field.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/galois-field.js"(exports) {
     var EXP_TABLE = new Uint8Array(512);
     var LOG_TABLE = new Uint8Array(256);
     (function initTables() {
@@ -3816,9 +3816,9 @@ var require_galois_field = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/polynomial.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/polynomial.js
 var require_polynomial = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/polynomial.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/polynomial.js"(exports) {
     var GF = require_galois_field();
     exports.mul = function mul(p1, p2) {
       const coeff = new Uint8Array(p1.length + p2.length - 1);
@@ -3852,9 +3852,9 @@ var require_polynomial = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/reed-solomon-encoder.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/reed-solomon-encoder.js
 var require_reed_solomon_encoder = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/reed-solomon-encoder.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/reed-solomon-encoder.js"(exports, module) {
     var Polynomial = require_polynomial();
     function ReedSolomonEncoder(degree) {
       this.genPoly = void 0;
@@ -3884,18 +3884,18 @@ var require_reed_solomon_encoder = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/version-check.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/version-check.js
 var require_version_check = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/version-check.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/version-check.js"(exports) {
     exports.isValid = function isValid(version) {
       return !isNaN(version) && version >= 1 && version <= 40;
     };
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/regex.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/regex.js
 var require_regex = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/regex.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/regex.js"(exports) {
     var numeric = "[0-9]+";
     var alphanumeric = "[A-Z $%*+\\-./:]+";
     var kanji = "(?:[u3000-u303F]|[u3040-u309F]|[u30A0-u30FF]|[uFF00-uFFEF]|[u4E00-u9FAF]|[u2605-u2606]|[u2190-u2195]|u203B|[u2010u2015u2018u2019u2025u2026u201Cu201Du2225u2260]|[u0391-u0451]|[u00A7u00A8u00B1u00B4u00D7u00F7])+";
@@ -3921,9 +3921,9 @@ var require_regex = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/mode.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/mode.js
 var require_mode = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/mode.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/mode.js"(exports) {
     var VersionCheck = require_version_check();
     var Regex = require_regex();
     exports.NUMERIC = {
@@ -4002,9 +4002,9 @@ var require_mode = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/version.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/version.js
 var require_version = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/version.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/version.js"(exports) {
     var Utils = require_utils();
     var ECCode = require_error_correction_code();
     var ECLevel = require_error_correction_level();
@@ -4097,9 +4097,9 @@ var require_version = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/format-info.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/format-info.js
 var require_format_info = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/format-info.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/format-info.js"(exports) {
     var Utils = require_utils();
     var G15 = 1 << 10 | 1 << 8 | 1 << 5 | 1 << 4 | 1 << 2 | 1 << 1 | 1 << 0;
     var G15_MASK = 1 << 14 | 1 << 12 | 1 << 10 | 1 << 4 | 1 << 1;
@@ -4115,9 +4115,9 @@ var require_format_info = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/numeric-data.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/numeric-data.js
 var require_numeric_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/numeric-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/numeric-data.js"(exports, module) {
     var Mode = require_mode();
     function NumericData(data) {
       this.mode = Mode.NUMERIC;
@@ -4150,9 +4150,9 @@ var require_numeric_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/alphanumeric-data.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/alphanumeric-data.js
 var require_alphanumeric_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/alphanumeric-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/alphanumeric-data.js"(exports, module) {
     var Mode = require_mode();
     var ALPHA_NUM_CHARS = [
       "0",
@@ -4229,9 +4229,9 @@ var require_alphanumeric_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/byte-data.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/byte-data.js
 var require_byte_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/byte-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/byte-data.js"(exports, module) {
     var Mode = require_mode();
     function ByteData(data) {
       this.mode = Mode.BYTE;
@@ -4259,9 +4259,9 @@ var require_byte_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/kanji-data.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/kanji-data.js
 var require_kanji_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/kanji-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/kanji-data.js"(exports, module) {
     var Mode = require_mode();
     var Utils = require_utils();
     function KanjiData(data) {
@@ -4298,9 +4298,9 @@ var require_kanji_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/dijkstrajs/dijkstra.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/dijkstrajs/dijkstra.js
 var require_dijkstra = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/dijkstrajs/dijkstra.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/dijkstrajs/dijkstra.js"(exports, module) {
     "use strict";
     var dijkstra = {
       single_source_shortest_paths: function(graph, s, d) {
@@ -4399,9 +4399,9 @@ var require_dijkstra = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/segments.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/segments.js
 var require_segments = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/segments.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/segments.js"(exports) {
     var Mode = require_mode();
     var NumericData = require_numeric_data();
     var AlphanumericData = require_alphanumeric_data();
@@ -4585,9 +4585,9 @@ var require_segments = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/qrcode.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/qrcode.js
 var require_qrcode = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/core/qrcode.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/core/qrcode.js"(exports) {
     var Utils = require_utils();
     var ECLevel = require_error_correction_level();
     var BitBuffer = require_bit_buffer();
@@ -4846,9 +4846,9 @@ var require_qrcode = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/chunkstream.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/chunkstream.js
 var require_chunkstream = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/chunkstream.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/chunkstream.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var Stream = __require("stream");
@@ -4984,9 +4984,9 @@ var require_chunkstream = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/interlace.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/interlace.js
 var require_interlace = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/interlace.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/interlace.js"(exports) {
     "use strict";
     var imagePasses = [
       {
@@ -5067,9 +5067,9 @@ var require_interlace = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/paeth-predictor.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/paeth-predictor.js
 var require_paeth_predictor = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/paeth-predictor.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/paeth-predictor.js"(exports, module) {
     "use strict";
     module.exports = function paethPredictor(left, above, upLeft) {
       let paeth = left + above - upLeft;
@@ -5087,9 +5087,9 @@ var require_paeth_predictor = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-parse.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-parse.js
 var require_filter_parse = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-parse.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-parse.js"(exports, module) {
     "use strict";
     var interlaceUtils = require_interlace();
     var paethPredictor = require_paeth_predictor();
@@ -5228,9 +5228,9 @@ var require_filter_parse = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-parse-async.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-parse-async.js
 var require_filter_parse_async = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-parse-async.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-parse-async.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var ChunkStream = require_chunkstream();
@@ -5254,9 +5254,9 @@ var require_filter_parse_async = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/constants.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/constants.js
 var require_constants = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/constants.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/constants.js"(exports, module) {
     "use strict";
     module.exports = {
       PNG_SIGNATURE: [137, 80, 78, 71, 13, 10, 26, 10],
@@ -5289,9 +5289,9 @@ var require_constants = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/crc.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/crc.js
 var require_crc = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/crc.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/crc.js"(exports, module) {
     "use strict";
     var crcTable = [];
     (function() {
@@ -5329,9 +5329,9 @@ var require_crc = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/parser.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/parser.js
 var require_parser = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/parser.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/parser.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     var CrcCalculator = require_crc();
@@ -5550,9 +5550,9 @@ var require_parser = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/bitmapper.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/bitmapper.js
 var require_bitmapper = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/bitmapper.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/bitmapper.js"(exports) {
     "use strict";
     var interlaceUtils = require_interlace();
     var pixelBppMapper = [
@@ -5798,9 +5798,9 @@ var require_bitmapper = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/format-normaliser.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/format-normaliser.js
 var require_format_normaliser = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/format-normaliser.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/format-normaliser.js"(exports, module) {
     "use strict";
     function dePalette(indata, outdata, width, height, palette) {
       let pxPos = 0;
@@ -5879,9 +5879,9 @@ var require_format_normaliser = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/parser-async.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/parser-async.js
 var require_parser_async = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/parser-async.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/parser-async.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var zlib = __require("zlib");
@@ -6005,9 +6005,9 @@ var require_parser_async = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/bitpacker.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/bitpacker.js
 var require_bitpacker = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/bitpacker.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/bitpacker.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     module.exports = function(dataIn, width, height, options) {
@@ -6155,9 +6155,9 @@ var require_bitpacker = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-pack.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-pack.js
 var require_filter_pack = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-pack.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-pack.js"(exports, module) {
     "use strict";
     var paethPredictor = require_paeth_predictor();
     function filterNone(pxData, pxPos, byteWidth, rawData, rawPos) {
@@ -6297,9 +6297,9 @@ var require_filter_pack = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/packer.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/packer.js
 var require_packer = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/packer.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/packer.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     var CrcStream = require_crc();
@@ -6397,9 +6397,9 @@ var require_packer = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/packer-async.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/packer-async.js
 var require_packer_async = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/packer-async.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/packer-async.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var Stream = __require("stream");
@@ -6439,9 +6439,9 @@ var require_packer_async = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/sync-inflate.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/sync-inflate.js
 var require_sync_inflate = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/sync-inflate.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/sync-inflate.js"(exports, module) {
     "use strict";
     var assert = __require("assert").ok;
     var zlib = __require("zlib");
@@ -6576,9 +6576,9 @@ var require_sync_inflate = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/sync-reader.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/sync-reader.js
 var require_sync_reader = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/sync-reader.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/sync-reader.js"(exports, module) {
     "use strict";
     var SyncReader = module.exports = function(buffer) {
       this._buffer = buffer;
@@ -6614,9 +6614,9 @@ var require_sync_reader = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-parse-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-parse-sync.js
 var require_filter_parse_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/filter-parse-sync.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/filter-parse-sync.js"(exports) {
     "use strict";
     var SyncReader = require_sync_reader();
     var Filter = require_filter_parse();
@@ -6638,9 +6638,9 @@ var require_filter_parse_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/parser-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/parser-sync.js
 var require_parser_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/parser-sync.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/parser-sync.js"(exports, module) {
     "use strict";
     var hasSyncZlib = true;
     var zlib = __require("zlib");
@@ -6729,9 +6729,9 @@ var require_parser_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/packer-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/packer-sync.js
 var require_packer_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/packer-sync.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/packer-sync.js"(exports, module) {
     "use strict";
     var hasSyncZlib = true;
     var zlib = __require("zlib");
@@ -6774,9 +6774,9 @@ var require_packer_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/png-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/png-sync.js
 var require_png_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/png-sync.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/png-sync.js"(exports) {
     "use strict";
     var parse = require_parser_sync();
     var pack = require_packer_sync();
@@ -6789,9 +6789,9 @@ var require_png_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/png.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/png.js
 var require_png = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/pngjs/lib/png.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/pngjs/lib/png.js"(exports) {
     "use strict";
     var util = __require("util");
     var Stream = __require("stream");
@@ -6926,9 +6926,9 @@ var require_png = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/utils.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/utils.js
 var require_utils2 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/utils.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/utils.js"(exports) {
     function hex2rgba(hex) {
       if (typeof hex === "number") {
         hex = hex.toString();
@@ -7006,9 +7006,9 @@ var require_utils2 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/png.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/png.js
 var require_png2 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/png.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/png.js"(exports) {
     var fs2 = __require("fs");
     var PNG = require_png().PNG;
     var Utils = require_utils2();
@@ -7073,9 +7073,9 @@ var require_png2 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/utf8.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/utf8.js
 var require_utf8 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/utf8.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/utf8.js"(exports) {
     var Utils = require_utils2();
     var BLOCK_CHAR = {
       WW: " ",
@@ -7135,9 +7135,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/terminal/terminal.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/terminal/terminal.js
 var require_terminal = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/terminal/terminal.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/terminal/terminal.js"(exports) {
     exports.render = function(qrData, options, cb) {
       const size = qrData.modules.size;
       const data = qrData.modules.data;
@@ -7163,9 +7163,9 @@ var require_terminal = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/terminal/terminal-small.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/terminal/terminal-small.js
 var require_terminal_small = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/terminal/terminal-small.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/terminal/terminal-small.js"(exports) {
     var backgroundWhite = "\x1B[47m";
     var backgroundBlack = "\x1B[40m";
     var foregroundWhite = "\x1B[37m";
@@ -7222,9 +7222,9 @@ var require_terminal_small = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/terminal.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/terminal.js
 var require_terminal2 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/terminal.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/terminal.js"(exports) {
     var big = require_terminal();
     var small = require_terminal_small();
     exports.render = function(qrData, options, cb) {
@@ -7236,9 +7236,9 @@ var require_terminal2 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/svg-tag.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/svg-tag.js
 var require_svg_tag = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/svg-tag.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/svg-tag.js"(exports) {
     var Utils = require_utils2();
     function getColorAttrib(color, attrib) {
       const alpha = color.a / 255;
@@ -7294,9 +7294,9 @@ var require_svg_tag = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/svg.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/svg.js
 var require_svg = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/svg.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/svg.js"(exports) {
     var svgTagRenderer = require_svg_tag();
     exports.render = svgTagRenderer.render;
     exports.renderToFile = function renderToFile(path3, qrData, options, cb) {
@@ -7312,9 +7312,9 @@ var require_svg = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/canvas.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/canvas.js
 var require_canvas = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/renderer/canvas.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/renderer/canvas.js"(exports) {
     var Utils = require_utils2();
     function clearCanvas(ctx, canvas, size) {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -7365,9 +7365,9 @@ var require_canvas = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/browser.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/browser.js
 var require_browser = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/browser.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/browser.js"(exports) {
     var canPromise = require_can_promise();
     var QRCode2 = require_qrcode();
     var CanvasRenderer = require_canvas();
@@ -7435,9 +7435,9 @@ var require_browser = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/server.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/server.js
 var require_server = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/server.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/server.js"(exports) {
     var canPromise = require_can_promise();
     var QRCode2 = require_qrcode();
     var PngRenderer = require_png2();
@@ -7555,14 +7555,14 @@ var require_server = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/index.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/index.js
 var require_lib = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/qrcode/lib/index.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/qrcode/lib/index.js"(exports, module) {
     module.exports = require_server();
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/commander/esm.mjs
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/commander/esm.mjs
 var import_index = __toESM(require_commander(), 1);
 var {
   program,
@@ -7579,12 +7579,12 @@ var {
   Help
 } = import_index.default;
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/config.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/config.js
 import { homedir as homedir2 } from "node:os";
 import { mkdirSync as mkdirSync3 } from "node:fs";
 import { resolve as resolve2 } from "node:path";
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/client/http.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/client/http.js
 var HttpError = class extends Error {
   status;
   code;
@@ -7664,7 +7664,7 @@ function safeParseJson(text) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/client/backend.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/client/backend.js
 var BackendClient = class {
   http;
   constructor(http) {
@@ -7833,7 +7833,7 @@ async function streamSSE(url, onEvent, signal) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/agent_type.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/agent_type.js
 function declaredAgentType(env = process.env, argv = process.argv) {
   if (env.ITPAY_AGENT_TYPE)
     return env.ITPAY_AGENT_TYPE;
@@ -7854,7 +7854,7 @@ function qualifyItPayCommand(command, agentType) {
   return `itpay --agent-type ${agentType} ${command.slice("itpay ".length)}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/device_authority.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/device_authority.js
 import { createHash, createPrivateKey, createPublicKey, generateKeyPairSync, randomUUID, sign } from "node:crypto";
 import { chmodSync, existsSync, mkdirSync, readFileSync, renameSync, rmdirSync, statSync, unlinkSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
@@ -8198,7 +8198,7 @@ function asDeviceStatePathError(error, operation) {
   return code === "EEXIST" ? new DeviceStateError(operation, code) : asDeviceStateError(error, operation);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/operation_journal.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/operation_journal.js
 import { chmodSync as chmodSync2, closeSync, existsSync as existsSync2, mkdirSync as mkdirSync2, openSync, readFileSync as readFileSync2, renameSync as renameSync2, statSync as statSync2, unlinkSync as unlinkSync2, writeFileSync as writeFileSync2 } from "node:fs";
 import { dirname as dirname2 } from "node:path";
 import { randomUUID as randomUUID2 } from "node:crypto";
@@ -8274,11 +8274,11 @@ async function withFileLock2(path3, run) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/config.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/config.js
 var DEFAULT_BASE_URL = "https://app.itpay.ai";
 var DEV_BASE_URL = "https://dev.itpay.ai";
-var CLI_VERSION = "2.0.19";
-var API_CONTRACT_REVISION = "sha256:7f4c40b082292bf823631bcd37d452f4a8537153e30636d5eb3a2b24a77ce602";
+var CLI_VERSION = "2.0.20";
+var API_CONTRACT_REVISION = "sha256:ab3e76d7eee227c9192d41023c5bdf0e0e793bcad294287c75de6ac606f8caf7";
 var CART_SESSION_DEFAULT_DIR = ".itpay-v3";
 var CART_SESSION_FILENAME = "cart.json";
 var OPERATION_JOURNAL_FILENAME = "operations.json";
@@ -8378,7 +8378,7 @@ function shortRandom() {
   return Math.random().toString(36).slice(2, 10) + Math.random().toString(36).slice(2, 6);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/cart_session.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/cart_session.js
 import { chmodSync as chmodSync3, existsSync as existsSync3, mkdirSync as mkdirSync4, readFileSync as readFileSync3, renameSync as renameSync3, writeFileSync as writeFileSync3 } from "node:fs";
 import { randomUUID as randomUUID3 } from "node:crypto";
 import { dirname as dirname3 } from "node:path";
@@ -8522,7 +8522,7 @@ var CartSession = class _CartSession {
   }
 };
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/state/client_context.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/state/client_context.js
 var SUPPORTED_HOSTS = /* @__PURE__ */ new Set([
   "terminal",
   "codex",
@@ -8582,13 +8582,13 @@ function validateContext(host, target) {
   return void 0;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/sink.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/sink.js
 var defaultOutput = (line) => process.stdout.write(line);
 function resolveOutput(sink) {
   return sink ?? defaultOutput;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/guidance.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/guidance.js
 function isTerminalServiceExecutionStatus(status) {
   return status === "failed" || status === "refunded" || status === "cancelled";
 }
@@ -8746,7 +8746,7 @@ function printErrorRecovery(error, output) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/readyz.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/readyz.js
 async function runReadyz(backend, options = {}) {
   const response = await backend.readyz();
   const backendURL = options.backendURL ?? "https://app.itpay.ai";
@@ -8760,7 +8760,7 @@ async function runReadyz(backend, options = {}) {
   }, options);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/qr.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/qr.js
 var import_qrcode = __toESM(require_lib(), 1);
 import fs from "node:fs/promises";
 import os from "node:os";
@@ -8788,7 +8788,7 @@ async function writeLocalPNG(url) {
   return { filePath, mimeType: "image/png" };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/terminal_image.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/terminal_image.js
 import { readFileSync as readFileSync4 } from "node:fs";
 import path2 from "node:path";
 function supportsInlineTerminalImages() {
@@ -8809,7 +8809,7 @@ function renderInlineTerminalImage(filePath, out) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/ide.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/ide.js
 import { mkdirSync as mkdirSync5, readFileSync as readFileSync5, renameSync as renameSync4, writeFileSync as writeFileSync4 } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
@@ -9045,7 +9045,7 @@ function ideImageAttachBlock(attach) {
   return lines;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/terminal.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/terminal.js
 import { copyFile } from "node:fs/promises";
 async function renderTerminal(plan, options) {
   const out = options.output ?? ((line) => process.stdout.write(line));
@@ -9206,7 +9206,7 @@ function fmtPrice(amountMinor, currency) {
   return `${(amountMinor / 100).toFixed(2)} ${currency}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/markdown.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/markdown.js
 function renderMarkdown(plan, options = {}) {
   const out = options.output ?? ((line) => process.stdout.write(line + "\n"));
   const handoff = buildAgentChatHandoff(plan);
@@ -9245,7 +9245,7 @@ function formatPrice(amountMinor, currency) {
   return `${(amountMinor / 100).toFixed(2)} ${currency}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/plain_chat.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/plain_chat.js
 function renderPlainChat(plan, options = {}) {
   const out = options.output ?? ((line) => process.stdout.write(line));
   const brand = plan.preferredQRSources.find((src) => src.length > 0);
@@ -9297,7 +9297,7 @@ function renderInteractionText(request) {
   return lines.join("\n");
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/telegram.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/telegram.js
 function buttonsFor(plan) {
   if (plan.kind === "payment_qr" && plan.paymentIntentID) {
     return [
@@ -9383,7 +9383,7 @@ function collectTelegramMedia(plan) {
   return media;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/feishu.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/feishu.js
 function actionFor(plan, button) {
   if (button.kind === "url" && button.url) {
     return {
@@ -9496,7 +9496,7 @@ function collectFeishuMedia(plan) {
   return media;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/plan.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/plan.js
 function platformKeyForHost(host) {
   switch (host) {
     case "terminal":
@@ -9518,7 +9518,7 @@ function platformKeyForHost(host) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/index.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/index.js
 async function dispatchRender(plan, options) {
   const key = platformKeyForHost(plan.host);
   if (key === "markdown" || key === "terminal") {
@@ -9568,13 +9568,13 @@ async function dispatchRender(plan, options) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/render/output.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/render/output.js
 function formatMoney(amountMinor, currency) {
   const major = (amountMinor / 100).toFixed(2);
   return `${major} ${currency}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/checkout_handoff.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/checkout_handoff.js
 function shouldPrepareLocalCheckoutImage(platform) {
   return platform === "markdown";
 }
@@ -9620,7 +9620,7 @@ function checkoutHandoffInstruction(agentType, platform, amount, hasQRImage) {
   return `Backend \u5C1A\u672A\u786E\u8BA4\u4ED8\u6B3E\u3002\u628A handoff.url \u548C\u53EF\u7528\u7684 handoff.qr_image_url \u5B9E\u9645\u53D1\u9001\u5230\u5F53\u524D\u4F1A\u8BDD\uFF0C\u8BF4\u660E\u91D1\u989D ${amount}\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002\u4E0D\u8981\u521B\u5EFA\u65B0 Checkout\u3001Payment Intent \u6216 Execution\uFF1B\u53EA\u6709\u7528\u6237\u660E\u786E\u8868\u793A\u5DF2\u4ED8\u6B3E\u6216\u8981\u6C42\u67E5\u8BE2\u72B6\u6001\u65F6\uFF0C\u624D\u6267\u884C next.command\uFF1B\u7528\u6237\u7684\u8BDD\u4E0D\u662F\u4ED8\u6B3E\u6210\u529F\u8BC1\u660E\u3002`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/buy.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/buy.js
 async function runBuy(backend, config, options) {
   const err = validateContext(options.host, options.target);
   if (err) {
@@ -9908,7 +9908,7 @@ function absolutePublicURL(baseURL, value) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/catalog.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/catalog.js
 async function runCatalogList(backend, options = {}) {
   const manifest = await backend.getCatalogManifest();
   const services2 = manifest.manifest.items.map(summarizeService);
@@ -9983,7 +9983,7 @@ function formatProductMoney(amountMinor, currency) {
   }).format(amountMinor / 100);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/compatibility.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/compatibility.js
 async function requirePlatformCompatibility(backend) {
   const platform = await backend.compatibility();
   const compatible = platform.api_contract_revision === API_CONTRACT_REVISION && compareVersions(CLI_VERSION, platform.minimum_cli_version) >= 0 && versionMajor(CLI_VERSION) <= platform.maximum_cli_major;
@@ -10017,7 +10017,7 @@ function versionParts(version) {
   return match ? [Number(match[1]), Number(match[2]), Number(match[3])] : void 0;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/checkout.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/checkout.js
 async function runCheckoutPresentation(backend, options) {
   const presentation = await backend.getCheckoutPresentation(options.checkoutID, options.displayToken);
   const host = options.host ?? "terminal";
@@ -10154,7 +10154,7 @@ function absolutePublicURL2(baseURL, value) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/pay.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/pay.js
 async function runPay(backend, options) {
   const intent = await backend.createPaymentIntent(options.checkoutID, {
     payment_method_type: options.method,
@@ -10216,7 +10216,7 @@ function payInstruction(options, verified, terminal, hasAction, hasQR, hasWallet
   return "\u8FD9\u662F\u53D7\u63A7\u9003\u751F\u5165\u53E3\uFF1B\u628A handoff \u4E2D\u7684\u4E8C\u7EF4\u7801\u6216\u94B1\u5305\u94FE\u63A5\u53D1\u9001\u5230\u5F53\u524D\u4F1A\u8BDD\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002";
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/order.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/order.js
 async function runOrder(backend, orderID, options = {}) {
   const order = await backend.getOrder(orderID);
   const [delivery, refundResponse] = await Promise.all([
@@ -10267,7 +10267,7 @@ function orderPlainResult(result) {
   return Object.entries(result).map(([key, value]) => `${key}: ${typeof value === "string" ? value : JSON.stringify(value)}`);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/orders.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/orders.js
 var ORDER_STATUSES = /* @__PURE__ */ new Set([
   "pending_payment",
   "paid",
@@ -10312,7 +10312,7 @@ async function runListOrders(backend, config, options) {
   });
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/refund.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/refund.js
 async function runRefund(backend, config, options) {
   const reason = options.reason?.trim() || "buyer_requested";
   const refund2 = await backend.createRefund(options.orderID, { reason }, config.bearerToken, await operationID(config, `refund.create:${options.orderID}:${reason}`));
@@ -10442,7 +10442,7 @@ function writeRefundEnvelope(envelope, options) {
   });
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/cart.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/cart.js
 function runCartAdd(session, options) {
   const out = resolveOutput(options.output);
   const item = {
@@ -10788,7 +10788,7 @@ function writeCartNextEnvelope(envelope, options) {
   });
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/docs.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/docs.js
 import { existsSync as existsSync4, readFileSync as readFileSync6, readdirSync } from "node:fs";
 import { dirname as dirname4, resolve as resolve3 } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -10887,7 +10887,7 @@ function shellWord(value) {
   return /^[a-zA-Z0-9._-]+$/.test(value) ? value : JSON.stringify(value);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/install.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/install.js
 var INSTALL_AGENT_TYPES = [
   "codex-desktop",
   "codex-cli",
@@ -10949,7 +10949,7 @@ function installDefinition(agentType) {
   return { agent_type: agentType, default_host: defaultHostForAgentType(agentType) ?? null };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/skill.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/skill.js
 import { existsSync as existsSync5, readFileSync as readFileSync7 } from "node:fs";
 import { dirname as dirname5, resolve as resolve4 } from "node:path";
 import { fileURLToPath as fileURLToPath2 } from "node:url";
@@ -11001,7 +11001,7 @@ function validateSkill(content) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/next.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/next.js
 function runNext(session, options = {}) {
   const envelope = nextEnvelope(session);
   writeCommandEnvelope(envelope, {
@@ -11047,7 +11047,7 @@ function resumeEnvelope(resourceType, resourceID, command, reason) {
   };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/commands/services.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/commands/services.js
 var serviceActionStatuses = /* @__PURE__ */ new Set(["pending", "approved", "rejected", "expired", "cancelled"]);
 async function runServicesStart(backend, serviceID, options = {}) {
   const host = options.host ?? "terminal";
@@ -11990,7 +11990,7 @@ function tokenizedCheckoutURL2(checkoutURL, displayToken, qrPayload) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-zEbS5N/node_modules/@itpay/cli/dist/src/main.js
+// ../../../../../../tmp/itpay-platform-bundle-ogiIgi/node_modules/@itpay/cli/dist/src/main.js
 var program2 = new Command();
 program2.name("itpay").description("V3 ItPay CLI \u2014 one entry point for buy workflows and future sell workflows").option("--agent-type <type>", "agent runtime type used for device enrollment and client-specific guidance").version(CLI_VERSION);
 function withHost(value, agentType, target) {
