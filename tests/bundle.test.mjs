@@ -37,7 +37,9 @@ test("upload bundle contains no npm tree", () => {
 
 test("WorkBuddy Skill keeps its platform contract", () => {
   assert.match(skill, /dangerouslyDisableSandbox/);
-  assert.match(skill, /present_files/);
+  assert.match(skill, /execute `handoff\.agent_action` exactly once when present/);
+  assert.match(skill, /complete official `handoff\.url` as its only `files` element/);
+  assert.match(skill, /Never use `present_files` for a local file or QR PNG/);
   assert.match(skill, /workbuddy/);
   assert.doesNotMatch(skill, /npm install -g/);
 });
