@@ -89,7 +89,8 @@ When `status` is `human_checkout_required`, make the amount, ItPay Checkout QR, 
 
 - Desktop Agents: send `handoff.markdown` unchanged; confirm QR, amount, and link are visible, then stop.
 - CLI Agents: show the terminal QR, amount, and link in the watched terminal, then stop; never claim a desktop image was shown.
-- WorkBuddy with `plain-chat`: `handoff.url` is the fully rendered ItPay Card Link. Show the amount, send/open that link, then stop. Never call `present_files`, inspect files, download or rebuild a QR, call `pay`, or create another Checkout.
+- WorkBuddy with `plain-chat`: show the amount, then execute `handoff.agent_action` exactly once when present. For an older handoff without that field, call `present_files` exactly once with the complete official `handoff.url` as its only `files` element. This opens the rendered ItPay Card in the right-side browser; then stop.
+- If the open action fails, send only the original `handoff.url`, report that it did not auto-open, and stop. Never use `present_files` for a local file or QR PNG, inspect files, download or rebuild a QR, call `pay`, or create another Checkout.
 - Desktop image hosts receive the PNG rendered from that same Card HTML. `--locale` defaults to `zh-CN`; use `--locale en` only when the human needs English.
 - An explicit `--host` overrides presentation only. It never changes Agent identity or payment state.
 
