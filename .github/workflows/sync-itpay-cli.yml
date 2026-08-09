@@ -17,3 +17,6 @@ jobs:
       skill-path: .
       track-skill-diff: true
       version-files: package.json
+    secrets:
+      ITPAY_BUNDLE_APP_ID: ${{ secrets.ITPAY_BUNDLE_APP_ID }}
+      ITPAY_BUNDLE_APP_PRIVATE_KEY: ${{ secrets.ITPAY_BUNDLE_APP_PRIVATE_KEY }}
