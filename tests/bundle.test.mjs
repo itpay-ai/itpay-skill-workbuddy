@@ -44,6 +44,7 @@ test("WorkBuddy Skill keeps its platform contract", () => {
   assert.doesNotMatch(skill, /npm install -g/);
   assert.match(skill, /Default to this local CLI/);
   assert.match(skill, /Explicit MCP Vault Read/);
+  assert.ok(skill.indexOf("## Explicit MCP Vault Read") < skill.indexOf("Use the CLI as the only ItPay control surface in this lane"));
   for (const tool of ["itpay_account_status", "itpay_orders_list", "itpay_vault_list", "itpay_vault_authorize", "itpay_vault_result_read"]) {
     assert.match(skill, new RegExp(tool));
   }

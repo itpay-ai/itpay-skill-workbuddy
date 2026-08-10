@@ -7,14 +7,10 @@ description: >
 
 # ItPay
 
-Use the CLI as the only ItPay control surface. Never recreate API calls or hardcode a service-specific sequence.
+Select exactly one ItPay control surface. Never recreate API calls or hardcode a service-specific sequence.
 
 ## WorkBuddy Runtime
 
-- Run `node <skill-root>/scripts/itpay.mjs`. Treat every leading `itpay` in this Skill or a returned `next.command` as that locked launcher.
-- Keep `workbuddy` as the Agent Type for the entire flow.
-- Before a command that persists `~/.itpay-v3`, set the Shell tool parameter `dangerouslyDisableSandbox` to `true`. If the human denies permission, stop.
-- The package connects only to the official ItPay Backend and writes only ItPay Device state under `~/.itpay-v3`; it does not require screen control or arbitrary-directory writes.
 - Default to this local CLI. Use MCP only when the user explicitly requests the connected ItPay MCP; then stay on MCP for the task. Never fall back between lanes.
 
 ## Explicit MCP Vault Read
@@ -26,6 +22,12 @@ MCP is read-only and cannot purchase, pay, or refund. Use the local CLI only in 
 ## Local WorkBuddy CLI
 
 The remaining instructions apply only after selecting the local lane.
+
+- Use the CLI as the only ItPay control surface in this lane.
+- Run `node <skill-root>/scripts/itpay.mjs`. Treat every leading `itpay` in this Skill or a returned `next.command` as that locked launcher.
+- Keep `workbuddy` as the Agent Type for the entire flow.
+- Before a command that persists `~/.itpay-v3`, set the Shell tool parameter `dangerouslyDisableSandbox` to `true`. If the human denies permission, stop.
+- The package connects only to the official ItPay Backend and writes only ItPay Device state under `~/.itpay-v3`; it does not require screen control or arbitrary-directory writes.
 
 ## One Entry Point, Two Action Domains
 
