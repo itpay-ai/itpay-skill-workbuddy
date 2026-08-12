@@ -44,6 +44,9 @@ test("WorkBuddy Skill keeps its platform contract", () => {
   assert.doesNotMatch(skill, /npm install -g/);
   assert.match(skill, /Default to this local CLI/);
   assert.match(skill, /Explicit MCP Vault Read/);
+  assert.match(skill, /Understand The Human/);
+  assert.match(skill, /Previously Purchased Content/);
+  assert.match(skill, /service representative/);
   assert.ok(skill.indexOf("## Explicit MCP Vault Read") < skill.indexOf("Use the CLI as the only ItPay control surface in this lane"));
   for (const tool of ["itpay_account_status", "itpay_orders_list", "itpay_vault_list", "itpay_vault_authorize", "itpay_vault_result_read"]) {
     assert.match(skill, new RegExp(tool));
@@ -67,7 +70,7 @@ test("installed Skill works from an arbitrary path without global npm or itpay",
     assert.equal(shownSkill.status, "shown");
     assert.equal(shownSkill.result.skill, "itpay");
     assert.equal(shownSkill.result.content, readFileSync(join(installed, "SKILL.md"), "utf8"));
-    assert.match(shownSkill.next.command, /--agent-type workbuddy/);
+    assert.equal(shownSkill.next, null);
     assert.equal(shownDocs.status, "shown");
     assert.equal(shownDocs.result.topic, "quickstart");
   } finally {
