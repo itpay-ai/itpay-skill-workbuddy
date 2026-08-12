@@ -44,7 +44,7 @@ test("WorkBuddy Skill keeps its platform contract", () => {
   assert.doesNotMatch(skill, /npm install -g/);
   assert.match(skill, /Default to this local CLI/);
   assert.match(skill, /Explicit MCP Vault Read/);
-  assert.match(skill, /Understand The Human/);
+  assert.match(skill, /Route The Human's Intent/);
   assert.match(skill, /Previously Purchased Content/);
   assert.match(skill, /service representative/);
   assert.ok(skill.indexOf("## Explicit MCP Vault Read") < skill.indexOf("Use the CLI as the only ItPay control surface in this lane"));
