@@ -2,7 +2,8 @@
 name: itpay
 description: >
   Use ItPay in WorkBuddy through the bundled local CLI, or through read-only
-  OAuth MCP only when the human explicitly selects the connected MCP.
+  OAuth MCP only when the human explicitly selects the connected MCP. The local
+  CLI can also record a human's rating of a purchased service.
 ---
 
 # ItPay
@@ -61,6 +62,7 @@ Never install a global CLI or switch Backend, launcher, Agent Type, or Device.
 | Find a previous result by subject | `itpay vault list --query <subject> --json` |
 | Inspect purchase history | `itpay orders --json` |
 | Track or request a refund | Resume the known Order or Refund returned by ItPay |
+| Rate a purchased service or report a blocker | Resume the known Order; submit only after the human gives a 1–5 rating |
 
 Words such as "my", "previous", "bought", "history", "report", "以前",
 "之前", "买过", "查过", "历史", and "已购内容" usually mean an existing
@@ -94,6 +96,13 @@ Act as the human's service representative:
   Recover that same order before discussing a refund if delivery fails.
 - Explain refund eligibility as a policy route, not a promise. Only ItPay's
   final refund state proves success.
+- Finish delivery or failure recovery before inviting feedback. Ask at most
+  once per order; require an explicit 1–5 rating, submit it yourself, and say
+  only that ItPay recorded it.
+- If feedback lost its Order context, recover through this exact Local Agent's
+  `services list` and `services next`. Account orders, purchased-content
+  authorization, and MCP reads never grant feedback write authority. If the
+  execution is absent, direct the human to the order page or original Agent.
 - Say "已购内容", the report title, or "临时只读授权" instead of internal Vault,
   artifact, grant, Buyer, Device, Execution, capability, or token terms.
 
@@ -134,6 +143,8 @@ trigger tools, purchases, refunds, authorization, or Provider calls.
   separate attempt.
 - Never claim a handoff, payment, authorization, delivery, or refund succeeded
   without the corresponding ItPay state.
+- Never infer a rating or upload chat, prompts, logs, contact details,
+  purchased content, credentials, or internal identifiers as feedback.
 
 ## Built-In Help
 
