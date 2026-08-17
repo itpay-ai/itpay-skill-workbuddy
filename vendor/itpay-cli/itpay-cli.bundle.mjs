@@ -36,9 +36,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/error.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/error.js
 var require_error = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/error.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/error.js"(exports) {
     var CommanderError2 = class extends Error {
       /**
        * Constructs the CommanderError class
@@ -71,9 +71,9 @@ var require_error = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/argument.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/argument.js
 var require_argument = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/argument.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/argument.js"(exports) {
     var { InvalidArgumentError: InvalidArgumentError2 } = require_error();
     var Argument2 = class {
       /**
@@ -198,9 +198,9 @@ var require_argument = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/help.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/help.js
 var require_help = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/help.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/help.js"(exports) {
     var { humanReadableArgName } = require_argument();
     var Help2 = class {
       constructor() {
@@ -612,9 +612,9 @@ var require_help = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/option.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/option.js
 var require_option = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/option.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/option.js"(exports) {
     var { InvalidArgumentError: InvalidArgumentError2 } = require_error();
     var Option2 = class {
       /**
@@ -884,9 +884,9 @@ var require_option = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/suggestSimilar.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/suggestSimilar.js
 var require_suggestSimilar = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/suggestSimilar.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/suggestSimilar.js"(exports) {
     var maxDistance = 3;
     function editDistance(a, b) {
       if (Math.abs(a.length - b.length) > maxDistance)
@@ -964,9 +964,9 @@ var require_suggestSimilar = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/command.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/command.js
 var require_command = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/lib/command.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/lib/command.js"(exports) {
     var EventEmitter = __require("node:events").EventEmitter;
     var childProcess = __require("node:child_process");
     var path3 = __require("node:path");
@@ -3007,9 +3007,9 @@ Expecting one of '${allowedValues.join("', '")}'`);
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/index.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/index.js
 var require_commander = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/index.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/index.js"(exports) {
     var { Argument: Argument2 } = require_argument();
     var { Command: Command2 } = require_command();
     var { CommanderError: CommanderError2, InvalidArgumentError: InvalidArgumentError2 } = require_error();
@@ -3029,18 +3029,18 @@ var require_commander = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/can-promise.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/can-promise.js
 var require_can_promise = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/can-promise.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/can-promise.js"(exports, module) {
     module.exports = function() {
       return typeof Promise === "function" && Promise.prototype && Promise.prototype.then;
     };
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/utils.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/utils.js
 var require_utils = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/utils.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/utils.js"(exports) {
     var toSJISFunction;
     var CODEWORDS_COUNT = [
       0,
@@ -3117,9 +3117,9 @@ var require_utils = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/error-correction-level.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/error-correction-level.js
 var require_error_correction_level = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/error-correction-level.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/error-correction-level.js"(exports) {
     exports.L = { bit: 1 };
     exports.M = { bit: 0 };
     exports.Q = { bit: 3 };
@@ -3162,9 +3162,9 @@ var require_error_correction_level = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/bit-buffer.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/bit-buffer.js
 var require_bit_buffer = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/bit-buffer.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/bit-buffer.js"(exports, module) {
     function BitBuffer() {
       this.buffer = [];
       this.length = 0;
@@ -3197,9 +3197,9 @@ var require_bit_buffer = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/bit-matrix.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/bit-matrix.js
 var require_bit_matrix = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/bit-matrix.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/bit-matrix.js"(exports, module) {
     function BitMatrix(size) {
       if (!size || size < 1) {
         throw new Error("BitMatrix size must be defined and greater than 0");
@@ -3226,9 +3226,9 @@ var require_bit_matrix = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/alignment-pattern.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/alignment-pattern.js
 var require_alignment_pattern = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/alignment-pattern.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/alignment-pattern.js"(exports) {
     var getSymbolSize = require_utils().getSymbolSize;
     exports.getRowColCoords = function getRowColCoords(version) {
       if (version === 1) return [];
@@ -3261,9 +3261,9 @@ var require_alignment_pattern = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/finder-pattern.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/finder-pattern.js
 var require_finder_pattern = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/finder-pattern.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/finder-pattern.js"(exports) {
     var getSymbolSize = require_utils().getSymbolSize;
     var FINDER_PATTERN_SIZE = 7;
     exports.getPositions = function getPositions(version) {
@@ -3280,9 +3280,9 @@ var require_finder_pattern = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/mask-pattern.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/mask-pattern.js
 var require_mask_pattern = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/mask-pattern.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/mask-pattern.js"(exports) {
     exports.Patterns = {
       PATTERN000: 0,
       PATTERN001: 1,
@@ -3422,9 +3422,9 @@ var require_mask_pattern = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/error-correction-code.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/error-correction-code.js
 var require_error_correction_code = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/error-correction-code.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/error-correction-code.js"(exports) {
     var ECLevel = require_error_correction_level();
     var EC_BLOCKS_TABLE = [
       // L  M  Q  H
@@ -3783,9 +3783,9 @@ var require_error_correction_code = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/galois-field.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/galois-field.js
 var require_galois_field = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/galois-field.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/galois-field.js"(exports) {
     var EXP_TABLE = new Uint8Array(512);
     var LOG_TABLE = new Uint8Array(256);
     (function initTables() {
@@ -3816,9 +3816,9 @@ var require_galois_field = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/polynomial.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/polynomial.js
 var require_polynomial = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/polynomial.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/polynomial.js"(exports) {
     var GF = require_galois_field();
     exports.mul = function mul(p1, p2) {
       const coeff = new Uint8Array(p1.length + p2.length - 1);
@@ -3852,9 +3852,9 @@ var require_polynomial = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/reed-solomon-encoder.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/reed-solomon-encoder.js
 var require_reed_solomon_encoder = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/reed-solomon-encoder.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/reed-solomon-encoder.js"(exports, module) {
     var Polynomial = require_polynomial();
     function ReedSolomonEncoder(degree) {
       this.genPoly = void 0;
@@ -3884,18 +3884,18 @@ var require_reed_solomon_encoder = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/version-check.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/version-check.js
 var require_version_check = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/version-check.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/version-check.js"(exports) {
     exports.isValid = function isValid(version) {
       return !isNaN(version) && version >= 1 && version <= 40;
     };
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/regex.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/regex.js
 var require_regex = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/regex.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/regex.js"(exports) {
     var numeric = "[0-9]+";
     var alphanumeric = "[A-Z $%*+\\-./:]+";
     var kanji = "(?:[u3000-u303F]|[u3040-u309F]|[u30A0-u30FF]|[uFF00-uFFEF]|[u4E00-u9FAF]|[u2605-u2606]|[u2190-u2195]|u203B|[u2010u2015u2018u2019u2025u2026u201Cu201Du2225u2260]|[u0391-u0451]|[u00A7u00A8u00B1u00B4u00D7u00F7])+";
@@ -3921,9 +3921,9 @@ var require_regex = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/mode.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/mode.js
 var require_mode = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/mode.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/mode.js"(exports) {
     var VersionCheck = require_version_check();
     var Regex = require_regex();
     exports.NUMERIC = {
@@ -4002,9 +4002,9 @@ var require_mode = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/version.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/version.js
 var require_version = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/version.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/version.js"(exports) {
     var Utils = require_utils();
     var ECCode = require_error_correction_code();
     var ECLevel = require_error_correction_level();
@@ -4097,9 +4097,9 @@ var require_version = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/format-info.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/format-info.js
 var require_format_info = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/format-info.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/format-info.js"(exports) {
     var Utils = require_utils();
     var G15 = 1 << 10 | 1 << 8 | 1 << 5 | 1 << 4 | 1 << 2 | 1 << 1 | 1 << 0;
     var G15_MASK = 1 << 14 | 1 << 12 | 1 << 10 | 1 << 4 | 1 << 1;
@@ -4115,9 +4115,9 @@ var require_format_info = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/numeric-data.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/numeric-data.js
 var require_numeric_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/numeric-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/numeric-data.js"(exports, module) {
     var Mode = require_mode();
     function NumericData(data) {
       this.mode = Mode.NUMERIC;
@@ -4150,9 +4150,9 @@ var require_numeric_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/alphanumeric-data.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/alphanumeric-data.js
 var require_alphanumeric_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/alphanumeric-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/alphanumeric-data.js"(exports, module) {
     var Mode = require_mode();
     var ALPHA_NUM_CHARS = [
       "0",
@@ -4229,9 +4229,9 @@ var require_alphanumeric_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/byte-data.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/byte-data.js
 var require_byte_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/byte-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/byte-data.js"(exports, module) {
     var Mode = require_mode();
     function ByteData(data) {
       this.mode = Mode.BYTE;
@@ -4259,9 +4259,9 @@ var require_byte_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/kanji-data.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/kanji-data.js
 var require_kanji_data = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/kanji-data.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/kanji-data.js"(exports, module) {
     var Mode = require_mode();
     var Utils = require_utils();
     function KanjiData(data) {
@@ -4298,9 +4298,9 @@ var require_kanji_data = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/dijkstrajs/dijkstra.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/dijkstrajs/dijkstra.js
 var require_dijkstra = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/dijkstrajs/dijkstra.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/dijkstrajs/dijkstra.js"(exports, module) {
     "use strict";
     var dijkstra = {
       single_source_shortest_paths: function(graph, s, d) {
@@ -4399,9 +4399,9 @@ var require_dijkstra = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/segments.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/segments.js
 var require_segments = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/segments.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/segments.js"(exports) {
     var Mode = require_mode();
     var NumericData = require_numeric_data();
     var AlphanumericData = require_alphanumeric_data();
@@ -4585,9 +4585,9 @@ var require_segments = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/qrcode.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/qrcode.js
 var require_qrcode = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/core/qrcode.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/core/qrcode.js"(exports) {
     var Utils = require_utils();
     var ECLevel = require_error_correction_level();
     var BitBuffer = require_bit_buffer();
@@ -4846,9 +4846,9 @@ var require_qrcode = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/chunkstream.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/chunkstream.js
 var require_chunkstream = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/chunkstream.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/chunkstream.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var Stream = __require("stream");
@@ -4984,9 +4984,9 @@ var require_chunkstream = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/interlace.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/interlace.js
 var require_interlace = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/interlace.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/interlace.js"(exports) {
     "use strict";
     var imagePasses = [
       {
@@ -5067,9 +5067,9 @@ var require_interlace = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/paeth-predictor.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/paeth-predictor.js
 var require_paeth_predictor = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/paeth-predictor.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/paeth-predictor.js"(exports, module) {
     "use strict";
     module.exports = function paethPredictor(left, above, upLeft) {
       let paeth = left + above - upLeft;
@@ -5087,9 +5087,9 @@ var require_paeth_predictor = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-parse.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-parse.js
 var require_filter_parse = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-parse.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-parse.js"(exports, module) {
     "use strict";
     var interlaceUtils = require_interlace();
     var paethPredictor = require_paeth_predictor();
@@ -5228,9 +5228,9 @@ var require_filter_parse = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-parse-async.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-parse-async.js
 var require_filter_parse_async = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-parse-async.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-parse-async.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var ChunkStream = require_chunkstream();
@@ -5254,9 +5254,9 @@ var require_filter_parse_async = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/constants.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/constants.js
 var require_constants = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/constants.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/constants.js"(exports, module) {
     "use strict";
     module.exports = {
       PNG_SIGNATURE: [137, 80, 78, 71, 13, 10, 26, 10],
@@ -5289,9 +5289,9 @@ var require_constants = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/crc.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/crc.js
 var require_crc = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/crc.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/crc.js"(exports, module) {
     "use strict";
     var crcTable = [];
     (function() {
@@ -5329,9 +5329,9 @@ var require_crc = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/parser.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/parser.js
 var require_parser = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/parser.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/parser.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     var CrcCalculator = require_crc();
@@ -5550,9 +5550,9 @@ var require_parser = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/bitmapper.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/bitmapper.js
 var require_bitmapper = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/bitmapper.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/bitmapper.js"(exports) {
     "use strict";
     var interlaceUtils = require_interlace();
     var pixelBppMapper = [
@@ -5798,9 +5798,9 @@ var require_bitmapper = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/format-normaliser.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/format-normaliser.js
 var require_format_normaliser = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/format-normaliser.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/format-normaliser.js"(exports, module) {
     "use strict";
     function dePalette(indata, outdata, width, height, palette) {
       let pxPos = 0;
@@ -5879,9 +5879,9 @@ var require_format_normaliser = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/parser-async.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/parser-async.js
 var require_parser_async = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/parser-async.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/parser-async.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var zlib = __require("zlib");
@@ -6005,9 +6005,9 @@ var require_parser_async = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/bitpacker.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/bitpacker.js
 var require_bitpacker = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/bitpacker.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/bitpacker.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     module.exports = function(dataIn, width, height, options) {
@@ -6155,9 +6155,9 @@ var require_bitpacker = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-pack.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-pack.js
 var require_filter_pack = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-pack.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-pack.js"(exports, module) {
     "use strict";
     var paethPredictor = require_paeth_predictor();
     function filterNone(pxData, pxPos, byteWidth, rawData, rawPos) {
@@ -6297,9 +6297,9 @@ var require_filter_pack = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/packer.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/packer.js
 var require_packer = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/packer.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/packer.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     var CrcStream = require_crc();
@@ -6397,9 +6397,9 @@ var require_packer = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/packer-async.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/packer-async.js
 var require_packer_async = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/packer-async.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/packer-async.js"(exports, module) {
     "use strict";
     var util = __require("util");
     var Stream = __require("stream");
@@ -6439,9 +6439,9 @@ var require_packer_async = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/sync-inflate.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/sync-inflate.js
 var require_sync_inflate = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/sync-inflate.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/sync-inflate.js"(exports, module) {
     "use strict";
     var assert = __require("assert").ok;
     var zlib = __require("zlib");
@@ -6576,9 +6576,9 @@ var require_sync_inflate = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/sync-reader.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/sync-reader.js
 var require_sync_reader = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/sync-reader.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/sync-reader.js"(exports, module) {
     "use strict";
     var SyncReader = module.exports = function(buffer) {
       this._buffer = buffer;
@@ -6614,9 +6614,9 @@ var require_sync_reader = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-parse-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-parse-sync.js
 var require_filter_parse_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/filter-parse-sync.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/filter-parse-sync.js"(exports) {
     "use strict";
     var SyncReader = require_sync_reader();
     var Filter = require_filter_parse();
@@ -6638,9 +6638,9 @@ var require_filter_parse_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/parser-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/parser-sync.js
 var require_parser_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/parser-sync.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/parser-sync.js"(exports, module) {
     "use strict";
     var hasSyncZlib = true;
     var zlib = __require("zlib");
@@ -6729,9 +6729,9 @@ var require_parser_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/packer-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/packer-sync.js
 var require_packer_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/packer-sync.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/packer-sync.js"(exports, module) {
     "use strict";
     var hasSyncZlib = true;
     var zlib = __require("zlib");
@@ -6774,9 +6774,9 @@ var require_packer_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/png-sync.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/png-sync.js
 var require_png_sync = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/png-sync.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/png-sync.js"(exports) {
     "use strict";
     var parse = require_parser_sync();
     var pack = require_packer_sync();
@@ -6789,9 +6789,9 @@ var require_png_sync = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/png.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/png.js
 var require_png = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/pngjs/lib/png.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/pngjs/lib/png.js"(exports) {
     "use strict";
     var util = __require("util");
     var Stream = __require("stream");
@@ -6926,9 +6926,9 @@ var require_png = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/utils.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/utils.js
 var require_utils2 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/utils.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/utils.js"(exports) {
     function hex2rgba(hex) {
       if (typeof hex === "number") {
         hex = hex.toString();
@@ -7006,9 +7006,9 @@ var require_utils2 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/png.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/png.js
 var require_png2 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/png.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/png.js"(exports) {
     var fs2 = __require("fs");
     var PNG = require_png().PNG;
     var Utils = require_utils2();
@@ -7073,9 +7073,9 @@ var require_png2 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/utf8.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/utf8.js
 var require_utf8 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/utf8.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/utf8.js"(exports) {
     var Utils = require_utils2();
     var BLOCK_CHAR = {
       WW: " ",
@@ -7135,9 +7135,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/terminal/terminal.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/terminal/terminal.js
 var require_terminal = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/terminal/terminal.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/terminal/terminal.js"(exports) {
     exports.render = function(qrData, options, cb) {
       const size = qrData.modules.size;
       const data = qrData.modules.data;
@@ -7163,9 +7163,9 @@ var require_terminal = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/terminal/terminal-small.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/terminal/terminal-small.js
 var require_terminal_small = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/terminal/terminal-small.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/terminal/terminal-small.js"(exports) {
     var backgroundWhite = "\x1B[47m";
     var backgroundBlack = "\x1B[40m";
     var foregroundWhite = "\x1B[37m";
@@ -7222,9 +7222,9 @@ var require_terminal_small = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/terminal.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/terminal.js
 var require_terminal2 = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/terminal.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/terminal.js"(exports) {
     var big = require_terminal();
     var small = require_terminal_small();
     exports.render = function(qrData, options, cb) {
@@ -7236,9 +7236,9 @@ var require_terminal2 = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/svg-tag.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/svg-tag.js
 var require_svg_tag = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/svg-tag.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/svg-tag.js"(exports) {
     var Utils = require_utils2();
     function getColorAttrib(color, attrib) {
       const alpha = color.a / 255;
@@ -7294,9 +7294,9 @@ var require_svg_tag = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/svg.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/svg.js
 var require_svg = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/svg.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/svg.js"(exports) {
     var svgTagRenderer = require_svg_tag();
     exports.render = svgTagRenderer.render;
     exports.renderToFile = function renderToFile(path3, qrData, options, cb) {
@@ -7312,9 +7312,9 @@ var require_svg = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/canvas.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/canvas.js
 var require_canvas = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/renderer/canvas.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/renderer/canvas.js"(exports) {
     var Utils = require_utils2();
     function clearCanvas(ctx, canvas, size) {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -7365,9 +7365,9 @@ var require_canvas = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/browser.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/browser.js
 var require_browser = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/browser.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/browser.js"(exports) {
     var canPromise = require_can_promise();
     var QRCode2 = require_qrcode();
     var CanvasRenderer = require_canvas();
@@ -7410,10 +7410,10 @@ var require_browser = __commonJS({
           text = canvas;
           canvas = void 0;
         }
-        return new Promise(function(resolve5, reject) {
+        return new Promise(function(resolve6, reject) {
           try {
             const data = QRCode2.create(text, opts);
-            resolve5(renderFunc(data, canvas, opts));
+            resolve6(renderFunc(data, canvas, opts));
           } catch (e) {
             reject(e);
           }
@@ -7435,9 +7435,9 @@ var require_browser = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/server.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/server.js
 var require_server = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/server.js"(exports) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/server.js"(exports) {
     var canPromise = require_can_promise();
     var QRCode2 = require_qrcode();
     var PngRenderer = require_png2();
@@ -7494,11 +7494,11 @@ var require_server = __commonJS({
     }
     function render(renderFunc, text, params) {
       if (!params.cb) {
-        return new Promise(function(resolve5, reject) {
+        return new Promise(function(resolve6, reject) {
           try {
             const data = QRCode2.create(text, params.opts);
             return renderFunc(data, params.opts, function(err, data2) {
-              return err ? reject(err) : resolve5(data2);
+              return err ? reject(err) : resolve6(data2);
             });
           } catch (e) {
             reject(e);
@@ -7555,14 +7555,14 @@ var require_server = __commonJS({
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/index.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/index.js
 var require_lib = __commonJS({
-  "../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/qrcode/lib/index.js"(exports, module) {
+  "../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/qrcode/lib/index.js"(exports, module) {
     module.exports = require_server();
   }
 });
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/commander/esm.mjs
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/commander/esm.mjs
 var import_index = __toESM(require_commander(), 1);
 var {
   program,
@@ -7579,12 +7579,12 @@ var {
   Help
 } = import_index.default;
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/config.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/config.js
 import { homedir as homedir2 } from "node:os";
 import { mkdirSync as mkdirSync3 } from "node:fs";
-import { resolve as resolve2 } from "node:path";
+import { resolve as resolve3 } from "node:path";
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/client/transport.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/client/transport.js
 var HttpTransportError = class extends Error {
   code;
   attempts;
@@ -7665,7 +7665,7 @@ function transportMessage(code) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/client/http.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/client/http.js
 var HttpError = class extends Error {
   status;
   code;
@@ -7766,7 +7766,7 @@ var HttpClient = class _HttpClient {
   }
 };
 function delay(milliseconds) {
-  return milliseconds === 0 ? Promise.resolve() : new Promise((resolve5) => setTimeout(resolve5, milliseconds));
+  return milliseconds === 0 ? Promise.resolve() : new Promise((resolve6) => setTimeout(resolve6, milliseconds));
 }
 function safeParseJson(text) {
   try {
@@ -7776,7 +7776,7 @@ function safeParseJson(text) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/client/backend.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/client/backend.js
 var BackendClient = class {
   http;
   constructor(http) {
@@ -7837,6 +7837,9 @@ var BackendClient = class {
   }
   submitServiceFeedback(orderID, input) {
     return this.http.post(`/v1/orders/${encodeURIComponent(orderID)}/feedback`, input);
+  }
+  getServiceFeedbackOptions(orderID) {
+    return this.http.get(`/v1/orders/${encodeURIComponent(orderID)}/feedback-options`);
   }
   listAccountOrders(limit, status, bearer, cursor) {
     const qs = new URLSearchParams({ limit: String(limit) });
@@ -7969,7 +7972,7 @@ async function streamSSE(url, onEvent, signal) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/agent_type.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/agent_type.js
 function declaredAgentType(env = process.env, argv = process.argv) {
   if (env.ITPAY_AGENT_TYPE)
     return canonicalAgentType(env.ITPAY_AGENT_TYPE);
@@ -7996,7 +7999,7 @@ function qualifyItPayCommand(command, agentType) {
   return `itpay --agent-type ${agentType} ${command.slice("itpay ".length)}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/device_authority.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/device_authority.js
 import { createHash, createPrivateKey, createPublicKey, generateKeyPairSync, randomUUID, sign } from "node:crypto";
 import { chmodSync, existsSync, mkdirSync, readFileSync, renameSync, rmdirSync, statSync, unlinkSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";
@@ -8319,7 +8322,7 @@ async function withFileLock(path3, run) {
           throw asDeviceStateError(statError, "inspect_lock") ?? statError;
         }
       }
-      await new Promise((resolve5) => setTimeout(resolve5, 25));
+      await new Promise((resolve6) => setTimeout(resolve6, 25));
     }
   }
   if (!acquired)
@@ -8350,87 +8353,98 @@ function asDeviceStatePathError(error, operation) {
   return code === "EEXIST" ? new DeviceStateError(operation, code) : asDeviceStateError(error, operation);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/operation_journal.js
-import { chmodSync as chmodSync2, closeSync, existsSync as existsSync2, mkdirSync as mkdirSync2, openSync, readFileSync as readFileSync2, renameSync as renameSync2, statSync as statSync2, unlinkSync as unlinkSync2, writeFileSync as writeFileSync2 } from "node:fs";
-import { dirname as dirname2 } from "node:path";
-import { randomUUID as randomUUID2 } from "node:crypto";
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/operation_journal.js
+import { createHash as createHash2, randomUUID as randomUUID2 } from "node:crypto";
+import { chmodSync as chmodSync2, existsSync as existsSync2, linkSync, mkdirSync as mkdirSync2, readFileSync as readFileSync2, unlinkSync as unlinkSync2, writeFileSync as writeFileSync2 } from "node:fs";
+import { basename, resolve as resolve2 } from "node:path";
 var OperationJournal = class {
-  path;
-  constructor(path3) {
-    this.path = path3;
+  legacyPath;
+  constructor(legacyPath) {
+    this.legacyPath = legacyPath;
   }
   async getOrCreate(operationKey) {
-    return withFileLock2(`${this.path}.lock`, async () => {
-      const state = this.read();
-      const existing = state.operations[operationKey];
-      if (existing)
-        return existing.id;
-      const id = `op_${randomUUID2().replaceAll("-", "")}`;
-      state.operations[operationKey] = { id, createdAt: (/* @__PURE__ */ new Date()).toISOString() };
-      atomicOwnerOnlyWrite2(this.path, JSON.stringify(state, null, 2));
-      return id;
-    });
-  }
-  read() {
-    if (existsSync2(this.path)) {
+    const operationKeyHash = createHash2("sha256").update(operationKey).digest("hex");
+    const recordDirectory = `${this.legacyPath}.d`;
+    const recordPath = resolve2(recordDirectory, `${operationKeyHash}.json`);
+    const existing = readRecord(recordPath, operationKeyHash);
+    if (existing)
+      return existing.id;
+    mkdirSync2(recordDirectory, { recursive: true, mode: 448 });
+    chmodSync2(recordDirectory, 448);
+    const record = {
+      schemaVersion: "itpay.operation.v2",
+      operationKeyHash,
+      id: this.readLegacyID(operationKey) ?? `op_${randomUUID2().replaceAll("-", "")}`,
+      createdAt: (/* @__PURE__ */ new Date()).toISOString()
+    };
+    const temporaryPath = resolve2(recordDirectory, `.${basename(recordPath)}.${process.pid}.${randomUUID2()}.tmp`);
+    try {
+      writeFileSync2(temporaryPath, JSON.stringify(record, null, 2), { encoding: "utf8", flag: "wx", mode: 384 });
+      chmodSync2(temporaryPath, 384);
       try {
-        const parsed = JSON.parse(readFileSync2(this.path, "utf8"));
-        if (parsed.schemaVersion === "itpay.operations.v1" && parsed.operations)
-          return parsed;
-      } catch {
+        linkSync(temporaryPath, recordPath);
+        chmodSync2(recordPath, 384);
+        return record.id;
+      } catch (error) {
+        if (error.code !== "EEXIST")
+          throw error;
+        const winner = readRecord(recordPath, operationKeyHash);
+        if (!winner)
+          throw new Error("ItPay operation journal record disappeared during publication");
+        return winner.id;
+      }
+    } finally {
+      try {
+        unlinkSync2(temporaryPath);
+      } catch (error) {
+        if (error.code !== "ENOENT")
+          throw error;
       }
     }
-    return { schemaVersion: "itpay.operations.v1", operations: {} };
+  }
+  readLegacyID(operationKey) {
+    if (!existsSync2(this.legacyPath))
+      return void 0;
+    try {
+      const parsed = JSON.parse(readFileSync2(this.legacyPath, "utf8"));
+      if (parsed.schemaVersion !== "itpay.operations.v1" || !parsed.operations)
+        return void 0;
+      const id = parsed.operations[operationKey]?.id;
+      return typeof id === "string" && isOperationID(id) ? id : void 0;
+    } catch {
+      return void 0;
+    }
   }
 };
-function atomicOwnerOnlyWrite2(path3, value) {
-  mkdirSync2(dirname2(path3), { recursive: true, mode: 448 });
-  const temporary = `${path3}.${process.pid}.${randomUUID2()}.tmp`;
-  writeFileSync2(temporary, value, { encoding: "utf8", mode: 384 });
-  chmodSync2(temporary, 384);
-  renameSync2(temporary, path3);
-  chmodSync2(path3, 384);
-}
-async function withFileLock2(path3, run) {
-  mkdirSync2(dirname2(path3), { recursive: true, mode: 448 });
-  let descriptor;
-  for (let attempt = 0; attempt < 200; attempt += 1) {
-    try {
-      descriptor = openSync(path3, "wx", 384);
-      break;
-    } catch (error) {
-      if (error.code !== "EEXIST")
-        throw error;
-      try {
-        if (Date.now() - statSync2(path3).mtimeMs > 3e4)
-          unlinkSync2(path3);
-      } catch (statError) {
-        if (statError.code !== "ENOENT")
-          throw statError;
-      }
-      await new Promise((resolve5) => setTimeout(resolve5, 25));
-    }
-  }
-  if (descriptor === void 0)
-    throw new Error("timed out waiting for ItPay operation journal lock");
+function readRecord(path3, expectedHash) {
+  if (!existsSync2(path3))
+    return void 0;
+  let parsed;
   try {
-    return await run();
-  } finally {
-    closeSync(descriptor);
-    try {
-      unlinkSync2(path3);
-    } catch (error) {
-      if (error.code !== "ENOENT")
-        throw error;
-    }
+    parsed = JSON.parse(readFileSync2(path3, "utf8"));
+  } catch {
+    throw new Error("ItPay operation journal record is invalid");
   }
+  if (!isOperationRecord(parsed, expectedHash)) {
+    throw new Error("ItPay operation journal record is invalid");
+  }
+  return parsed;
+}
+function isOperationRecord(value, expectedHash) {
+  if (!value || typeof value !== "object")
+    return false;
+  const record = value;
+  return record.schemaVersion === "itpay.operation.v2" && record.operationKeyHash === expectedHash && typeof record.id === "string" && isOperationID(record.id) && typeof record.createdAt === "string" && !Number.isNaN(Date.parse(record.createdAt));
+}
+function isOperationID(value) {
+  return /^op_[a-zA-Z0-9_-]+$/.test(value);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/config.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/config.js
 var DEFAULT_BASE_URL = "https://app.itpay.ai";
 var DEV_BASE_URL = "https://dev.itpay.ai";
-var CLI_VERSION = "2.0.34";
-var API_CONTRACT_REVISION = "sha256:95a6077248c820f92511ef6d41635881072ad399c18f347ee282253edb83e55f";
+var CLI_VERSION = "2.0.36";
+var API_CONTRACT_REVISION = "sha256:20986f3d7a770f9c696c0576f3ae4898f0d23a519bd489c1727382a16270fab2";
 var CART_SESSION_DEFAULT_DIR = ".itpay-v3";
 var CART_SESSION_FILENAME = "cart.json";
 var OPERATION_JOURNAL_FILENAME = "operations.json";
@@ -8471,15 +8485,15 @@ function stateFilename(filename, baseURL) {
   return dot < 0 ? `${filename}.dev` : `${filename.slice(0, dot)}.dev${filename.slice(dot)}`;
 }
 function stateDir(env) {
-  return resolve2(env.HOME || homedir2(), CART_SESSION_DEFAULT_DIR);
+  return resolve3(env.HOME || homedir2(), CART_SESSION_DEFAULT_DIR);
 }
 function cartSessionPath(env = process.env) {
   if (env.ITPAY_CART_SESSION_PATH) {
-    return resolve2(env.ITPAY_CART_SESSION_PATH);
+    return resolve3(env.ITPAY_CART_SESSION_PATH);
   }
   const dir = stateDir(env);
   mkdirSync3(dir, { recursive: true });
-  return resolve2(dir, stateFilename(CART_SESSION_FILENAME, resolveBackendURL(env)));
+  return resolve3(dir, stateFilename(CART_SESSION_FILENAME, resolveBackendURL(env)));
 }
 function loadConfig(env = process.env) {
   const baseURL = resolveBackendURL(env);
@@ -8495,7 +8509,7 @@ function loadConfig(env = process.env) {
     ...agentType ? { agentType } : {},
     checkoutCurrency,
     idempotencyKey,
-    ...!env.ITPAY_IDEMPOTENCY_KEY ? { operationJournal: new OperationJournal(resolve2(stateDir(env), stateFilename(OPERATION_JOURNAL_FILENAME, baseURL))) } : {},
+    ...!env.ITPAY_IDEMPOTENCY_KEY ? { operationJournal: new OperationJournal(resolve3(stateDir(env), stateFilename(OPERATION_JOURNAL_FILENAME, baseURL))) } : {},
     ideImageAttach,
     ...ideImageDirOverride ? { ideImageDirOverride } : {},
     ...bearerToken ? { bearerToken } : {}
@@ -8530,10 +8544,10 @@ function shortRandom() {
   return Math.random().toString(36).slice(2, 10) + Math.random().toString(36).slice(2, 6);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/cart_session.js
-import { chmodSync as chmodSync3, existsSync as existsSync3, mkdirSync as mkdirSync4, readFileSync as readFileSync3, renameSync as renameSync3, writeFileSync as writeFileSync3 } from "node:fs";
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/cart_session.js
+import { chmodSync as chmodSync3, existsSync as existsSync3, mkdirSync as mkdirSync4, readFileSync as readFileSync3, renameSync as renameSync2, writeFileSync as writeFileSync3 } from "node:fs";
 import { randomUUID as randomUUID3 } from "node:crypto";
-import { dirname as dirname3 } from "node:path";
+import { dirname as dirname2 } from "node:path";
 var CartSession = class _CartSession {
   state;
   loadFailed = false;
@@ -8583,11 +8597,11 @@ var CartSession = class _CartSession {
       ...this.state.lastDisplayToken ? { lastDisplayToken: this.state.lastDisplayToken } : {},
       ...this.state.lastCheckoutURL ? { lastCheckoutURL: this.state.lastCheckoutURL } : {}
     };
-    mkdirSync4(dirname3(path3), { recursive: true, mode: 448 });
+    mkdirSync4(dirname2(path3), { recursive: true, mode: 448 });
     const temporary = `${path3}.${process.pid}.${randomUUID3()}.tmp`;
     writeFileSync3(temporary, JSON.stringify(toSave, null, 2), { encoding: "utf-8", mode: 384 });
     chmodSync3(temporary, 384);
-    renameSync3(temporary, path3);
+    renameSync2(temporary, path3);
     chmodSync3(path3, 384);
   }
   add(item) {
@@ -8674,7 +8688,7 @@ var CartSession = class _CartSession {
   }
 };
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/state/client_context.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/state/client_context.js
 var SUPPORTED_HOSTS = /* @__PURE__ */ new Set([
   "terminal",
   "codex",
@@ -8720,6 +8734,8 @@ function defaultHostForAgentType(agentType) {
     return "claude-code";
   if (normalized === "workbuddy")
     return "plain-chat";
+  if (normalized === "zcode")
+    return "plain-chat";
   if (normalized === "openclaw")
     return void 0;
   return "terminal";
@@ -8734,18 +8750,18 @@ function validateContext(host, target) {
   return void 0;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/sink.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/sink.js
 var defaultOutput = (line) => process.stdout.write(line);
 function resolveOutput(sink) {
   return sink ?? defaultOutput;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/guidance.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/guidance.js
 function isTerminalServiceExecutionStatus(status) {
   return status === "failed" || status === "refunded" || status === "cancelled";
 }
-function appendOptionalFeedbackInvitation(instruction, outcome) {
-  const invitation = outcome === "delivered" ? "\u7ED3\u679C\u89E3\u91CA\u5B8C\u6BD5\u540E\uFF0C\u53EF\u4EE5\u8BE2\u95EE\u7528\u6237\u662F\u5426\u613F\u610F\u7ED9\u8FD9\u6B21\u670D\u52A1 1\u20135 \u5206\u548C\u4E00\u53E5\u53EF\u9009\u5EFA\u8BAE\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u8BC4\u5206\u540E\uFF0CAgent \u624D\u4F7F\u7528\u540C\u4E00\u8BA2\u5355\u63D0\u4EA4\u53CD\u9988\uFF1B\u4E0D\u8981\u5C55\u793A\u547D\u4EE4\u6216\u5185\u90E8 ID\uFF0C\u540C\u4E00\u5BF9\u8BDD\u6700\u591A\u8BE2\u95EE\u4E00\u6B21\u3002" : "\u5148\u5B8C\u6210\u540C\u4E00\u8BA2\u5355\u7684\u6062\u590D\u548C\u9000\u6B3E\u6743\u5229\u89E3\u91CA\uFF1B\u5904\u7406\u6E05\u695A\u540E\uFF0C\u53EF\u4EE5\u8BE2\u95EE\u7528\u6237\u662F\u5426\u613F\u610F\u7ED9 1\u20135 \u5206\u5E76\u8BF4\u660E\u5361\u58F3\u70B9\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u8BC4\u5206\u540E\u624D\u63D0\u4EA4\u53CD\u9988\uFF0C\u540C\u4E00\u5BF9\u8BDD\u6700\u591A\u8BE2\u95EE\u4E00\u6B21\u3002";
+function appendFeedbackPostmortemInstruction(instruction, outcome) {
+  const invitation = outcome === "delivered" ? "\u7ED3\u679C\u89E3\u91CA\u5B8C\u6BD5\u540E\uFF0CAgent \u5FC5\u987B\u4E3A\u540C\u4E00\u8BA2\u5355\u63D0\u4EA4\u4E00\u6B21\u5B89\u5168\u670D\u52A1\u590D\u76D8\uFF1B\u7528\u6237\u8BC4\u5206\u548C\u8BC4\u8BBA\u5747\u53EF\u9009\uFF0C\u53EA\u5728\u7528\u6237\u660E\u786E\u7ED9\u51FA\u65F6\u5FE0\u5B9E\u9644\u4E0A\uFF0C\u4E0D\u5F97\u731C\u5206\u6216\u4E0A\u4F20\u5BF9\u8BDD\u3001\u62A5\u544A\u6B63\u6587\u3001\u8054\u7CFB\u65B9\u5F0F\u548C\u539F\u59CB\u65E5\u5FD7\u3002" : "\u5148\u5B8C\u6210\u540C\u4E00\u8BA2\u5355\u7684\u6062\u590D\u548C\u9000\u6B3E\u6743\u5229\u89E3\u91CA\uFF1B\u5904\u7406\u6E05\u695A\u540E\uFF0CAgent \u5FC5\u987B\u4E3A\u540C\u4E00\u8BA2\u5355\u63D0\u4EA4\u4E00\u6B21\u5B89\u5168\u670D\u52A1\u590D\u76D8\u3002\u53EA\u9644\u4E0A\u7528\u6237\u660E\u786E\u8868\u8FBE\u7684\u8BC4\u5206\u6216\u5361\u58F3\u70B9\uFF0C\u4E0D\u5F97\u731C\u6D4B\u3002";
   return `${instruction} ${invitation}`;
 }
 var CommandContractError = class extends Error {
@@ -8880,7 +8896,7 @@ function printErrorRecovery(error, output) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/readyz.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/readyz.js
 async function runReadyz(backend, options = {}) {
   const response = await backend.readyz();
   const backendURL = options.backendURL ?? "https://app.itpay.ai";
@@ -8894,7 +8910,7 @@ async function runReadyz(backend, options = {}) {
   }, options);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/qr.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/qr.js
 var import_qrcode = __toESM(require_lib(), 1);
 import fs from "node:fs/promises";
 import os from "node:os";
@@ -8922,7 +8938,7 @@ async function writeLocalPNG(url) {
   return { filePath, mimeType: "image/png" };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/terminal_image.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/terminal_image.js
 import { readFileSync as readFileSync4 } from "node:fs";
 import path2 from "node:path";
 function supportsInlineTerminalImages() {
@@ -8943,11 +8959,11 @@ function renderInlineTerminalImage(filePath, out) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/ide.js
-import { mkdirSync as mkdirSync5, readFileSync as readFileSync5, renameSync as renameSync4, writeFileSync as writeFileSync4 } from "node:fs";
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/ide.js
+import { mkdirSync as mkdirSync5, readFileSync as readFileSync5, renameSync as renameSync3, writeFileSync as writeFileSync4 } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
-import { createHash as createHash2, randomUUID as randomUUID5 } from "node:crypto";
+import { createHash as createHash3, randomUUID as randomUUID5 } from "node:crypto";
 var IDE_ATTACH_REASON = "Human cannot scan a remote URL: the IDE chat window is the only surface they can pay from. The agent MUST render this PNG into the IDE chat (Trae `Read` tool with the localPath or one of the mirrors) and wait for the human to confirm they see + scan it. If the image is not visible in chat, the checkout is considered failed \u2014 re-render and ask again, do not mark the order complete.";
 function canonicalDir(env = process.env) {
   const override = env.ITPAY_IDE_IMAGE_DIR_OVERRIDE;
@@ -8972,7 +8988,7 @@ function resolveIdeImageDirs(env = process.env) {
 }
 function stableNameFor(kind, id) {
   const safeID = id.replace(/[^a-zA-Z0-9_-]/g, "_") || randomUUID5();
-  const hash = createHash2("sha1").update(`${kind}:${id}`).digest("hex").slice(0, 6);
+  const hash = createHash3("sha1").update(`${kind}:${id}`).digest("hex").slice(0, 6);
   return `itpay-v3-${kind}-${safeID}-${hash}`;
 }
 async function detectImageFormat(url, fetchFn) {
@@ -9010,7 +9026,7 @@ async function detectImageFormat(url, fetchFn) {
 function atomicWrite(filePath, body) {
   const tmp = `${filePath}.tmp-${randomUUID5()}`;
   writeFileSync4(tmp, body);
-  renameSync4(tmp, filePath);
+  renameSync3(tmp, filePath);
 }
 function mirrorToDirs(fileName, body, dirs) {
   const written = [];
@@ -9179,7 +9195,7 @@ function ideImageAttachBlock(attach) {
   return lines;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/terminal.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/terminal.js
 import { copyFile } from "node:fs/promises";
 async function renderTerminal(plan, options) {
   const out = options.output ?? ((line) => process.stdout.write(line));
@@ -9340,7 +9356,7 @@ function fmtPrice(amountMinor, currency) {
   return `${(amountMinor / 100).toFixed(2)} ${currency}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/markdown.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/markdown.js
 function renderMarkdown(plan, options = {}) {
   const out = options.output ?? ((line) => process.stdout.write(line + "\n"));
   const handoff = buildAgentChatHandoff(plan);
@@ -9379,7 +9395,7 @@ function formatPrice(amountMinor, currency) {
   return `${(amountMinor / 100).toFixed(2)} ${currency}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/plain_chat.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/plain_chat.js
 function renderPlainChat(plan, options = {}) {
   const out = options.output ?? ((line) => process.stdout.write(line));
   if (plan.linkOnlyURL) {
@@ -9437,7 +9453,7 @@ function renderInteractionText(request) {
   return lines.join("\n");
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/telegram.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/telegram.js
 function buttonsFor(plan) {
   if (plan.kind === "payment_qr" && plan.paymentIntentID) {
     return [
@@ -9523,7 +9539,7 @@ function collectTelegramMedia(plan) {
   return media;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/feishu.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/feishu.js
 function actionFor(plan, button) {
   if (button.kind === "url" && button.url) {
     return {
@@ -9636,7 +9652,7 @@ function collectFeishuMedia(plan) {
   return media;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/plan.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/plan.js
 function platformKeyForHost(host) {
   switch (host) {
     case "terminal":
@@ -9658,7 +9674,7 @@ function platformKeyForHost(host) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/index.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/index.js
 async function dispatchRender(plan, options) {
   const key = platformKeyForHost(plan.host);
   if (key === "markdown" || key === "terminal") {
@@ -9708,7 +9724,7 @@ async function dispatchRender(plan, options) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/locale.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/locale.js
 function normalizeCardLocale(value) {
   switch (value?.trim().toLowerCase()) {
     case void 0:
@@ -9736,18 +9752,24 @@ function localizeCardURL(value, locale) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/render/output.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/render/output.js
 function formatMoney(amountMinor, currency) {
   const major = (amountMinor / 100).toFixed(2);
   return `${major} ${currency}`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/checkout_handoff.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/checkout_handoff.js
 function shouldPrepareLocalCheckoutImage(platform) {
   return platform === "markdown";
 }
 function isWorkBuddyPlainChat(agentType, platform) {
   return agentType?.trim().toLowerCase() === "workbuddy" && platform === "plain_chat";
+}
+function isZCodePlainChat(agentType, platform) {
+  return agentType?.trim().toLowerCase() === "zcode" && platform === "plain_chat";
+}
+function isLinkOnlyBrowserAgent(agentType, platform) {
+  return isWorkBuddyPlainChat(agentType, platform) || isZCodePlainChat(agentType, platform);
 }
 function buildWorkBuddyPresentFilesAction(url) {
   return {
@@ -9766,7 +9788,7 @@ function buildCheckoutHandoff(input) {
       handoff.qr_local_path = input.localPath;
     if (input.markdown)
       handoff.markdown = input.markdown;
-  } else if (input.platform === "plain_chat" && input.qrImageURL && !workBuddyAction) {
+  } else if (input.platform === "plain_chat" && input.qrImageURL && !isLinkOnlyBrowserAgent(input.agentType, input.platform)) {
     handoff.qr_image_url = input.qrImageURL;
   } else if (input.platform === "telegram" && input.qrImageURL) {
     handoff.qr_image_url = input.qrImageURL;
@@ -9783,6 +9805,9 @@ function checkoutHandoffInstruction(agentType, platform, amount) {
   if (isWorkBuddyPlainChat(agentType, platform)) {
     return `Backend \u5C1A\u672A\u786E\u8BA4\u4ED8\u6B3E\u3002\u7ACB\u5373\u4E25\u683C\u6309 handoff.agent_action.tool \u548C handoff.agent_action.arguments \u539F\u6837\u6267\u884C\u4E00\u6B21\uFF0C\u5728\u53F3\u4FA7\u6253\u5F00 handoff.url\uFF1B\u786E\u8BA4\u5DE5\u5177\u8C03\u7528\u6210\u529F\u540E\u8BF4\u660E\u91D1\u989D ${amount}\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002\u82E5\u5DE5\u5177\u5931\u8D25\uFF0C\u53EA\u53D1\u9001\u539F\u59CB handoff.url\uFF0C\u62A5\u544A\u672A\u81EA\u52A8\u6253\u5F00\u5E76\u505C\u6B62\u3002\u4E0D\u8981\u7528 present_files \u6253\u5F00\u672C\u5730\u6587\u4EF6\u6216\u4E8C\u7EF4\u7801 PNG\uFF0C\u4E0D\u8981\u4E0B\u8F7D\u6216\u91CD\u5EFA\u4E8C\u7EF4\u7801\uFF0C\u4E0D\u8981\u8C03\u7528 pay\uFF0C\u4E0D\u8981\u521B\u5EFA\u65B0 Checkout\u3001Payment Intent \u6216 Execution\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u8868\u793A\u5DF2\u4ED8\u6B3E\u6216\u8981\u6C42\u67E5\u8BE2\u72B6\u6001\u65F6\uFF0C\u624D\u6267\u884C next.command\uFF1B\u7528\u6237\u7684\u8BDD\u4E0D\u662F\u4ED8\u6B3E\u6210\u529F\u8BC1\u660E\u3002`;
   }
+  if (isZCodePlainChat(agentType, platform)) {
+    return `Backend \u5C1A\u672A\u786E\u8BA4\u4ED8\u6B3E\u3002\u7ACB\u5373\u7528 ZCode \u5185\u7F6E\u6D4F\u89C8\u5668\u6253\u5F00 handoff.url\uFF0C\u8BA9\u7528\u6237\u5B8C\u6210\u4ED8\u6B3E\uFF1B\u786E\u8BA4\u5DF2\u53D1\u8D77\u6253\u5F00\u540E\u8BF4\u660E\u91D1\u989D ${amount}\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002\u4E0D\u8981\u53EA\u7C98\u8D34\u6587\u5B57\u94FE\u63A5\uFF0C\u4E0D\u8981\u4E0B\u8F7D\u3001\u89E3\u6790\u6216\u91CD\u5EFA\u4E8C\u7EF4\u7801\uFF0C\u4E0D\u8981\u521B\u5EFA\u65B0 Checkout\u3001Payment Intent \u6216 Execution\u3002\u53EA\u6709\u5185\u7F6E\u6D4F\u89C8\u5668\u660E\u786E\u4E0D\u53EF\u7528\u65F6\uFF0C\u624D\u5C55\u793A\u540C\u4E00\u4E2A\u53EF\u70B9\u51FB handoff.url\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u8868\u793A\u5DF2\u4ED8\u6B3E\u6216\u8981\u6C42\u67E5\u8BE2\u72B6\u6001\u65F6\uFF0C\u624D\u6267\u884C next.command\uFF1B\u7528\u6237\u7684\u8BDD\u4E0D\u662F\u4ED8\u6B3E\u6210\u529F\u8BC1\u660E\u3002`;
+  }
   if (platform === "markdown") {
     return `Backend \u5C1A\u672A\u786E\u8BA4\u4ED8\u6B3E\u3002\u628A handoff.markdown \u539F\u6837\u53D1\u9001\u5230\u5F53\u524D\u684C\u9762\u5BF9\u8BDD\uFF0C\u786E\u8BA4\u4E8C\u7EF4\u7801\u3001\u4ED8\u6B3E\u94FE\u63A5\u548C\u91D1\u989D ${amount} \u5747\u5DF2\u5B9E\u9645\u5BF9\u7528\u6237\u53EF\u89C1\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002\u4E0D\u8981\u521B\u5EFA\u65B0 Checkout\u3001Payment Intent \u6216 Execution\uFF1B\u53EA\u6709\u7528\u6237\u660E\u786E\u8868\u793A\u5DF2\u4ED8\u6B3E\u6216\u8981\u6C42\u67E5\u8BE2\u72B6\u6001\u65F6\uFF0C\u624D\u6267\u884C next.command\uFF1B\u7528\u6237\u7684\u8BDD\u4E0D\u662F\u4ED8\u6B3E\u6210\u529F\u8BC1\u660E\u3002`;
   }
@@ -9795,7 +9820,7 @@ function checkoutHandoffInstruction(agentType, platform, amount) {
   return `Backend \u5C1A\u672A\u786E\u8BA4\u4ED8\u6B3E\u3002\u628A handoff.url \u548C\u53EF\u7528\u7684 handoff.qr_image_url \u5B9E\u9645\u53D1\u9001\u5230\u5F53\u524D\u4F1A\u8BDD\uFF0C\u8BF4\u660E\u91D1\u989D ${amount}\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002\u4E0D\u8981\u521B\u5EFA\u65B0 Checkout\u3001Payment Intent \u6216 Execution\uFF1B\u53EA\u6709\u7528\u6237\u660E\u786E\u8868\u793A\u5DF2\u4ED8\u6B3E\u6216\u8981\u6C42\u67E5\u8BE2\u72B6\u6001\u65F6\uFF0C\u624D\u6267\u884C next.command\uFF1B\u7528\u6237\u7684\u8BDD\u4E0D\u662F\u4ED8\u6B3E\u6210\u529F\u8BC1\u660E\u3002`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/buy.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/buy.js
 async function runBuy(backend, config, options) {
   const err = validateContext(options.host, options.target);
   if (err) {
@@ -9998,17 +10023,17 @@ function buildBuyEnvelope(input) {
   };
 }
 async function waitForPaymentSSE(backend, checkoutID, displayToken, timeoutSec) {
-  return new Promise((resolve5) => {
+  return new Promise((resolve6) => {
     const controller = new AbortController();
     const timeout = setTimeout(() => {
       controller.abort();
-      resolve5("timeout");
+      resolve6("timeout");
     }, timeoutSec * 1e3);
     backend.streamCheckoutEvents(checkoutID, displayToken, (event) => {
       if (event.type === "payment_intent.verified") {
         clearTimeout(timeout);
         controller.abort();
-        resolve5("verified");
+        resolve6("verified");
       }
     }, controller.signal).catch(() => {
     }).finally(() => {
@@ -10037,7 +10062,7 @@ function buildCheckoutQRPlan(input) {
     host: input.host,
     summary,
     url: input.qrPayload,
-    ...input.agentType?.trim().toLowerCase() === "workbuddy" && input.cardURL ? { linkOnlyURL: input.cardURL } : {},
+    ...isLinkOnlyBrowserAgent(input.agentType, platformKeyForHost(input.host)) && input.cardURL ? { linkOnlyURL: input.cardURL } : {},
     preferredQRSources: [input.qrPNGURL ?? input.qrPayload],
     checkoutID: input.checkoutID,
     platform,
@@ -10095,7 +10120,7 @@ function absolutePublicURL(baseURL, value) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/catalog.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/catalog.js
 async function runCatalogList(backend, options = {}) {
   const manifest = await backend.getCatalogManifest();
   const services2 = manifest.manifest.items.map(summarizeService);
@@ -10170,7 +10195,7 @@ function formatProductMoney(amountMinor, currency) {
   }).format(amountMinor / 100);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/compatibility.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/compatibility.js
 async function requirePlatformCompatibility(backend) {
   const platform = await backend.compatibility();
   const compatible = platform.api_contract_revision === API_CONTRACT_REVISION && compareVersions(CLI_VERSION, platform.minimum_cli_version) >= 0 && versionMajor(CLI_VERSION) <= platform.maximum_cli_major;
@@ -10204,7 +10229,7 @@ function versionParts(version) {
   return match ? [Number(match[1]), Number(match[2]), Number(match[3])] : void 0;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/checkout.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/checkout.js
 async function runCheckoutPresentation(backend, options) {
   const locale = normalizeCardLocale(options.locale);
   const presentation = await backend.getCheckoutPresentation(options.checkoutID, options.displayToken, locale === "en" ? locale : void 0);
@@ -10349,7 +10374,7 @@ function absolutePublicURL2(baseURL, value) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/pay.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/pay.js
 async function runPay(backend, options) {
   const intent = await backend.createPaymentIntent(options.checkoutID, {
     payment_method_type: options.method,
@@ -10366,12 +10391,15 @@ function payEnvelope(intent, options) {
   const terminal = ["failed", "expired", "refunded"].includes(intent.status);
   const verified = intent.status === "verified" || intent.status === "partially_refunded";
   const handoff = {};
-  const workBuddyAction = isWorkBuddyPlainChat(options.agentType, platformKeyForHost(options.host));
-  if (!terminal && !verified && workBuddyAction) {
-    const url = intent.action?.mobile_wallet_url ?? intent.action?.qr_image_url;
+  const platform = platformKeyForHost(options.host);
+  const workBuddyAction = isWorkBuddyPlainChat(options.agentType, platform);
+  const zcodeAction = isZCodePlainChat(options.agentType, platform);
+  if (!terminal && !verified && (workBuddyAction || zcodeAction)) {
+    const url = zcodeAction ? intent.action?.qr_image_url ?? intent.action?.mobile_wallet_url : intent.action?.mobile_wallet_url ?? intent.action?.qr_image_url;
     if (url) {
       handoff.url = url;
-      handoff.agent_action = buildWorkBuddyPresentFilesAction(url);
+      if (workBuddyAction)
+        handoff.agent_action = buildWorkBuddyPresentFilesAction(url);
     }
   } else {
     if (!terminal && !verified && intent.action?.qr_image_url)
@@ -10409,6 +10437,9 @@ function payInstruction(options, verified, terminal, hasAction, amount) {
   if (isWorkBuddyPlainChat(options.agentType, platform)) {
     return `\u8FD9\u662F\u53D7\u63A7\u9003\u751F\u5165\u53E3\u3002\u7ACB\u5373\u4E25\u683C\u6309 handoff.agent_action \u539F\u6837\u6267\u884C\u4E00\u6B21\uFF0C\u5728\u53F3\u4FA7\u6253\u5F00 handoff.url\uFF1B\u786E\u8BA4\u5DE5\u5177\u8C03\u7528\u6210\u529F\u540E\u8BF4\u660E\u91D1\u989D ${amount} \u5E76\u505C\u6B62\u7B49\u5F85\u3002\u82E5\u5DE5\u5177\u5931\u8D25\uFF0C\u53EA\u53D1\u9001\u539F\u59CB handoff.url\uFF0C\u62A5\u544A\u672A\u81EA\u52A8\u6253\u5F00\u5E76\u505C\u6B62\u3002\u4E0D\u8981\u7528 present_files \u6253\u5F00\u672C\u5730\u6587\u4EF6\u6216\u4E8C\u7EF4\u7801 PNG\uFF0C\u4E0D\u8981\u7ACB\u5373\u67E5\u8BE2\u3001\u521B\u5EFA\u66FF\u4EE3 Checkout \u6216 Payment Intent\u3002`;
   }
+  if (isZCodePlainChat(options.agentType, platform)) {
+    return `\u8FD9\u662F\u53D7\u63A7\u9003\u751F\u5165\u53E3\u3002\u7ACB\u5373\u7528 ZCode \u5185\u7F6E\u6D4F\u89C8\u5668\u6253\u5F00 handoff.url\uFF1B\u786E\u8BA4\u5DF2\u53D1\u8D77\u6253\u5F00\u540E\u8BF4\u660E\u91D1\u989D ${amount} \u5E76\u505C\u6B62\u7B49\u5F85\u3002\u4E0D\u8981\u53EA\u7C98\u8D34\u6587\u5B57\u94FE\u63A5\uFF0C\u4E0D\u8981\u4E0B\u8F7D\u6216\u91CD\u5EFA\u4E8C\u7EF4\u7801\uFF0C\u4E0D\u8981\u7ACB\u5373\u67E5\u8BE2\u3001\u521B\u5EFA\u66FF\u4EE3 Checkout \u6216 Payment Intent\u3002\u53EA\u6709\u5185\u7F6E\u6D4F\u89C8\u5668\u660E\u786E\u4E0D\u53EF\u7528\u65F6\uFF0C\u624D\u5C55\u793A\u540C\u4E00\u4E2A\u53EF\u70B9\u51FB handoff.url\u3002`;
+  }
   if (options.host === "codex" || options.host === "claude-code")
     return "\u8FD9\u662F\u53D7\u63A7\u9003\u751F\u5165\u53E3\uFF1B\u628A handoff \u4E2D\u7684\u4E8C\u7EF4\u7801\u6216\u94B1\u5305\u94FE\u63A5\u5B9E\u9645\u53D1\u5230\u5F53\u524D\u684C\u9762\u5BF9\u8BDD\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002";
   if (options.host === "terminal")
@@ -10416,7 +10447,7 @@ function payInstruction(options, verified, terminal, hasAction, amount) {
   return "\u8FD9\u662F\u53D7\u63A7\u9003\u751F\u5165\u53E3\uFF1B\u628A handoff \u4E2D\u7684\u4E8C\u7EF4\u7801\u6216\u94B1\u5305\u94FE\u63A5\u53D1\u9001\u5230\u5F53\u524D\u4F1A\u8BDD\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002";
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/order.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/order.js
 async function runOrder(backend, orderID, options = {}) {
   const order = await backend.getOrder(orderID);
   const [delivery, refundResponse] = await Promise.all([
@@ -10444,7 +10475,7 @@ function orderEnvelope(order, delivery, lockedRefund) {
     instruction = "\u544A\u8BC9\u7528\u6237\u8BA2\u5355\u5DF2\u7ECF\u627E\u5230\u5E76\u8BF4\u660E\u5F53\u524D\u4EA4\u4ED8\u72B6\u6001\u3002\u7136\u540E\u4F7F\u7528\u8FD4\u56DE\u7684\u8BFB\u53D6\u5165\u53E3\uFF1BAgent \u4E0D\u5411\u7528\u6237\u63D0\u53CA delivery_mode\uFF0C\u4E5F\u4E0D\u4ECE\u8BA2\u5355\u6458\u8981\u731C\u6D4B\u53D7\u4FDD\u62A4\u5185\u5BB9\u3002";
     next = { command: `itpay services next ${delivery.service_execution_id} --json`, reason: "\u8BFB\u53D6\u4EA4\u4ED8\u72B6\u6001" };
   } else if (order.status === "failed") {
-    instruction = appendOptionalFeedbackInvitation("\u5148\u544A\u8BC9\u7528\u6237\u8FD9\u7B14\u8BA2\u5355\u6CA1\u6709\u6B63\u5E38\u4EA4\u4ED8\uFF0C\u4E0D\u9700\u8981\u91CD\u590D\u4ED8\u6B3E\u6216\u91CD\u65B0\u4E0B\u5355\uFF1B\u5148\u68C0\u67E5\u539F\u8BA2\u5355\u662F\u5426\u5DF2\u6709\u9000\u6B3E\uFF0C\u518D\u7531\u7528\u6237\u51B3\u5B9A\u662F\u5426\u7533\u8BF7\u3002", "failed");
+    instruction = appendFeedbackPostmortemInstruction("\u5148\u544A\u8BC9\u7528\u6237\u8FD9\u7B14\u8BA2\u5355\u6CA1\u6709\u6B63\u5E38\u4EA4\u4ED8\uFF0C\u4E0D\u9700\u8981\u91CD\u590D\u4ED8\u6B3E\u6216\u91CD\u65B0\u4E0B\u5355\uFF1B\u5148\u68C0\u67E5\u539F\u8BA2\u5355\u662F\u5426\u5DF2\u6709\u9000\u6B3E\uFF0C\u518D\u7531\u7528\u6237\u51B3\u5B9A\u662F\u5426\u7533\u8BF7\u3002", "failed");
     next = { command: `itpay refund list --order ${order.order_id} --json`, reason: "\u68C0\u67E5\u540C\u4E00\u8BA2\u5355\u7684\u9000\u6B3E\u72B6\u6001" };
   } else if (order.status === "refunded") {
     instruction = "\u5148\u544A\u8BC9\u7528\u6237\u8FD9\u7B14\u8BA2\u5355\u5DF2\u7ECF\u9000\u6B3E\uFF0C\u539F\u4EA4\u4ED8\u4E0D\u53EF\u7EE7\u7EED\u8BFB\u53D6\uFF1B\u4E0D\u8981\u518D\u6B21\u4ED8\u6B3E\u6216\u5C1D\u8BD5\u6062\u590D\u65E7\u6388\u6743\u3002";
@@ -10474,7 +10505,7 @@ function orderPlainResult(result) {
   return Object.entries(result).map(([key, value]) => `${key}: ${typeof value === "string" ? value : JSON.stringify(value)}`);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/vault_handoff.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/vault_handoff.js
 var AUTH_ATTACH_REASON = "The human must be able to open or scan this official ItPay authorization handoff. Render the local image in the current desktop chat; if that fails, show the unchanged official URL.";
 async function buildVaultHandoff(input) {
   const platform = platformKeyForHost(input.host);
@@ -10484,6 +10515,12 @@ async function buildVaultHandoff(input) {
     return {
       handoff,
       instruction: "\u5411\u7528\u6237\u8BF4\u660E\u8FD9\u662F\u67E5\u770B\u5DF2\u8D2D\u5185\u5BB9\u7684\u53EA\u8BFB\u6388\u6743\uFF0C\u7136\u540E\u4E25\u683C\u6309 handoff.agent_action \u539F\u6837\u6267\u884C\u4E00\u6B21\u3002\u6253\u5F00\u6210\u529F\u540E\u505C\u6B62\u7B49\u5F85\uFF1B\u5931\u8D25\u65F6\u53EA\u53D1\u9001\u540C\u4E00\u4E2A handoff.url\u3002\u7528\u6237\u5B8C\u6210\u540E\u91CD\u65B0\u8FD0\u884C\u6700\u521D\u7684\u8BFB\u53D6\u547D\u4EE4\uFF0C\u4E0D\u8981\u518D\u6B21\u521B\u5EFA\u6388\u6743\u8BF7\u6C42\u3002"
+    };
+  }
+  if (isZCodePlainChat(input.agentType, platform)) {
+    return {
+      handoff,
+      instruction: "\u5411\u7528\u6237\u8BF4\u660E\u8FD9\u662F\u67E5\u770B\u5DF2\u8D2D\u5185\u5BB9\u7684\u53EA\u8BFB\u6388\u6743\uFF0C\u7136\u540E\u7ACB\u5373\u7528 ZCode \u5185\u7F6E\u6D4F\u89C8\u5668\u6253\u5F00 handoff.url\u3002\u786E\u8BA4\u5DF2\u53D1\u8D77\u6253\u5F00\u540E\u505C\u6B62\u7B49\u5F85\uFF1B\u4E0D\u8981\u53EA\u7C98\u8D34\u6587\u5B57\u94FE\u63A5\uFF0C\u4E5F\u4E0D\u8981\u4E0B\u8F7D\u6216\u91CD\u5EFA\u4E8C\u7EF4\u7801\u3002\u53EA\u6709\u5185\u7F6E\u6D4F\u89C8\u5668\u660E\u786E\u4E0D\u53EF\u7528\u65F6\uFF0C\u624D\u5C55\u793A\u540C\u4E00\u4E2A\u53EF\u70B9\u51FB handoff.url\u3002\u7528\u6237\u5B8C\u6210\u540E\u91CD\u65B0\u8FD0\u884C\u6700\u521D\u7684\u8BFB\u53D6\u547D\u4EE4\uFF0C\u4E0D\u8981\u518D\u6B21\u521B\u5EFA\u6388\u6743\u8BF7\u6C42\u3002"
     };
   }
   if (platform === "markdown") {
@@ -10536,7 +10573,7 @@ function openClawAuthorizationAction(url, qrPNGURL, target) {
   };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/vault.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/vault.js
 function outputOptions(options, plainResult) {
   return {
     ...options.jsonOutput !== void 0 ? { jsonOutput: options.jsonOutput } : {},
@@ -10669,7 +10706,7 @@ function shellArgument(value) {
   return `'${value.replaceAll("'", `'"'"'`)}'`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/orders.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/orders.js
 var ORDER_STATUSES = /* @__PURE__ */ new Set([
   "pending_payment",
   "paid",
@@ -10758,7 +10795,7 @@ function shellArgument2(value) {
   return `'${value.replaceAll("'", `'"'"'`)}'`;
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/feedback.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/feedback.js
 var MAX_FEEDBACK_NOTE_CODE_POINTS = 2e3;
 async function runFeedbackSubmit(backend, orderID, options) {
   const normalizedOrderID = orderID?.trim() ?? "";
@@ -10768,8 +10805,8 @@ async function runFeedbackSubmit(backend, orderID, options) {
   const rating = normalizeFeedbackRating(options.rating);
   const itemRank = normalizeItemRank(options.itemRank);
   const userNote = normalizeUserNote(options.note ?? "");
-  const order = await backend.getOrder(normalizedOrderID);
-  const choices = feedbackItemChoices(order);
+  const context = await backend.getServiceFeedbackOptions(normalizedOrderID);
+  const choices = feedbackItemChoices(context);
   if (choices.length === 0) {
     throw new CommandContractError("feedback_unavailable", "this order has no service item available for feedback", "\u544A\u8BC9\u7528\u6237\u8FD9\u7B14\u8BA2\u5355\u5F53\u524D\u6CA1\u6709\u53EF\u8BC4\u4EF7\u7684\u670D\u52A1\u9879\u76EE\u5E76\u505C\u6B62\uFF1B\u4E0D\u8981\u731C\u6D4B\u9879\u76EE ID\u3001\u5207\u6362\u8EAB\u4EFD\u6216\u521B\u5EFA\u5176\u4ED6\u53CD\u9988\u3002", []);
   }
@@ -10777,10 +10814,10 @@ async function runFeedbackSubmit(backend, orderID, options) {
     writeCommandEnvelope({
       status: "feedback_item_selection_required",
       result: {
-        ...order.order_code ? { order_code: order.order_code } : {},
+        ...context.order_code ? { order_code: context.order_code } : {},
         items: choices.map(({ rank, title, subject }) => ({ rank, title, ...subject ? { subject } : {} }))
       },
-      instruction: "\u7528\u670D\u52A1\u540D\u79F0\u548C\u4E3B\u9898\u8BA9\u7528\u6237\u9009\u62E9\u8981\u8BC4\u4EF7\u54EA\u4E00\u9879\uFF1B\u4E0D\u8981\u5C55\u793A\u5185\u90E8 ID\u3002\u7528\u6237\u9009\u62E9\u540E\uFF0CAgent \u4F7F\u7528\u540C\u4E00\u8BA2\u5355\u3001\u8BC4\u5206\u548C\u7559\u8A00\u5E76\u52A0\u5165\u6240\u9009 item rank \u81EA\u5DF1\u6267\u884C\u63D0\u4EA4\u3002",
+      instruction: "\u7528\u670D\u52A1\u540D\u79F0\u548C\u4E3B\u9898\u8BA9\u7528\u6237\u9009\u62E9\u8981\u590D\u76D8\u54EA\u4E00\u9879\uFF1B\u4E0D\u8981\u5C55\u793A\u5185\u90E8 ID\u3002\u7528\u6237\u9009\u62E9\u540E\uFF0CAgent \u4F7F\u7528\u540C\u4E00\u8BA2\u5355\u3001\u5DF2\u6709\u8BC4\u5206\u6216\u7559\u8A00\uFF08\u5982\u6709\uFF09\u5E76\u52A0\u5165\u6240\u9009 item rank \u81EA\u5DF1\u6267\u884C\u63D0\u4EA4\u3002",
       next: null,
       recovery: []
     }, outputOptions2(options));
@@ -10790,9 +10827,23 @@ async function runFeedbackSubmit(backend, orderID, options) {
   if (!choice) {
     throw new CommandContractError("feedback_item_invalid", `item rank ${itemRank} is not available for feedback`, "\u53EA\u4F7F\u7528\u5F53\u524D\u8BA2\u5355\u8FD4\u56DE\u7684\u670D\u52A1\u9879\u76EE\u7F16\u53F7\uFF1B\u4E0D\u8981\u731C\u6D4B\u5185\u90E8 ID\u3002\u672C\u6B21\u672A\u63D0\u4EA4\u53CD\u9988\u3002", []);
   }
+  if (rating === void 0 && !userNote && choice.item.agent_feedback_submitted) {
+    writeCommandEnvelope({
+      status: "feedback_already_submitted",
+      result: {
+        ...context.order_code ? { order_code: context.order_code } : {},
+        service_title: choice.title
+      },
+      instruction: "\u8FD9\u7B14\u670D\u52A1\u7684\u5B89\u5168\u590D\u76D8\u5DF2\u7ECF\u8BB0\u5F55\uFF1B\u65E0\u9700\u518D\u6B21\u63D0\u4EA4\u6216\u6253\u6270\u7528\u6237\uFF0C\u505C\u6B62\u3002\u7528\u6237\u4EE5\u540E\u660E\u786E\u8865\u5145\u8BC4\u5206\u6216\u8BC4\u8BBA\u65F6\u624D\u66F4\u65B0\u3002",
+      next: null,
+      recovery: []
+    }, outputOptions2(options));
+    return;
+  }
   const note = formatFeedbackNote({
     userNote,
-    outcome: order.status,
+    hasRating: rating !== void 0,
+    outcome: context.status,
     serviceTitle: choice.title,
     environment: options.environment,
     ...options.agentType ? { agentType: options.agentType } : {}
@@ -10802,24 +10853,26 @@ async function runFeedbackSubmit(backend, orderID, options) {
   }
   const response = await backend.submitServiceFeedback(normalizedOrderID, {
     order_item_id: choice.item.order_item_id,
-    rating,
+    ...rating !== void 0 ? { rating } : {},
     note
   });
   writeCommandEnvelope({
     status: "feedback_submitted",
     result: {
-      ...order.order_code ? { order_code: order.order_code } : {},
+      ...context.order_code ? { order_code: context.order_code } : {},
       service_title: choice.title,
-      rating: response.feedback.rating,
+      ...response.feedback.rating !== void 0 ? { rating: response.feedback.rating } : {},
       feedback_status: response.feedback.status
     },
-    instruction: "\u544A\u8BC9\u7528\u6237\u53CD\u9988\u5DF2\u7ECF\u8BB0\u5F55\u5E76\u8868\u793A\u611F\u8C22\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u627F\u8BFA\u56DE\u590D\u3001\u5904\u7406\u65F6\u95F4\u3001\u9000\u6B3E\u6216\u7ED3\u679C\u53D8\u66F4\u3002",
+    instruction: rating !== void 0 || userNote ? "\u544A\u8BC9\u7528\u6237\u53CD\u9988\u5DF2\u7ECF\u8BB0\u5F55\u5E76\u8868\u793A\u611F\u8C22\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u627F\u8BFA\u56DE\u590D\u3001\u5904\u7406\u65F6\u95F4\u3001\u9000\u6B3E\u6216\u7ED3\u679C\u53D8\u66F4\u3002" : "\u670D\u52A1\u590D\u76D8\u5DF2\u7ECF\u8BB0\u5F55\uFF1B\u65E0\u9700\u6253\u6270\u7528\u6237\uFF0C\u505C\u6B62\u3002\u4E0D\u8981\u58F0\u79F0\u7528\u6237\u7ED9\u4E86\u8BC4\u5206\u6216\u8BC4\u8BBA\u3002",
     next: null,
     recovery: []
   }, outputOptions2(options));
 }
 function normalizeFeedbackRating(value) {
   const normalized = value?.trim().toLowerCase() ?? "";
+  if (!normalized)
+    return void 0;
   const numeric = normalized.match(/^([1-5])(?:\s*(?:\/\s*5|分|星|stars?))?$/u);
   if (numeric)
     return Number(numeric[1]);
@@ -10841,11 +10894,11 @@ function normalizeItemRank(value) {
   }
   return rank;
 }
-function feedbackItemChoices(order) {
-  return order.items.flatMap((item, index) => {
+function feedbackItemChoices(context) {
+  return context.items.flatMap((item, index) => {
     if (!item.order_item_id?.trim())
       return [];
-    const subject = feedbackSubject(item);
+    const subject = safeLine(item.subject ?? "").slice(0, 160);
     return [{
       rank: index + 1,
       item,
@@ -10853,17 +10906,6 @@ function feedbackItemChoices(order) {
       ...subject ? { subject } : {}
     }];
   });
-}
-function feedbackSubject(item) {
-  for (const field of ["company_name_or_credit_no", "company_name", "company", "target", "keyword"]) {
-    const value = item.input?.[field];
-    if (typeof value === "string") {
-      const safe = safeLine(value);
-      if (safe)
-        return safe.slice(0, 160);
-    }
-  }
-  return void 0;
 }
 function normalizeUserNote(value) {
   return value.replaceAll("\r\n", "\n").replaceAll("\r", "\n").replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/gu, " ").trim();
@@ -10875,13 +10917,23 @@ ${input.userNote.split("\n").map((line) => `> ${line}`).join("\n")}
 ` : "";
   return `${summary}## Context
 ` + [
-    "- Source: user-confirmed via agent",
+    "- Source: agent-postmortem",
+    `- Human input: ${humanInputSummary(input.hasRating, Boolean(input.userNote))}`,
     `- Outcome: ${safeLine(input.outcome) || "unknown"}`,
     `- Service: ${safeLine(input.serviceTitle) || "\u672A\u547D\u540D\u670D\u52A1"}`,
     `- Client: @itpay/cli ${CLI_VERSION}`,
     `- Agent type: ${safeLine(input.agentType ?? "unspecified")}`,
     `- Environment: ${input.environment}`
   ].join("\n");
+}
+function humanInputSummary(hasRating, hasComment) {
+  if (hasRating && hasComment)
+    return "rating and comment included";
+  if (hasRating)
+    return "rating included";
+  if (hasComment)
+    return "comment included";
+  return "not provided";
 }
 function safeLine(value) {
   return value.replace(/[\r\n\u0000-\u001F\u007F]+/gu, " ").trim();
@@ -10897,7 +10949,7 @@ function outputOptions2(options) {
   };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/refund.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/refund.js
 async function runRefund(backend, config, options) {
   const reason = options.reason?.trim() || "buyer_requested";
   const refund2 = await backend.createRefund(options.orderID, { reason }, config.bearerToken, await operationID(config, `refund.create:${options.orderID}:${reason}`));
@@ -11014,7 +11066,7 @@ async function runWatchRefund(backend, refundID, options = {}) {
     const remaining = deadline - Date.now();
     if (remaining <= 0)
       break;
-    await new Promise((resolve5) => setTimeout(resolve5, Math.min(intervalSeconds * 1e3, remaining)));
+    await new Promise((resolve6) => setTimeout(resolve6, Math.min(intervalSeconds * 1e3, remaining)));
   }
   writeRefundEnvelope({
     status: "watch_timeout",
@@ -11037,7 +11089,7 @@ function writeRefundEnvelope(envelope, options) {
   });
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/cart.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/cart.js
 function runCartAdd(session, options) {
   const out = resolveOutput(options.output);
   const item = {
@@ -11383,11 +11435,11 @@ function writeCartNextEnvelope(envelope, options) {
   });
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/docs.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/docs.js
 import { existsSync as existsSync4, readFileSync as readFileSync6, readdirSync } from "node:fs";
-import { dirname as dirname4, resolve as resolve3 } from "node:path";
+import { dirname as dirname3, resolve as resolve4 } from "node:path";
 import { fileURLToPath } from "node:url";
-var commandDir = dirname4(fileURLToPath(import.meta.url));
+var commandDir = dirname3(fileURLToPath(import.meta.url));
 function runDocsList(options = {}) {
   const topics = loadDocs().map(({ topic, title, purpose }) => ({ topic, title, purpose }));
   writeCommandEnvelope({
@@ -11458,15 +11510,15 @@ function runDocsSearch(query, options = {}) {
 function loadDocs() {
   const docsDir = findDocsDir();
   const files = readdirSync(docsDir).filter((file) => file.endsWith(".json")).sort();
-  return files.map((file) => parseDoc(readFileSync6(resolve3(docsDir, file), "utf8"), file)).sort((left, right) => left.topic.localeCompare(right.topic));
+  return files.map((file) => parseDoc(readFileSync6(resolve4(docsDir, file), "utf8"), file)).sort((left, right) => left.topic.localeCompare(right.topic));
 }
 function findDocsDir() {
   if (process.env.ITPAY_CLI_DOCS_DIR)
-    return resolve3(process.env.ITPAY_CLI_DOCS_DIR);
-  const packagePath = resolve3(commandDir, "..", "..", "..", "docs", "agent", "buyer");
+    return resolve4(process.env.ITPAY_CLI_DOCS_DIR);
+  const packagePath = resolve4(commandDir, "..", "..", "..", "docs", "agent", "buyer");
   if (existsSync4(packagePath))
     return packagePath;
-  return resolve3(commandDir, "..", "..", "docs", "agent", "buyer");
+  return resolve4(commandDir, "..", "..", "docs", "agent", "buyer");
 }
 function parseDoc(raw, file) {
   const value = JSON.parse(raw);
@@ -11482,13 +11534,14 @@ function shellWord(value) {
   return /^[a-zA-Z0-9._-]+$/.test(value) ? value : JSON.stringify(value);
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/install.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/install.js
 var INSTALL_AGENT_TYPES = [
   "codex-desktop",
   "codex-cli",
   "claude-code-desktop",
   "claude-code-cli",
   "workbuddy",
+  "zcode",
   "kimi-code",
   "openclaw"
 ];
@@ -11498,6 +11551,7 @@ var INSTRUCTIONS = {
   "claude-code-desktop": "\u5728 Claude Code Desktop \u4E2D\u59CB\u7EC8\u4F20\u8FD9\u4E2A Agent Type\uFF1B\u4ED8\u6B3E\u65F6\u628A\u8FD4\u56DE\u7684\u4E8C\u7EF4\u7801\u548C\u94FE\u63A5\u5B9E\u9645\u5C55\u793A\u5230\u5F53\u524D\u5BF9\u8BDD\u3002",
   "claude-code-cli": "\u5728 Claude Code CLI \u4E2D\u59CB\u7EC8\u4F20\u8FD9\u4E2A Agent Type\uFF1B\u4ED8\u6B3E\u4EA4\u63A5\u53EA\u5E94\u663E\u793A\u5728\u7528\u6237\u53EF\u89C1\u7EC8\u7AEF\u3002",
   workbuddy: "\u5728 WorkBuddy \u4E2D\u59CB\u7EC8\u4F20\u8FD9\u4E2A Agent Type\u3002\u8FD0\u884C\u4F1A\u6301\u4E45\u5316 ~/.itpay-v3 \u7684 ItPay Bash \u547D\u4EE4\u524D\uFF0C\u628A Shell \u5DE5\u5177\u53C2\u6570 dangerouslyDisableSandbox \u8BBE\u4E3A true\uFF1B\u7528\u6237\u62D2\u7EDD\u6743\u9650\u65F6\u505C\u6B62\uFF0C\u4E0D\u8981\u5207\u6362 Node\u3001\u5220\u9664 identity \u6216\u5904\u7406 lock\u3002Checkout \u8FD4\u56DE\u5DF2\u6E32\u67D3\u7684\u4ED8\u6B3E Card Link \u548C present_files action\uFF1B\u539F\u6837\u6267\u884C\u4E00\u6B21 action \u6253\u5F00 handoff.url\uFF0C\u4E0D\u8981\u68C0\u67E5\u672C\u5730\u4E8C\u7EF4\u7801\u6587\u4EF6\u3002",
+  zcode: "\u5728 ZCode \u4E2D\u59CB\u7EC8\u4F20\u8FD9\u4E2A Agent Type\u3002Checkout \u6216\u6388\u6743\u8FD4\u56DE handoff.url \u540E\uFF0C\u7ACB\u5373\u7528 ZCode \u5185\u7F6E\u6D4F\u89C8\u5668\u6253\u5F00\uFF1B\u4E0D\u8981\u53EA\u7C98\u8D34\u6587\u5B57\u94FE\u63A5\u6216\u91CD\u5EFA\u4E8C\u7EF4\u7801\u3002\u53EA\u6709\u5185\u7F6E\u6D4F\u89C8\u5668\u4E0D\u53EF\u7528\u65F6\u624D\u5C55\u793A\u540C\u4E00\u4E2A\u53EF\u70B9\u51FB\u94FE\u63A5\u3002",
   "kimi-code": "\u4FDD\u6301 kimi-code Agent Type\uFF0C\u4F7F\u7528\u6807\u51C6 CLI \u547D\u4EE4\u548C\u7EC8\u7AEF\u4ED8\u6B3E\u4EA4\u63A5\uFF1B\u4E0D\u8981\u5207\u6362\u5230\u5176\u4ED6\u5E73\u53F0\u8EAB\u4EFD\u3002",
   openclaw: "\u4FDD\u6301 openclaw Agent Type\uFF1B\u6BCF\u4E2A\u5C55\u793A\u547D\u4EE4\u90FD\u4ECE\u5F53\u524D\u53EF\u4FE1\u4F1A\u8BDD\u4E0A\u4E0B\u6587\u663E\u5F0F\u4F20 --host\uFF0CIM \u5165\u53E3\u540C\u65F6\u4F20 --target\u3002Telegram \u4F7F\u7528\u8FD4\u56DE\u7684\u539F\u751F message action\uFF0C\u5176\u4ED6\u5165\u53E3\u5C55\u793A\u6807\u51C6\u4E8C\u7EF4\u7801\u548C\u4ED8\u6B3E\u94FE\u63A5\u3002"
 };
@@ -11544,11 +11598,11 @@ function installDefinition(agentType) {
   return { agent_type: agentType, default_host: defaultHostForAgentType(agentType) ?? null };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/skill.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/skill.js
 import { existsSync as existsSync5, readFileSync as readFileSync7 } from "node:fs";
-import { dirname as dirname5, resolve as resolve4 } from "node:path";
+import { dirname as dirname4, resolve as resolve5 } from "node:path";
 import { fileURLToPath as fileURLToPath2 } from "node:url";
-var commandDir2 = dirname5(fileURLToPath2(import.meta.url));
+var commandDir2 = dirname4(fileURLToPath2(import.meta.url));
 var ITPAY_SKILL = "itpay";
 function runSkillShow(name, options = {}) {
   const normalized = name.trim().toLowerCase();
@@ -11578,16 +11632,16 @@ function runSkillShow(name, options = {}) {
 }
 function findSkillPath() {
   if (process.env.ITPAY_CLI_SKILLS_DIR) {
-    const configuredRoot = resolve4(process.env.ITPAY_CLI_SKILLS_DIR);
-    const directPath = resolve4(configuredRoot, "SKILL.md");
+    const configuredRoot = resolve5(process.env.ITPAY_CLI_SKILLS_DIR);
+    const directPath = resolve5(configuredRoot, "SKILL.md");
     if (existsSync5(directPath))
       return directPath;
-    return resolve4(configuredRoot, ITPAY_SKILL, "SKILL.md");
+    return resolve5(configuredRoot, ITPAY_SKILL, "SKILL.md");
   }
-  const packagePath = resolve4(commandDir2, "..", "..", "..", "skills", ITPAY_SKILL, "SKILL.md");
+  const packagePath = resolve5(commandDir2, "..", "..", "..", "skills", ITPAY_SKILL, "SKILL.md");
   if (existsSync5(packagePath))
     return packagePath;
-  return resolve4(commandDir2, "..", "..", "skills", ITPAY_SKILL, "SKILL.md");
+  return resolve5(commandDir2, "..", "..", "skills", ITPAY_SKILL, "SKILL.md");
 }
 function validateSkill(content) {
   const frontmatter = content.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/)?.[1];
@@ -11596,7 +11650,7 @@ function validateSkill(content) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/next.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/next.js
 function runNext(session, options = {}) {
   const envelope = nextEnvelope(session);
   writeCommandEnvelope(envelope, {
@@ -11642,7 +11696,7 @@ function resumeEnvelope(resourceType, resourceID, command, reason) {
   };
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/commands/services.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/commands/services.js
 var serviceActionStatuses = /* @__PURE__ */ new Set(["pending", "approved", "rejected", "expired", "cancelled"]);
 async function runServicesStart(backend, serviceID, options = {}) {
   const host = options.host ?? "terminal";
@@ -12266,7 +12320,7 @@ function servicesNextEnvelope(model) {
         phase: execution.phase,
         ...currentDelivery?.order_id ? { order_id: currentDelivery.order_id } : {}
       },
-      instruction: execution.status === "refunded" ? "\u544A\u8BC9\u7528\u6237\u8FD9\u7B14\u670D\u52A1\u5DF2\u7ECF\u9000\u6B3E\u5E76\u6C38\u4E45\u7ED3\u675F\u3002Agent \u4E0D\u91CD\u653E\u670D\u52A1\u6B65\u9AA4\u3001\u4E0D\u521B\u5EFA\u4ED8\u6B3E\u9875\u9762\u6216\u5C1D\u8BD5\u8BFB\u53D6\u65E7\u4EA4\u4ED8\u3002" : paidFailure ? appendOptionalFeedbackInvitation("\u544A\u8BC9\u7528\u6237\uFF1A\u4ED8\u6B3E\u548C\u8BA2\u5355\u5DF2\u7ECF\u8BB0\u5F55\uFF0C\u4F46\u672C\u6B21\u670D\u52A1\u6CA1\u6709\u6B63\u5E38\u5B8C\u6210\uFF0C\u4E0D\u9700\u8981\u518D\u6B21\u4ED8\u6B3E\u6216\u91CD\u65B0\u4E0B\u5355\u3002\u7136\u540E\u4ECE\u540C\u4E00\u8BA2\u5355\u68C0\u67E5\u9000\u6B3E\u72B6\u6001\uFF1BAgent \u4E0D\u91CD\u653E\u670D\u52A1\u6B65\u9AA4\u3001\u521B\u5EFA\u4ED8\u6B3E\u9875\u9762\u6216\u518D\u6B21\u8C03\u7528\u6570\u636E\u6765\u6E90\uFF0C\u4E5F\u4E0D\u628A\u6280\u672F\u6545\u969C\u5F52\u548E\u4E8E\u7528\u6237\u3002", "failed") : "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u670D\u52A1\u5DF2\u7ECF\u7ED3\u675F\u4E14\u6CA1\u6709\u53EF\u7EE7\u7EED\u7684\u4EA4\u4ED8\u3002Agent \u4E0D\u91CD\u653E\u670D\u52A1\u6B65\u9AA4\u6216\u521B\u5EFA\u4ED8\u6B3E\u9875\u9762\u3002",
+      instruction: execution.status === "refunded" ? "\u544A\u8BC9\u7528\u6237\u8FD9\u7B14\u670D\u52A1\u5DF2\u7ECF\u9000\u6B3E\u5E76\u6C38\u4E45\u7ED3\u675F\u3002Agent \u4E0D\u91CD\u653E\u670D\u52A1\u6B65\u9AA4\u3001\u4E0D\u521B\u5EFA\u4ED8\u6B3E\u9875\u9762\u6216\u5C1D\u8BD5\u8BFB\u53D6\u65E7\u4EA4\u4ED8\u3002" : paidFailure ? appendFeedbackPostmortemInstruction("\u544A\u8BC9\u7528\u6237\uFF1A\u4ED8\u6B3E\u548C\u8BA2\u5355\u5DF2\u7ECF\u8BB0\u5F55\uFF0C\u4F46\u672C\u6B21\u670D\u52A1\u6CA1\u6709\u6B63\u5E38\u5B8C\u6210\uFF0C\u4E0D\u9700\u8981\u518D\u6B21\u4ED8\u6B3E\u6216\u91CD\u65B0\u4E0B\u5355\u3002\u7136\u540E\u4ECE\u540C\u4E00\u8BA2\u5355\u68C0\u67E5\u9000\u6B3E\u72B6\u6001\uFF1BAgent \u4E0D\u91CD\u653E\u670D\u52A1\u6B65\u9AA4\u3001\u521B\u5EFA\u4ED8\u6B3E\u9875\u9762\u6216\u518D\u6B21\u8C03\u7528\u6570\u636E\u6765\u6E90\uFF0C\u4E5F\u4E0D\u628A\u6280\u672F\u6545\u969C\u5F52\u548E\u4E8E\u7528\u6237\u3002", "failed") : "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u670D\u52A1\u5DF2\u7ECF\u7ED3\u675F\u4E14\u6CA1\u6709\u53EF\u7EE7\u7EED\u7684\u4EA4\u4ED8\u3002Agent \u4E0D\u91CD\u653E\u670D\u52A1\u6B65\u9AA4\u6216\u521B\u5EFA\u4ED8\u6B3E\u9875\u9762\u3002",
       next: null,
       recovery: [
         ...paidFailure ? [{
@@ -12322,7 +12376,7 @@ function servicesNextEnvelope(model) {
         delivery_mode: deliveryMode,
         items
       },
-      instruction: delivery?.order_id ? appendOptionalFeedbackInvitation(items.length > 0 ? selection ? "\u641C\u7D22\u5DF2\u5B8C\u6210\u3002\u7528\u7F16\u53F7\u3001\u540D\u79F0\u548C\u53EF\u516C\u5F00\u5B57\u6BB5\u5411\u7528\u6237\u8BF4\u660E\u7ED3\u679C\uFF0C\u7136\u540E\u505C\u6B62\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u9009\u62E9\u5019\u9009\u5E76\u8981\u6C42\u7EE7\u7EED\u65F6\u624D\u6267\u884C next.command\uFF1B\u4E0D\u8981\u63D0\u53CA safe_payload\u3002" : "\u8FD9\u4E00\u6B65\u7684\u7ED3\u679C\u5DF2\u7ECF\u53EF\u7528\u3002\u7528\u666E\u901A\u8BED\u8A00\u89E3\u91CA\u53EF\u516C\u5F00\u5B57\u6BB5\u5E76\u505C\u6B62\uFF1B\u4E0D\u8981\u63D0\u53CA Graph\u3001safe_payload \u6216\u5185\u90E8 ID\u3002" : "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u67E5\u8BE2\u5F97\u5230 0 \u4E2A\u7ED3\u679C\u5E76\u505C\u6B62\u3002Agent \u4E0D\u8BFB\u53D6\u5176\u4ED6\u4EA4\u4ED8\u3001\u4E0D\u91CD\u653E\u5F53\u524D\u67E5\u8BE2\u3001\u4FEE\u6539\u8F93\u5165\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\u3002", "delivered") : items.length > 0 ? selection ? "\u641C\u7D22\u5DF2\u5B8C\u6210\u3002\u7528\u7F16\u53F7\u3001\u540D\u79F0\u548C\u53EF\u516C\u5F00\u5B57\u6BB5\u5411\u7528\u6237\u8BF4\u660E\u7ED3\u679C\uFF0C\u7136\u540E\u505C\u6B62\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u9009\u62E9\u5019\u9009\u5E76\u8981\u6C42\u7EE7\u7EED\u65F6\u624D\u6267\u884C next.command\uFF1B\u4E0D\u8981\u63D0\u53CA safe_payload\u3002" : "\u8FD9\u4E00\u6B65\u7684\u7ED3\u679C\u5DF2\u7ECF\u53EF\u7528\u3002\u7528\u666E\u901A\u8BED\u8A00\u89E3\u91CA\u53EF\u516C\u5F00\u5B57\u6BB5\u5E76\u505C\u6B62\uFF1B\u4E0D\u8981\u63D0\u53CA Graph\u3001safe_payload \u6216\u5185\u90E8 ID\u3002" : "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u67E5\u8BE2\u5F97\u5230 0 \u4E2A\u7ED3\u679C\u5E76\u505C\u6B62\u3002Agent \u4E0D\u8BFB\u53D6\u5176\u4ED6\u4EA4\u4ED8\u3001\u4E0D\u91CD\u653E\u5F53\u524D\u67E5\u8BE2\u3001\u4FEE\u6539\u8F93\u5165\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\u3002",
+      instruction: delivery?.order_id ? appendFeedbackPostmortemInstruction(items.length > 0 ? selection ? "\u641C\u7D22\u5DF2\u5B8C\u6210\u3002\u7528\u7F16\u53F7\u3001\u540D\u79F0\u548C\u53EF\u516C\u5F00\u5B57\u6BB5\u5411\u7528\u6237\u8BF4\u660E\u7ED3\u679C\uFF0C\u7136\u540E\u505C\u6B62\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u9009\u62E9\u5019\u9009\u5E76\u8981\u6C42\u7EE7\u7EED\u65F6\u624D\u6267\u884C next.command\uFF1B\u4E0D\u8981\u63D0\u53CA safe_payload\u3002" : "\u8FD9\u4E00\u6B65\u7684\u7ED3\u679C\u5DF2\u7ECF\u53EF\u7528\u3002\u7528\u666E\u901A\u8BED\u8A00\u89E3\u91CA\u53EF\u516C\u5F00\u5B57\u6BB5\u5E76\u505C\u6B62\uFF1B\u4E0D\u8981\u63D0\u53CA Graph\u3001safe_payload \u6216\u5185\u90E8 ID\u3002" : "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u67E5\u8BE2\u5F97\u5230 0 \u4E2A\u7ED3\u679C\u5E76\u505C\u6B62\u3002Agent \u4E0D\u8BFB\u53D6\u5176\u4ED6\u4EA4\u4ED8\u3001\u4E0D\u91CD\u653E\u5F53\u524D\u67E5\u8BE2\u3001\u4FEE\u6539\u8F93\u5165\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\u3002", "delivered") : items.length > 0 ? selection ? "\u641C\u7D22\u5DF2\u5B8C\u6210\u3002\u7528\u7F16\u53F7\u3001\u540D\u79F0\u548C\u53EF\u516C\u5F00\u5B57\u6BB5\u5411\u7528\u6237\u8BF4\u660E\u7ED3\u679C\uFF0C\u7136\u540E\u505C\u6B62\u3002\u53EA\u6709\u7528\u6237\u660E\u786E\u9009\u62E9\u5019\u9009\u5E76\u8981\u6C42\u7EE7\u7EED\u65F6\u624D\u6267\u884C next.command\uFF1B\u4E0D\u8981\u63D0\u53CA safe_payload\u3002" : "\u8FD9\u4E00\u6B65\u7684\u7ED3\u679C\u5DF2\u7ECF\u53EF\u7528\u3002\u7528\u666E\u901A\u8BED\u8A00\u89E3\u91CA\u53EF\u516C\u5F00\u5B57\u6BB5\u5E76\u505C\u6B62\uFF1B\u4E0D\u8981\u63D0\u53CA Graph\u3001safe_payload \u6216\u5185\u90E8 ID\u3002" : "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u67E5\u8BE2\u5F97\u5230 0 \u4E2A\u7ED3\u679C\u5E76\u505C\u6B62\u3002Agent \u4E0D\u8BFB\u53D6\u5176\u4ED6\u4EA4\u4ED8\u3001\u4E0D\u91CD\u653E\u5F53\u524D\u67E5\u8BE2\u3001\u4FEE\u6539\u8F93\u5165\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\u3002",
       next: selection ? {
         command: `itpay services action ${execution.service_execution_id} --action select_candidate --actor-type human --status approved --candidate <rank> --json`,
         reason: "\u4EC5\u5728\u7528\u6237\u660E\u786E\u9009\u62E9\u540E\u9501\u5B9A\u6765\u6E90\u5019\u9009"
@@ -12443,7 +12497,7 @@ function grantedResultEnvelope(response, orderID) {
       granted_fields: Object.keys(response.result),
       payload: response.result
     },
-    instruction: orderID ? appendOptionalFeedbackInvitation("\u7ED3\u679C\u6765\u81EA\u5F53\u524D\u6709\u6548 Vault Grant\uFF1B\u53EA\u4F7F\u7528\u672C\u6B21\u6388\u6743\u5B57\u6BB5\uFF0C\u8FC7\u671F\u540E\u505C\u6B62\u8BFB\u53D6\u5E76\u91CD\u65B0\u8BF7\u6C42\u7528\u6237\u540C\u610F\u3002", "delivered") : "\u7ED3\u679C\u6765\u81EA\u5F53\u524D\u6709\u6548 Vault Grant\uFF1B\u53EA\u4F7F\u7528\u672C\u6B21\u6388\u6743\u5B57\u6BB5\uFF0C\u8FC7\u671F\u540E\u505C\u6B62\u8BFB\u53D6\u5E76\u91CD\u65B0\u8BF7\u6C42\u7528\u6237\u540C\u610F\u3002",
+    instruction: orderID ? appendFeedbackPostmortemInstruction("\u7ED3\u679C\u6765\u81EA\u5F53\u524D\u6709\u6548 Vault Grant\uFF1B\u53EA\u4F7F\u7528\u672C\u6B21\u6388\u6743\u5B57\u6BB5\uFF0C\u8FC7\u671F\u540E\u505C\u6B62\u8BFB\u53D6\u5E76\u91CD\u65B0\u8BF7\u6C42\u7528\u6237\u540C\u610F\u3002", "delivered") : "\u7ED3\u679C\u6765\u81EA\u5F53\u524D\u6709\u6548 Vault Grant\uFF1B\u53EA\u4F7F\u7528\u672C\u6B21\u6388\u6743\u5B57\u6BB5\uFF0C\u8FC7\u671F\u540E\u505C\u6B62\u8BFB\u53D6\u5E76\u91CD\u65B0\u8BF7\u6C42\u7528\u6237\u540C\u610F\u3002",
     next: null,
     recovery: []
   };
@@ -12616,7 +12670,7 @@ function tokenizedCheckoutURL2(checkoutURL, displayToken, qrPayload) {
   }
 }
 
-// ../../../../../../tmp/itpay-platform-bundle-c4n535/node_modules/@itpay/cli/dist/src/main.js
+// ../../../../../../tmp/itpay-platform-bundle-sGCE5W/node_modules/@itpay/cli/dist/src/main.js
 var program2 = new Command();
 program2.name("itpay").description("V3 ItPay CLI \u2014 buy services, review orders, and read human-authorized purchased content").option("--agent-type <type>", "agent runtime type used for device enrollment and client-specific guidance").version(CLI_VERSION).addHelpText("after", `
 Agent quick start:
@@ -12629,7 +12683,7 @@ Common human intents:
   Previously purchased item vault list
   Purchase history           orders
   Delivery or refund problem resume the known Order or Refund
-  Rate a purchased service   feedback submit
+  Review a completed service feedback submit
 
 The Agent runs commands. Ask the human only to choose, authorize, pay, provide
 required contact details, or confirm a refund. Never expose commands or internal IDs.
@@ -13334,7 +13388,7 @@ program2.command("orders").description("List safe order summaries for the curren
   }
 });
 var feedback = program2.command("feedback").description("Rate one service item from an existing order");
-feedback.command("submit").description("Submit a human-confirmed rating and optional comment").option("--order <order_id>").option("--rating <rating>").option("--note <text>").option("--item-rank <rank>").option("--json", "output JSON instead of terminal text").action(async (options) => {
+feedback.command("submit").description("Submit a safe Agent postmortem with optional human rating and comment").option("--order <order_id>").option("--rating <rating>").option("--note <text>").option("--item-rank <rank>").option("--json", "output JSON instead of terminal text").action(async (options) => {
   const config = loadConfig();
   const jsonOutput = Boolean(options.json);
   try {
