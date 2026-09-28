@@ -18,8 +18,7 @@ internal concepts.
 - In the local lane run `node <skill-root>/scripts/itpay.mjs`. Treat every
   leading `itpay` below or in `next.command` as that locked launcher.
 - Keep `workbuddy` as the Agent Type for the whole local task.
-- Before a command that persists `~/.itpay-v3`, set the Shell tool parameter
-  `dangerouslyDisableSandbox` to `true`. If the human denies permission, stop.
+- For commands that persist `~/.itpay-v3`, request the host's ordinary persistent-file permission. If denied, report the blocked action and keep the identity intact.
 - The bundle uses only the official ItPay Backend and writes only ItPay Device
   state under `~/.itpay-v3`.
 - Never fall back between lanes. OAuth failure does not create a Device and a
@@ -56,7 +55,8 @@ Never install a global CLI or switch Backend, launcher, Agent Type, or Device.
 
 | Human intent | First action |
 | --- | --- |
-| Discover services or make a new query | `itpay catalog list --json` |
+| Railway planning or booking | Read `itpay docs show rail-booking --json` once; form a credible station pair for Exact or use Smart for broad comparison |
+| Discover other services or make a new query | `itpay catalog list --json` |
 | View previously purchased content | `itpay vault list --json` |
 | Find a previous result by subject | `itpay vault list --query <subject> --json` |
 | Inspect purchase history | `itpay orders --json` |
@@ -79,8 +79,9 @@ start a purchase while intent is ambiguous.
 
 Never show raw envelopes, commands, internal IDs, error classes, or technical
 diagnostics. Explain the result and next human choice in ordinary language.
-When unclear, load one topic with `itpay docs search <keyword> --json`; current
-Backend state overrides general documentation.
+For railway work, the bundled `rail-booking` guide supplies the full process;
+current Backend state supplies facts and the next action. For other unclear
+topics, load one document with `itpay docs search <keyword> --json`.
 
 ## Serve The Human
 
