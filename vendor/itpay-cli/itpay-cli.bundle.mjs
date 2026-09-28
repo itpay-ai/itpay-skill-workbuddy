@@ -40,18 +40,18 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/can-promise.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/can-promise.js
 var require_can_promise = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/can-promise.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/can-promise.js"(exports, module) {
     module.exports = function() {
       return typeof Promise === "function" && Promise.prototype && Promise.prototype.then;
     };
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/utils.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/utils.js
 var require_utils = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/utils.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/utils.js"(exports) {
     var toSJISFunction;
     var CODEWORDS_COUNT = [
       0,
@@ -128,9 +128,9 @@ var require_utils = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/error-correction-level.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/error-correction-level.js
 var require_error_correction_level = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/error-correction-level.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/error-correction-level.js"(exports) {
     exports.L = { bit: 1 };
     exports.M = { bit: 0 };
     exports.Q = { bit: 3 };
@@ -173,9 +173,9 @@ var require_error_correction_level = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/bit-buffer.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/bit-buffer.js
 var require_bit_buffer = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/bit-buffer.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/bit-buffer.js"(exports, module) {
     function BitBuffer() {
       this.buffer = [];
       this.length = 0;
@@ -208,9 +208,9 @@ var require_bit_buffer = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/bit-matrix.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/bit-matrix.js
 var require_bit_matrix = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/bit-matrix.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/bit-matrix.js"(exports, module) {
     function BitMatrix(size) {
       if (!size || size < 1) {
         throw new Error("BitMatrix size must be defined and greater than 0");
@@ -237,9 +237,9 @@ var require_bit_matrix = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/alignment-pattern.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/alignment-pattern.js
 var require_alignment_pattern = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/alignment-pattern.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/alignment-pattern.js"(exports) {
     var getSymbolSize = require_utils().getSymbolSize;
     exports.getRowColCoords = function getRowColCoords(version2) {
       if (version2 === 1) return [];
@@ -272,9 +272,9 @@ var require_alignment_pattern = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/finder-pattern.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/finder-pattern.js
 var require_finder_pattern = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/finder-pattern.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/finder-pattern.js"(exports) {
     var getSymbolSize = require_utils().getSymbolSize;
     var FINDER_PATTERN_SIZE = 7;
     exports.getPositions = function getPositions(version2) {
@@ -291,9 +291,9 @@ var require_finder_pattern = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/mask-pattern.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/mask-pattern.js
 var require_mask_pattern = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/mask-pattern.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/mask-pattern.js"(exports) {
     exports.Patterns = {
       PATTERN000: 0,
       PATTERN001: 1,
@@ -433,9 +433,9 @@ var require_mask_pattern = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/error-correction-code.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/error-correction-code.js
 var require_error_correction_code = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/error-correction-code.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/error-correction-code.js"(exports) {
     var ECLevel = require_error_correction_level();
     var EC_BLOCKS_TABLE = [
       // L  M  Q  H
@@ -794,9 +794,9 @@ var require_error_correction_code = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/galois-field.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/galois-field.js
 var require_galois_field = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/galois-field.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/galois-field.js"(exports) {
     var EXP_TABLE = new Uint8Array(512);
     var LOG_TABLE = new Uint8Array(256);
     (function initTables() {
@@ -827,9 +827,9 @@ var require_galois_field = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/polynomial.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/polynomial.js
 var require_polynomial = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/polynomial.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/polynomial.js"(exports) {
     var GF = require_galois_field();
     exports.mul = function mul(p1, p2) {
       const coeff = new Uint8Array(p1.length + p2.length - 1);
@@ -863,9 +863,9 @@ var require_polynomial = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/reed-solomon-encoder.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/reed-solomon-encoder.js
 var require_reed_solomon_encoder = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/reed-solomon-encoder.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/reed-solomon-encoder.js"(exports, module) {
     var Polynomial = require_polynomial();
     function ReedSolomonEncoder(degree) {
       this.genPoly = void 0;
@@ -895,18 +895,18 @@ var require_reed_solomon_encoder = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/version-check.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/version-check.js
 var require_version_check = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/version-check.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/version-check.js"(exports) {
     exports.isValid = function isValid2(version2) {
       return !isNaN(version2) && version2 >= 1 && version2 <= 40;
     };
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/regex.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/regex.js
 var require_regex = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/regex.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/regex.js"(exports) {
     var numeric = "[0-9]+";
     var alphanumeric = "[A-Z $%*+\\-./:]+";
     var kanji = "(?:[u3000-u303F]|[u3040-u309F]|[u30A0-u30FF]|[uFF00-uFFEF]|[u4E00-u9FAF]|[u2605-u2606]|[u2190-u2195]|u203B|[u2010u2015u2018u2019u2025u2026u201Cu201Du2225u2260]|[u0391-u0451]|[u00A7u00A8u00B1u00B4u00D7u00F7])+";
@@ -932,9 +932,9 @@ var require_regex = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/mode.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/mode.js
 var require_mode = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/mode.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/mode.js"(exports) {
     var VersionCheck = require_version_check();
     var Regex = require_regex();
     exports.NUMERIC = {
@@ -1013,9 +1013,9 @@ var require_mode = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/version.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/version.js
 var require_version = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/version.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/version.js"(exports) {
     var Utils = require_utils();
     var ECCode = require_error_correction_code();
     var ECLevel = require_error_correction_level();
@@ -1108,9 +1108,9 @@ var require_version = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/format-info.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/format-info.js
 var require_format_info = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/format-info.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/format-info.js"(exports) {
     var Utils = require_utils();
     var G15 = 1 << 10 | 1 << 8 | 1 << 5 | 1 << 4 | 1 << 2 | 1 << 1 | 1 << 0;
     var G15_MASK = 1 << 14 | 1 << 12 | 1 << 10 | 1 << 4 | 1 << 1;
@@ -1126,9 +1126,9 @@ var require_format_info = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/numeric-data.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/numeric-data.js
 var require_numeric_data = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/numeric-data.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/numeric-data.js"(exports, module) {
     var Mode = require_mode();
     function NumericData(data) {
       this.mode = Mode.NUMERIC;
@@ -1161,9 +1161,9 @@ var require_numeric_data = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/alphanumeric-data.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/alphanumeric-data.js
 var require_alphanumeric_data = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/alphanumeric-data.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/alphanumeric-data.js"(exports, module) {
     var Mode = require_mode();
     var ALPHA_NUM_CHARS = [
       "0",
@@ -1240,9 +1240,9 @@ var require_alphanumeric_data = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/byte-data.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/byte-data.js
 var require_byte_data = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/byte-data.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/byte-data.js"(exports, module) {
     var Mode = require_mode();
     function ByteData(data) {
       this.mode = Mode.BYTE;
@@ -1270,9 +1270,9 @@ var require_byte_data = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/kanji-data.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/kanji-data.js
 var require_kanji_data = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/kanji-data.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/kanji-data.js"(exports, module) {
     var Mode = require_mode();
     var Utils = require_utils();
     function KanjiData(data) {
@@ -1309,9 +1309,9 @@ var require_kanji_data = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/dijkstrajs/dijkstra.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/dijkstrajs/dijkstra.js
 var require_dijkstra = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/dijkstrajs/dijkstra.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/dijkstrajs/dijkstra.js"(exports, module) {
     "use strict";
     var dijkstra = {
       single_source_shortest_paths: function(graph, s, d) {
@@ -1410,9 +1410,9 @@ var require_dijkstra = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/segments.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/segments.js
 var require_segments = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/segments.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/segments.js"(exports) {
     var Mode = require_mode();
     var NumericData = require_numeric_data();
     var AlphanumericData = require_alphanumeric_data();
@@ -1596,9 +1596,9 @@ var require_segments = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/qrcode.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/qrcode.js
 var require_qrcode = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/core/qrcode.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/core/qrcode.js"(exports) {
     var Utils = require_utils();
     var ECLevel = require_error_correction_level();
     var BitBuffer = require_bit_buffer();
@@ -1857,9 +1857,9 @@ var require_qrcode = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/chunkstream.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/chunkstream.js
 var require_chunkstream = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/chunkstream.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/chunkstream.js"(exports, module) {
     "use strict";
     var util2 = __require("util");
     var Stream = __require("stream");
@@ -1995,9 +1995,9 @@ var require_chunkstream = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/interlace.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/interlace.js
 var require_interlace = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/interlace.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/interlace.js"(exports) {
     "use strict";
     var imagePasses = [
       {
@@ -2078,9 +2078,9 @@ var require_interlace = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/paeth-predictor.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/paeth-predictor.js
 var require_paeth_predictor = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/paeth-predictor.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/paeth-predictor.js"(exports, module) {
     "use strict";
     module.exports = function paethPredictor(left, above, upLeft) {
       let paeth = left + above - upLeft;
@@ -2098,9 +2098,9 @@ var require_paeth_predictor = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-parse.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-parse.js
 var require_filter_parse = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-parse.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-parse.js"(exports, module) {
     "use strict";
     var interlaceUtils = require_interlace();
     var paethPredictor = require_paeth_predictor();
@@ -2239,9 +2239,9 @@ var require_filter_parse = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-parse-async.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-parse-async.js
 var require_filter_parse_async = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-parse-async.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-parse-async.js"(exports, module) {
     "use strict";
     var util2 = __require("util");
     var ChunkStream = require_chunkstream();
@@ -2265,9 +2265,9 @@ var require_filter_parse_async = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/constants.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/constants.js
 var require_constants = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/constants.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/constants.js"(exports, module) {
     "use strict";
     module.exports = {
       PNG_SIGNATURE: [137, 80, 78, 71, 13, 10, 26, 10],
@@ -2300,9 +2300,9 @@ var require_constants = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/crc.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/crc.js
 var require_crc = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/crc.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/crc.js"(exports, module) {
     "use strict";
     var crcTable = [];
     (function() {
@@ -2340,9 +2340,9 @@ var require_crc = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/parser.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/parser.js
 var require_parser = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/parser.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/parser.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     var CrcCalculator = require_crc();
@@ -2561,9 +2561,9 @@ var require_parser = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/bitmapper.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/bitmapper.js
 var require_bitmapper = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/bitmapper.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/bitmapper.js"(exports) {
     "use strict";
     var interlaceUtils = require_interlace();
     var pixelBppMapper = [
@@ -2809,9 +2809,9 @@ var require_bitmapper = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/format-normaliser.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/format-normaliser.js
 var require_format_normaliser = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/format-normaliser.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/format-normaliser.js"(exports, module) {
     "use strict";
     function dePalette(indata, outdata, width, height, palette) {
       let pxPos = 0;
@@ -2890,9 +2890,9 @@ var require_format_normaliser = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/parser-async.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/parser-async.js
 var require_parser_async = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/parser-async.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/parser-async.js"(exports, module) {
     "use strict";
     var util2 = __require("util");
     var zlib = __require("zlib");
@@ -3016,9 +3016,9 @@ var require_parser_async = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/bitpacker.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/bitpacker.js
 var require_bitpacker = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/bitpacker.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/bitpacker.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     module.exports = function(dataIn, width, height, options) {
@@ -3166,9 +3166,9 @@ var require_bitpacker = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-pack.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-pack.js
 var require_filter_pack = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-pack.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-pack.js"(exports, module) {
     "use strict";
     var paethPredictor = require_paeth_predictor();
     function filterNone(pxData, pxPos, byteWidth, rawData, rawPos) {
@@ -3308,9 +3308,9 @@ var require_filter_pack = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/packer.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/packer.js
 var require_packer = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/packer.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/packer.js"(exports, module) {
     "use strict";
     var constants = require_constants();
     var CrcStream = require_crc();
@@ -3408,9 +3408,9 @@ var require_packer = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/packer-async.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/packer-async.js
 var require_packer_async = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/packer-async.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/packer-async.js"(exports, module) {
     "use strict";
     var util2 = __require("util");
     var Stream = __require("stream");
@@ -3450,9 +3450,9 @@ var require_packer_async = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/sync-inflate.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/sync-inflate.js
 var require_sync_inflate = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/sync-inflate.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/sync-inflate.js"(exports, module) {
     "use strict";
     var assert2 = __require("assert").ok;
     var zlib = __require("zlib");
@@ -3587,9 +3587,9 @@ var require_sync_inflate = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/sync-reader.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/sync-reader.js
 var require_sync_reader = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/sync-reader.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/sync-reader.js"(exports, module) {
     "use strict";
     var SyncReader = module.exports = function(buffer) {
       this._buffer = buffer;
@@ -3625,9 +3625,9 @@ var require_sync_reader = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-parse-sync.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-parse-sync.js
 var require_filter_parse_sync = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/filter-parse-sync.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/filter-parse-sync.js"(exports) {
     "use strict";
     var SyncReader = require_sync_reader();
     var Filter = require_filter_parse();
@@ -3649,9 +3649,9 @@ var require_filter_parse_sync = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/parser-sync.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/parser-sync.js
 var require_parser_sync = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/parser-sync.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/parser-sync.js"(exports, module) {
     "use strict";
     var hasSyncZlib = true;
     var zlib = __require("zlib");
@@ -3740,9 +3740,9 @@ var require_parser_sync = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/packer-sync.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/packer-sync.js
 var require_packer_sync = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/packer-sync.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/packer-sync.js"(exports, module) {
     "use strict";
     var hasSyncZlib = true;
     var zlib = __require("zlib");
@@ -3785,9 +3785,9 @@ var require_packer_sync = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/png-sync.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/png-sync.js
 var require_png_sync = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/png-sync.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/png-sync.js"(exports) {
     "use strict";
     var parse3 = require_parser_sync();
     var pack = require_packer_sync();
@@ -3800,9 +3800,9 @@ var require_png_sync = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/png.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/png.js
 var require_png = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/pngjs/lib/png.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/pngjs/lib/png.js"(exports) {
     "use strict";
     var util2 = __require("util");
     var Stream = __require("stream");
@@ -3937,9 +3937,9 @@ var require_png = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/utils.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/utils.js
 var require_utils2 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/utils.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/utils.js"(exports) {
     function hex2rgba(hex) {
       if (typeof hex === "number") {
         hex = hex.toString();
@@ -4017,9 +4017,9 @@ var require_utils2 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/png.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/png.js
 var require_png2 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/png.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/png.js"(exports) {
     var fs2 = __require("fs");
     var PNG = require_png().PNG;
     var Utils = require_utils2();
@@ -4084,9 +4084,9 @@ var require_png2 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/utf8.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/utf8.js
 var require_utf8 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/utf8.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/utf8.js"(exports) {
     var Utils = require_utils2();
     var BLOCK_CHAR = {
       WW: " ",
@@ -4146,9 +4146,9 @@ var require_utf8 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/terminal/terminal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/terminal/terminal.js
 var require_terminal = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/terminal/terminal.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/terminal/terminal.js"(exports) {
     exports.render = function(qrData, options, cb) {
       const size = qrData.modules.size;
       const data = qrData.modules.data;
@@ -4174,9 +4174,9 @@ var require_terminal = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/terminal/terminal-small.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/terminal/terminal-small.js
 var require_terminal_small = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/terminal/terminal-small.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/terminal/terminal-small.js"(exports) {
     var backgroundWhite = "\x1B[47m";
     var backgroundBlack = "\x1B[40m";
     var foregroundWhite = "\x1B[37m";
@@ -4233,9 +4233,9 @@ var require_terminal_small = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/terminal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/terminal.js
 var require_terminal2 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/terminal.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/terminal.js"(exports) {
     var big = require_terminal();
     var small = require_terminal_small();
     exports.render = function(qrData, options, cb) {
@@ -4247,9 +4247,9 @@ var require_terminal2 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/svg-tag.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/svg-tag.js
 var require_svg_tag = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/svg-tag.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/svg-tag.js"(exports) {
     var Utils = require_utils2();
     function getColorAttrib(color, attrib) {
       const alpha = color.a / 255;
@@ -4305,9 +4305,9 @@ var require_svg_tag = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/svg.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/svg.js
 var require_svg = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/svg.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/svg.js"(exports) {
     var svgTagRenderer = require_svg_tag();
     exports.render = svgTagRenderer.render;
     exports.renderToFile = function renderToFile(path3, qrData, options, cb) {
@@ -4323,9 +4323,9 @@ var require_svg = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/canvas.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/canvas.js
 var require_canvas = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/renderer/canvas.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/renderer/canvas.js"(exports) {
     var Utils = require_utils2();
     function clearCanvas(ctx, canvas, size) {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -4376,9 +4376,9 @@ var require_canvas = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/browser.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/browser.js
 var require_browser = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/browser.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/browser.js"(exports) {
     var canPromise = require_can_promise();
     var QRCode2 = require_qrcode();
     var CanvasRenderer = require_canvas();
@@ -4446,9 +4446,9 @@ var require_browser = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/server.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/server.js
 var require_server = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/server.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/server.js"(exports) {
     var canPromise = require_can_promise();
     var QRCode2 = require_qrcode();
     var PngRenderer = require_png2();
@@ -4566,16 +4566,16 @@ var require_server = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/index.js
 var require_lib = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/qrcode/lib/index.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/qrcode/lib/index.js"(exports, module) {
     module.exports = require_server();
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/codegen/code.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/codegen/code.js
 var require_code = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/codegen/code.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/codegen/code.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.regexpCode = exports.getEsmExportName = exports.getProperty = exports.safeStringify = exports.stringify = exports.strConcat = exports.addCodeArg = exports.str = exports._ = exports.nil = exports._Code = exports.Name = exports.IDENTIFIER = exports._CodeOrName = void 0;
@@ -4727,9 +4727,9 @@ var require_code = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/codegen/scope.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/codegen/scope.js
 var require_scope = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/codegen/scope.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/codegen/scope.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ValueScope = exports.ValueScopeName = exports.Scope = exports.varKinds = exports.UsedValueState = void 0;
@@ -4872,9 +4872,9 @@ var require_scope = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/codegen/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/codegen/index.js
 var require_codegen = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/codegen/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/codegen/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.or = exports.and = exports.not = exports.CodeGen = exports.operators = exports.varKinds = exports.ValueScopeName = exports.ValueScope = exports.Scope = exports.Name = exports.regexpCode = exports.stringify = exports.getProperty = exports.nil = exports.strConcat = exports.str = exports._ = void 0;
@@ -5592,9 +5592,9 @@ var require_codegen = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/util.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/util.js
 var require_util = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/util.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.checkStrictMode = exports.getErrorPath = exports.Type = exports.useFunc = exports.setEvaluated = exports.evaluatedPropsToName = exports.mergeEvaluated = exports.eachItem = exports.unescapeJsonPointer = exports.escapeJsonPointer = exports.escapeFragment = exports.unescapeFragment = exports.schemaRefOrVal = exports.schemaHasRulesButRef = exports.schemaHasRules = exports.checkUnknownRules = exports.alwaysValidSchema = exports.toHash = void 0;
@@ -5759,9 +5759,9 @@ var require_util = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/names.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/names.js
 var require_names = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/names.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/names.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -5798,9 +5798,9 @@ var require_names = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/errors.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/errors.js
 var require_errors = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/errors.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/errors.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendErrors = exports.resetErrorsCount = exports.reportExtraError = exports.reportError = exports.keyword$DataError = exports.keywordError = void 0;
@@ -5920,9 +5920,9 @@ var require_errors = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/boolSchema.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/boolSchema.js
 var require_boolSchema = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/boolSchema.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.boolOrEmptySchema = exports.topBoolOrEmptySchema = void 0;
@@ -5971,9 +5971,9 @@ var require_boolSchema = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/rules.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/rules.js
 var require_rules = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/rules.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/rules.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRules = exports.isJSONType = void 0;
@@ -6002,9 +6002,9 @@ var require_rules = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/applicability.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/applicability.js
 var require_applicability = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/applicability.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/applicability.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.shouldUseRule = exports.shouldUseGroup = exports.schemaHasRulesForType = void 0;
@@ -6025,9 +6025,9 @@ var require_applicability = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/dataType.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/dataType.js
 var require_dataType = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/dataType.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/dataType.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.reportTypeError = exports.checkDataTypes = exports.checkDataType = exports.coerceAndCheckDataType = exports.getJSONTypes = exports.getSchemaTypes = exports.DataType = void 0;
@@ -6209,9 +6209,9 @@ var require_dataType = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/defaults.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/defaults.js
 var require_defaults = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/defaults.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/defaults.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.assignDefaults = void 0;
@@ -6246,9 +6246,9 @@ var require_defaults = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/code.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/code.js
 var require_code2 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/code.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/code.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateUnion = exports.validateArray = exports.usePattern = exports.callValidateCode = exports.schemaProperties = exports.allSchemaProperties = exports.noPropertyInData = exports.propertyInData = exports.isOwnProperty = exports.hasPropFunc = exports.reportMissingProp = exports.checkMissingProp = exports.checkReportMissingProp = void 0;
@@ -6379,9 +6379,9 @@ var require_code2 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/keyword.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/keyword.js
 var require_keyword = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/keyword.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/keyword.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateKeywordUsage = exports.validSchemaType = exports.funcKeywordCode = exports.macroKeywordCode = void 0;
@@ -6497,9 +6497,9 @@ var require_keyword = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/subschema.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/subschema.js
 var require_subschema = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/subschema.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/subschema.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendSubschemaMode = exports.extendSubschemaData = exports.getSubschema = void 0;
@@ -6580,9 +6580,9 @@ var require_subschema = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-deep-equal/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-deep-equal/index.js
 var require_fast_deep_equal = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-deep-equal/index.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-deep-equal/index.js"(exports, module) {
     "use strict";
     module.exports = function equal(a, b) {
       if (a === b) return true;
@@ -6615,9 +6615,9 @@ var require_fast_deep_equal = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/json-schema-traverse/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/json-schema-traverse/index.js
 var require_json_schema_traverse = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/json-schema-traverse/index.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/json-schema-traverse/index.js"(exports, module) {
     "use strict";
     var traverse = module.exports = function(schema, opts, cb) {
       if (typeof opts == "function") {
@@ -6703,9 +6703,9 @@ var require_json_schema_traverse = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/resolve.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/resolve.js
 var require_resolve = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/resolve.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/resolve.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSchemaRefs = exports.resolveUrl = exports.normalizeId = exports._getFullPath = exports.getFullPath = exports.inlineRef = void 0;
@@ -6859,9 +6859,9 @@ var require_resolve = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/index.js
 var require_validate = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/validate/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/validate/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getData = exports.KeywordCxt = exports.validateFunctionCode = void 0;
@@ -7367,9 +7367,9 @@ var require_validate = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/validation_error.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/validation_error.js
 var require_validation_error = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/validation_error.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/validation_error.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var ValidationError = class extends Error {
@@ -7383,9 +7383,9 @@ var require_validation_error = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/ref_error.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/ref_error.js
 var require_ref_error = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/ref_error.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/ref_error.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var resolve_1 = require_resolve();
@@ -7400,9 +7400,9 @@ var require_ref_error = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/index.js
 var require_compile = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/compile/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/compile/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveSchema = exports.getCompilingSchema = exports.resolveRef = exports.compileSchema = exports.SchemaEnv = void 0;
@@ -7624,9 +7624,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/refs/data.json
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/refs/data.json
 var require_data = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/refs/data.json"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/refs/data.json"(exports, module) {
     module.exports = {
       $id: "https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#",
       description: "Meta-schema for $data reference (JSON AnySchema extension proposal)",
@@ -7643,9 +7643,9 @@ var require_data = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-uri/lib/utils.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-uri/lib/utils.js
 var require_utils3 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-uri/lib/utils.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-uri/lib/utils.js"(exports, module) {
     "use strict";
     var isUUID = RegExp.prototype.test.bind(/^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/iu);
     var isIPv4 = RegExp.prototype.test.bind(/^(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)$/u);
@@ -8145,9 +8145,9 @@ var require_utils3 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-uri/lib/schemes.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-uri/lib/schemes.js
 var require_schemes = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-uri/lib/schemes.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-uri/lib/schemes.js"(exports, module) {
     "use strict";
     var { isUUID } = require_utils3();
     var URN_REG = /^([\da-z][\d\-a-z]{0,31}):((?:[\w!$'()*+,\-./:;=@]|%[\da-f]{2})+)$/iu;
@@ -8356,9 +8356,9 @@ var require_schemes = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-uri/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-uri/index.js
 var require_fast_uri = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/fast-uri/index.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/fast-uri/index.js"(exports, module) {
     "use strict";
     var { normalizeIPv6, removeDotSegments, recomposeAuthority, normalizePercentEncoding, normalizePathEncoding, serializePathEncoding, normalizeQueryFragmentEncoding, encodeQuery, encodeFragment, reescapeHostDelimiters, isIPv4, nonSimpleDomain } = require_utils3();
     var { SCHEMES, getSchemeHandler } = require_schemes();
@@ -8762,9 +8762,9 @@ var require_fast_uri = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/uri.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/uri.js
 var require_uri = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/uri.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/uri.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var uri = require_fast_uri();
@@ -8773,9 +8773,9 @@ var require_uri = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/core.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/core.js
 var require_core = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/core.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/core.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CodeGen = exports.Name = exports.nil = exports.stringify = exports.str = exports._ = exports.KeywordCxt = void 0;
@@ -9384,9 +9384,9 @@ var require_core = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/core/id.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/core/id.js
 var require_id = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/core/id.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/core/id.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var def = {
@@ -9399,9 +9399,9 @@ var require_id = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/core/ref.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/core/ref.js
 var require_ref = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/core/ref.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/core/ref.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.callRef = exports.getValidate = void 0;
@@ -9521,9 +9521,9 @@ var require_ref = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/core/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/core/index.js
 var require_core2 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/core/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/core/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var id_1 = require_id();
@@ -9542,9 +9542,9 @@ var require_core2 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitNumber.js
 var require_limitNumber = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitNumber.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9574,9 +9574,9 @@ var require_limitNumber = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/multipleOf.js
 var require_multipleOf = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/multipleOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9602,9 +9602,9 @@ var require_multipleOf = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/ucs2length.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/ucs2length.js
 var require_ucs2length = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/ucs2length.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/ucs2length.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function ucs2length(str) {
@@ -9628,9 +9628,9 @@ var require_ucs2length = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitLength.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitLength.js
 var require_limitLength = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitLength.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9660,9 +9660,9 @@ var require_limitLength = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/pattern.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/pattern.js
 var require_pattern = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/pattern.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -9697,9 +9697,9 @@ var require_pattern = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitProperties.js
 var require_limitProperties = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9726,9 +9726,9 @@ var require_limitProperties = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/required.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/required.js
 var require_required = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/required.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/required.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -9808,9 +9808,9 @@ var require_required = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitItems.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitItems.js
 var require_limitItems = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/limitItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9837,9 +9837,9 @@ var require_limitItems = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/equal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/equal.js
 var require_equal = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/runtime/equal.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/runtime/equal.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var equal = require_fast_deep_equal();
@@ -9848,9 +9848,9 @@ var require_equal = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js
 var require_uniqueItems = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/uniqueItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var dataType_1 = require_dataType();
@@ -9915,9 +9915,9 @@ var require_uniqueItems = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/const.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/const.js
 var require_const = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/const.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/const.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9944,9 +9944,9 @@ var require_const = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/enum.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/enum.js
 var require_enum = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/enum.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -9993,9 +9993,9 @@ var require_enum = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/index.js
 var require_validation = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/validation/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/validation/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var limitNumber_1 = require_limitNumber();
@@ -10031,9 +10031,9 @@ var require_validation = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js
 var require_additionalItems = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/additionalItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateAdditionalItems = void 0;
@@ -10084,9 +10084,9 @@ var require_additionalItems = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/items.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/items.js
 var require_items = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/items.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateTuple = void 0;
@@ -10141,9 +10141,9 @@ var require_items = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js
 var require_prefixItems = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/prefixItems.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var items_1 = require_items();
@@ -10158,9 +10158,9 @@ var require_prefixItems = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/items2020.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/items2020.js
 var require_items2020 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/items2020.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -10193,9 +10193,9 @@ var require_items2020 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/contains.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/contains.js
 var require_contains = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/contains.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -10287,9 +10287,9 @@ var require_contains = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/dependencies.js
 var require_dependencies = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/dependencies.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateSchemaDeps = exports.validatePropertyDeps = exports.error = void 0;
@@ -10381,9 +10381,9 @@ var require_dependencies = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js
 var require_propertyNames = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/propertyNames.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -10424,9 +10424,9 @@ var require_propertyNames = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js
 var require_additionalProperties = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/additionalProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -10530,9 +10530,9 @@ var require_additionalProperties = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/properties.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/properties.js
 var require_properties = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/properties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var validate_1 = require_validate();
@@ -10588,9 +10588,9 @@ var require_properties = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js
 var require_patternProperties = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/patternProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -10662,9 +10662,9 @@ var require_patternProperties = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/not.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/not.js
 var require_not = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/not.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
@@ -10693,9 +10693,9 @@ var require_not = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/anyOf.js
 var require_anyOf = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/anyOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var code_1 = require_code2();
@@ -10710,9 +10710,9 @@ var require_anyOf = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/oneOf.js
 var require_oneOf = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/oneOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -10768,9 +10768,9 @@ var require_oneOf = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/allOf.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/allOf.js
 var require_allOf = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/allOf.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
@@ -10795,9 +10795,9 @@ var require_allOf = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/if.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/if.js
 var require_if = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/if.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -10864,9 +10864,9 @@ var require_if = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/thenElse.js
 var require_thenElse = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/thenElse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var util_1 = require_util();
@@ -10882,9 +10882,9 @@ var require_thenElse = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/index.js
 var require_applicator = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/applicator/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var additionalItems_1 = require_additionalItems();
@@ -10930,9 +10930,9 @@ var require_applicator = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/format/format.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/format/format.js
 var require_format = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/format/format.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/format/format.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -11020,9 +11020,9 @@ var require_format = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/format/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/format/index.js
 var require_format2 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/format/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/format/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var format_1 = require_format();
@@ -11031,9 +11031,9 @@ var require_format2 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/metadata.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/metadata.js
 var require_metadata = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/metadata.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/metadata.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.contentVocabulary = exports.metadataVocabulary = void 0;
@@ -11054,9 +11054,9 @@ var require_metadata = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/draft7.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/draft7.js
 var require_draft7 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/draft7.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/draft7.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var core_1 = require_core2();
@@ -11076,9 +11076,9 @@ var require_draft7 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/discriminator/types.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/discriminator/types.js
 var require_types = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/discriminator/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DiscrError = void 0;
@@ -11090,9 +11090,9 @@ var require_types = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/discriminator/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/discriminator/index.js
 var require_discriminator = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/vocabularies/discriminator/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var codegen_1 = require_codegen();
@@ -11195,9 +11195,9 @@ var require_discriminator = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/refs/json-schema-draft-07.json
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/refs/json-schema-draft-07.json
 var require_json_schema_draft_07 = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/refs/json-schema-draft-07.json"(exports, module) {
     module.exports = {
       $schema: "http://json-schema.org/draft-07/schema#",
       $id: "http://json-schema.org/draft-07/schema#",
@@ -11352,9 +11352,9 @@ var require_json_schema_draft_07 = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/ajv.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/ajv.js
 var require_ajv = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv/dist/ajv.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv/dist/ajv.js"(exports, module) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MissingRefError = exports.ValidationError = exports.CodeGen = exports.Name = exports.nil = exports.stringify = exports.str = exports._ = exports.KeywordCxt = exports.Ajv = void 0;
@@ -11422,9 +11422,9 @@ var require_ajv = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv-formats/dist/formats.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv-formats/dist/formats.js
 var require_formats = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv-formats/dist/formats.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv-formats/dist/formats.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.formatNames = exports.fastFormats = exports.fullFormats = void 0;
@@ -11625,9 +11625,9 @@ var require_formats = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv-formats/dist/limit.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv-formats/dist/limit.js
 var require_limit = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv-formats/dist/limit.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv-formats/dist/limit.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.formatLimitDefinition = void 0;
@@ -11697,9 +11697,9 @@ var require_limit = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv-formats/dist/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv-formats/dist/index.js
 var require_dist = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/ajv-formats/dist/index.js"(exports, module) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/ajv-formats/dist/index.js"(exports, module) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var formats_1 = require_formats();
@@ -11739,9 +11739,9 @@ var require_dist = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/error.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/error.js
 var require_error = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/error.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/error.js"(exports) {
     var CommanderError2 = class extends Error {
       /**
        * Constructs the CommanderError class
@@ -11774,9 +11774,9 @@ var require_error = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/argument.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/argument.js
 var require_argument = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/argument.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/argument.js"(exports) {
     var { InvalidArgumentError: InvalidArgumentError2 } = require_error();
     var Argument2 = class {
       /**
@@ -11901,9 +11901,9 @@ var require_argument = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/help.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/help.js
 var require_help = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/help.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/help.js"(exports) {
     var { humanReadableArgName } = require_argument();
     var Help2 = class {
       constructor() {
@@ -12315,9 +12315,9 @@ var require_help = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/option.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/option.js
 var require_option = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/option.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/option.js"(exports) {
     var { InvalidArgumentError: InvalidArgumentError2 } = require_error();
     var Option2 = class {
       /**
@@ -12587,9 +12587,9 @@ var require_option = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/suggestSimilar.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/suggestSimilar.js
 var require_suggestSimilar = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/suggestSimilar.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/suggestSimilar.js"(exports) {
     var maxDistance = 3;
     function editDistance(a, b) {
       if (Math.abs(a.length - b.length) > maxDistance)
@@ -12667,9 +12667,9 @@ var require_suggestSimilar = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/command.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/command.js
 var require_command = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/lib/command.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/lib/command.js"(exports) {
     var EventEmitter = __require("node:events").EventEmitter;
     var childProcess = __require("node:child_process");
     var path3 = __require("node:path");
@@ -14710,9 +14710,9 @@ Expecting one of '${allowedValues.join("', '")}'`);
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/index.js
 var require_commander = __commonJS({
-  "../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/index.js"(exports) {
+  "../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/index.js"(exports) {
     var { Argument: Argument2 } = require_argument();
     var { Command: Command2 } = require_command();
     var { CommanderError: CommanderError2, InvalidArgumentError: InvalidArgumentError2 } = require_error();
@@ -14732,13 +14732,13 @@ var require_commander = __commonJS({
   }
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/account_auth.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/account_auth.js
 import { createHash as createHash4 } from "node:crypto";
 import { homedir as homedir3 } from "node:os";
 import { dirname as dirname3, resolve as resolve4 } from "node:path";
 import { existsSync as existsSync4, mkdirSync as mkdirSync5, readFileSync as readFileSync4, renameSync as renameSync3, writeFileSync as writeFileSync4, rmSync } from "node:fs";
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/qr.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/qr.js
 var import_qrcode = __toESM(require_lib(), 1);
 import fs from "node:fs/promises";
 import os from "node:os";
@@ -14766,7 +14766,7 @@ async function writeLocalPNG(url) {
   return { filePath, mimeType: "image/png" };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/task_journal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/task_journal.js
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 var PAUSED_STAGES = /* @__PURE__ */ new Set([
@@ -14849,13 +14849,13 @@ var TaskJournal = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/config.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/config.js
 import { createHash as createHash3 } from "node:crypto";
 import { homedir as homedir2 } from "node:os";
 import { mkdirSync as mkdirSync4 } from "node:fs";
 import { resolve as resolve3 } from "node:path";
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/client/transport.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/client/transport.js
 var HttpTransportError = class extends Error {
   code;
   attempts;
@@ -14936,7 +14936,7 @@ function transportMessage(code) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/client/http.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/client/http.js
 var HttpError = class extends Error {
   status;
   code;
@@ -15047,7 +15047,7 @@ function safeParseJson(text) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/client/backend.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/client/backend.js
 var BackendClient = class {
   http;
   constructor(http) {
@@ -15271,7 +15271,7 @@ async function streamSSE(url, onEvent, signal) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/agent_type.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/agent_type.js
 function declaredAgentType(env = process.env, argv = process.argv) {
   if (env.ITPAY_AGENT_TYPE)
     return canonicalAgentType(env.ITPAY_AGENT_TYPE);
@@ -15298,7 +15298,7 @@ function qualifyItPayCommand(command, agentType) {
   return `itpay --agent-type ${agentType} ${command.slice("itpay ".length)}`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/device_authority.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/device_authority.js
 import { createHash, createPrivateKey, createPublicKey, generateKeyPairSync, randomUUID as randomUUID2, sign } from "node:crypto";
 import { chmodSync, existsSync as existsSync2, mkdirSync as mkdirSync2, readFileSync as readFileSync2, renameSync as renameSync2, statSync, unlinkSync, writeFileSync as writeFileSync2 } from "node:fs";
 import { homedir } from "node:os";
@@ -15757,7 +15757,7 @@ function asDeviceStatePathError(error2, operation) {
   return code === "EEXIST" ? new DeviceStateError(operation, code) : asDeviceStateError(error2, operation);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/operation_journal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/operation_journal.js
 import { createHash as createHash2, randomUUID as randomUUID3 } from "node:crypto";
 import { chmodSync as chmodSync2, existsSync as existsSync3, linkSync, mkdirSync as mkdirSync3, readFileSync as readFileSync3, unlinkSync as unlinkSync2, writeFileSync as writeFileSync3 } from "node:fs";
 import { basename, resolve as resolve2 } from "node:path";
@@ -15844,11 +15844,11 @@ function isOperationID(value) {
   return /^op_[a-zA-Z0-9_-]+$/.test(value);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/config.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/config.js
 var DEFAULT_BASE_URL = "https://app.itpay.ai";
 var DEV_BASE_URL = "https://dev.itpay.ai";
 var SANDBOX_BASE_URL = "https://sandbox.itpay.ai";
-var CLI_VERSION = "2.1.20";
+var CLI_VERSION = "2.1.22";
 var API_CONTRACT_REVISION = "sha256:2f9fbcdc5cd0630910abb52671304cc019e348e9a778017ec92ddc3513b3639f";
 var CART_SESSION_DEFAULT_DIR = ".itpay-v3";
 var CART_SESSION_FILENAME = "cart.json";
@@ -15974,7 +15974,7 @@ function shortRandom() {
   return Math.random().toString(36).slice(2, 10) + Math.random().toString(36).slice(2, 6);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/account_auth.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/account_auth.js
 function sellerAuthPath(baseURL, env = process.env, purpose = "seller") {
   return resolve4(env.HOME || homedir3(), ".itpay-v3", `${purpose}-${createHash4("sha256").update(baseURL).digest("hex").slice(0, 16)}.json`);
 }
@@ -16265,12 +16265,12 @@ async function accountAuth(action, baseURL, env, fetcher, backend) {
   return { status: "authenticated", base_url: baseURL, expires_at: session.expires_at };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/sync.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/sync.js
 import { readFileSync as readFileSync6, writeFileSync as writeFileSync6, existsSync as existsSync6, mkdirSync as mkdirSync7, readdirSync as readdirSync2 } from "node:fs";
 import { join as join2, resolve as resolve6 } from "node:path";
 import { createHash as createHash6 } from "node:crypto";
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/local.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/local.js
 import { createHash as createHash5, randomUUID as randomUUID4 } from "node:crypto";
 import { existsSync as existsSync5, mkdirSync as mkdirSync6, readFileSync as readFileSync5, writeFileSync as writeFileSync5, renameSync as renameSync4, rmSync as rmSync2, readdirSync } from "node:fs";
 import { resolve as resolve5, join, dirname as dirname4 } from "node:path";
@@ -16546,7 +16546,7 @@ function registerLocal(sell) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/sync.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/sync.js
 var encode = encodeURIComponent;
 var hash2 = (value) => "sha256:" + createHash6("sha256").update(value).digest("hex");
 function read3(path3) {
@@ -16687,7 +16687,7 @@ function registerSync(sell) {
     });
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/preview.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/preview.js
 import { createServer } from "node:http";
 import { randomBytes, createHash as createHash7 } from "node:crypto";
 import { readFileSync as readFileSync7, existsSync as existsSync7 } from "node:fs";
@@ -16757,7 +16757,7 @@ async function preview(directory) {
   });
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/external.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/external.js
 var external_exports = {};
 __export(external_exports, {
   BRAND: () => BRAND,
@@ -16869,7 +16869,7 @@ __export(external_exports, {
   void: () => voidType
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/helpers/util.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/helpers/util.js
 var util;
 (function(util2) {
   util2.assertEqual = (_) => {
@@ -17003,7 +17003,7 @@ var getParsedType = (data) => {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/ZodError.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/ZodError.js
 var ZodIssueCode = util.arrayToEnum([
   "invalid_type",
   "invalid_literal",
@@ -17121,7 +17121,7 @@ ZodError.create = (issues) => {
   return error2;
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/locales/en.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/locales/en.js
 var errorMap = (issue2, _ctx) => {
   let message;
   switch (issue2.code) {
@@ -17224,7 +17224,7 @@ var errorMap = (issue2, _ctx) => {
 };
 var en_default = errorMap;
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/errors.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/errors.js
 var overrideErrorMap = en_default;
 function setErrorMap(map) {
   overrideErrorMap = map;
@@ -17233,7 +17233,7 @@ function getErrorMap() {
   return overrideErrorMap;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/helpers/parseUtil.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/helpers/parseUtil.js
 var makeIssue = (params) => {
   const { data, path: path3, errorMaps, issueData } = params;
   const fullPath = [...path3, ...issueData.path || []];
@@ -17343,14 +17343,14 @@ var isDirty = (x) => x.status === "dirty";
 var isValid = (x) => x.status === "valid";
 var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/helpers/errorUtil.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/helpers/errorUtil.js
 var errorUtil;
 (function(errorUtil2) {
   errorUtil2.errToObj = (message) => typeof message === "string" ? { message } : message || {};
   errorUtil2.toString = (message) => typeof message === "string" ? message : message?.message;
 })(errorUtil || (errorUtil = {}));
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v3/types.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v3/types.js
 var ParseInputLazyPath = class {
   constructor(parent, value, path3, key) {
     this._cachedPath = [];
@@ -20798,7 +20798,7 @@ var coerce = {
 };
 var NEVER = INVALID;
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/core.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/core.js
 var NEVER2 = Object.freeze({
   status: "aborted"
 });
@@ -20857,7 +20857,7 @@ function config(newConfig) {
   return globalConfig;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/util.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/util.js
 var util_exports = {};
 __export(util_exports, {
   BIGINT_FORMAT_RANGES: () => BIGINT_FORMAT_RANGES,
@@ -21378,7 +21378,7 @@ var Class = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/errors.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/errors.js
 var initializer = (inst, def) => {
   inst.name = "$ZodError";
   Object.defineProperty(inst, "_zod", {
@@ -21453,7 +21453,7 @@ function formatError(error2, _mapper) {
   return fieldErrors;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/parse.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/parse.js
 var _parse = (_Err) => (schema, value, _ctx, _params) => {
   const ctx = _ctx ? Object.assign(_ctx, { async: false }) : { async: false };
   const result = schema._zod.run({ value, issues: [] }, ctx);
@@ -21505,7 +21505,7 @@ var _safeParseAsync = (_Err) => async (schema, value, _ctx) => {
 };
 var safeParseAsync = /* @__PURE__ */ _safeParseAsync($ZodRealError);
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/regexes.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/regexes.js
 var cuid = /^[cC][^\s-]{8,}$/;
 var cuid2 = /^[0-9a-z]+$/;
 var ulid = /^[0-9A-HJKMNP-TV-Za-hjkmnp-tv-z]{26}$/;
@@ -21563,7 +21563,7 @@ var _null = /null/i;
 var lowercase = /^[^A-Z]*$/;
 var uppercase = /^[^a-z]*$/;
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/checks.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/checks.js
 var $ZodCheck = /* @__PURE__ */ $constructor("$ZodCheck", (inst, def) => {
   var _a;
   inst._zod ?? (inst._zod = {});
@@ -21948,7 +21948,7 @@ var $ZodCheckOverwrite = /* @__PURE__ */ $constructor("$ZodCheckOverwrite", (ins
   };
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/doc.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/doc.js
 var Doc = class {
   constructor(args = []) {
     this.content = [];
@@ -21984,14 +21984,14 @@ var Doc = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/versions.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/versions.js
 var version = {
   major: 4,
   minor: 0,
   patch: 0
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/schemas.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/schemas.js
 var $ZodType = /* @__PURE__ */ $constructor("$ZodType", (inst, def) => {
   var _a;
   inst ?? (inst = {});
@@ -23229,7 +23229,7 @@ function handleRefineResult(result, payload, input, inst) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/locales/en.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/locales/en.js
 var parsedType = (data) => {
   const t = typeof data;
   switch (t) {
@@ -23347,7 +23347,7 @@ function en_default2() {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/registries.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/registries.js
 var $ZodRegistry = class {
   constructor() {
     this._map = /* @__PURE__ */ new Map();
@@ -23395,7 +23395,7 @@ function registry() {
 }
 var globalRegistry = /* @__PURE__ */ registry();
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/api.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/api.js
 function _string(Class2, params) {
   return new Class2({
     type: "string",
@@ -23834,7 +23834,7 @@ function _refine(Class2, fn, _params) {
   return schema;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/core/to-json-schema.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/core/to-json-schema.js
 var JSONSchemaGenerator = class {
   constructor(params) {
     this.counter = 0;
@@ -24601,7 +24601,7 @@ function isTransforming(_schema, _ctx) {
   throw new Error(`Unknown schema type: ${def.type}`);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/mini/schemas.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/mini/schemas.js
 var ZodMiniType = /* @__PURE__ */ $constructor("ZodMiniType", (inst, def) => {
   if (!inst._zod)
     throw new Error("Uninitialized schema in ZodMiniType.");
@@ -24647,7 +24647,7 @@ function object(shape, params) {
   return new ZodMiniObject(def);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-compat.js
 function isZ4Schema(s) {
   const schema = s;
   return !!schema._zod;
@@ -24807,7 +24807,7 @@ function getLiteralValue(schema) {
   return void 0;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/classic/iso.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/classic/iso.js
 var iso_exports2 = {};
 __export(iso_exports2, {
   ZodISODate: () => ZodISODate,
@@ -24848,7 +24848,7 @@ function duration2(params) {
   return _isoDuration(ZodISODuration, params);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/classic/errors.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/classic/errors.js
 var initializer2 = (inst, issues) => {
   $ZodError.init(inst, issues);
   inst.name = "ZodError";
@@ -24882,13 +24882,13 @@ var ZodRealError = $constructor("ZodError", initializer2, {
   Parent: Error
 });
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/classic/parse.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/classic/parse.js
 var parse2 = /* @__PURE__ */ _parse(ZodRealError);
 var parseAsync2 = /* @__PURE__ */ _parseAsync(ZodRealError);
 var safeParse3 = /* @__PURE__ */ _safeParse(ZodRealError);
 var safeParseAsync3 = /* @__PURE__ */ _safeParseAsync(ZodRealError);
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/classic/schemas.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/classic/schemas.js
 var ZodType2 = /* @__PURE__ */ $constructor("ZodType", (inst, def) => {
   $ZodType.init(inst, def);
   inst.def = def;
@@ -25499,10 +25499,10 @@ function preprocess(fn, schema) {
   return pipe(transform(fn), schema);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod/v4/classic/external.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod/v4/classic/external.js
 config(en_default2());
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
 var LATEST_PROTOCOL_VERSION = "2025-11-25";
 var SUPPORTED_PROTOCOL_VERSIONS = [LATEST_PROTOCOL_VERSION, "2025-06-18", "2025-03-26", "2024-11-05", "2024-10-07"];
 var RELATED_TASK_META_KEY = "io.modelcontextprotocol/related-task";
@@ -27033,12 +27033,12 @@ var UrlElicitationRequiredError = class extends McpError {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/interfaces.js
 function isTerminal(status) {
   return status === "completed" || status === "failed" || status === "cancelled";
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/Options.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/Options.js
 var ignoreOverride = /* @__PURE__ */ Symbol("Let zodToJsonSchema decide on which parser to use");
 var defaultOptions = {
   name: void 0,
@@ -27072,7 +27072,7 @@ var getDefaultOptions = (options) => typeof options === "string" ? {
   ...options
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/Refs.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/Refs.js
 var getRefs = (options) => {
   const _options = getDefaultOptions(options);
   const currentPath = _options.name !== void 0 ? [..._options.basePath, _options.definitionPath, _options.name] : _options.basePath;
@@ -27093,7 +27093,7 @@ var getRefs = (options) => {
   };
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/errorMessages.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/errorMessages.js
 function addErrorMessage(res, key, errorMessage, refs) {
   if (!refs?.errorMessages)
     return;
@@ -27109,7 +27109,7 @@ function setResponseValueAndErrors(res, key, value, errorMessage, refs) {
   addErrorMessage(res, key, errorMessage, refs);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/getRelativePath.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/getRelativePath.js
 var getRelativePath = (pathA, pathB) => {
   let i = 0;
   for (; i < pathA.length && i < pathB.length; i++) {
@@ -27119,7 +27119,7 @@ var getRelativePath = (pathA, pathB) => {
   return [(pathA.length - i).toString(), ...pathB.slice(i)].join("/");
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/any.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/any.js
 function parseAnyDef(refs) {
   if (refs.target !== "openAi") {
     return {};
@@ -27135,7 +27135,7 @@ function parseAnyDef(refs) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/array.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/array.js
 function parseArrayDef(def, refs) {
   const res = {
     type: "array"
@@ -27159,7 +27159,7 @@ function parseArrayDef(def, refs) {
   return res;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/bigint.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/bigint.js
 function parseBigintDef(def, refs) {
   const res = {
     type: "integer",
@@ -27205,24 +27205,24 @@ function parseBigintDef(def, refs) {
   return res;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/boolean.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/boolean.js
 function parseBooleanDef() {
   return {
     type: "boolean"
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/branded.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/branded.js
 function parseBrandedDef(_def, refs) {
   return parseDef(_def.type._def, refs);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/catch.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/catch.js
 var parseCatchDef = (def, refs) => {
   return parseDef(def.innerType._def, refs);
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/date.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/date.js
 function parseDateDef(def, refs, overrideDateStrategy) {
   const strategy = overrideDateStrategy ?? refs.dateStrategy;
   if (Array.isArray(strategy)) {
@@ -27281,7 +27281,7 @@ var integerDateParser = (def, refs) => {
   return res;
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/default.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/default.js
 function parseDefaultDef(_def, refs) {
   return {
     ...parseDef(_def.innerType._def, refs),
@@ -27289,12 +27289,12 @@ function parseDefaultDef(_def, refs) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/effects.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/effects.js
 function parseEffectsDef(_def, refs) {
   return refs.effectStrategy === "input" ? parseDef(_def.schema._def, refs) : parseAnyDef(refs);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/enum.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/enum.js
 function parseEnumDef(def) {
   return {
     type: "string",
@@ -27302,7 +27302,7 @@ function parseEnumDef(def) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/intersection.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/intersection.js
 var isJsonSchema7AllOfType = (type) => {
   if ("type" in type && type.type === "string")
     return false;
@@ -27344,7 +27344,7 @@ function parseIntersectionDef(def, refs) {
   } : void 0;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/literal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/literal.js
 function parseLiteralDef(def, refs) {
   const parsedType2 = typeof def.value;
   if (parsedType2 !== "bigint" && parsedType2 !== "number" && parsedType2 !== "boolean" && parsedType2 !== "string") {
@@ -27364,7 +27364,7 @@ function parseLiteralDef(def, refs) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/string.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/string.js
 var emojiRegex2 = void 0;
 var zodPatterns = {
   /**
@@ -27689,7 +27689,7 @@ function stringifyRegExpWithFlags(regex, refs) {
   return pattern;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/record.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/record.js
 function parseRecordDef(def, refs) {
   if (refs.target === "openAi") {
     console.warn("Warning: OpenAI may not support records in schemas! Try an array of key-value pairs instead.");
@@ -27741,7 +27741,7 @@ function parseRecordDef(def, refs) {
   return schema;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/map.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/map.js
 function parseMapDef(def, refs) {
   if (refs.mapStrategy === "record") {
     return parseRecordDef(def, refs);
@@ -27766,7 +27766,7 @@ function parseMapDef(def, refs) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/nativeEnum.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/nativeEnum.js
 function parseNativeEnumDef(def) {
   const object3 = def.values;
   const actualKeys = Object.keys(def.values).filter((key) => {
@@ -27780,7 +27780,7 @@ function parseNativeEnumDef(def) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/never.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/never.js
 function parseNeverDef(refs) {
   return refs.target === "openAi" ? void 0 : {
     not: parseAnyDef({
@@ -27790,7 +27790,7 @@ function parseNeverDef(refs) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/null.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/null.js
 function parseNullDef(refs) {
   return refs.target === "openApi3" ? {
     enum: ["null"],
@@ -27800,7 +27800,7 @@ function parseNullDef(refs) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/union.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/union.js
 var primitiveMappings = {
   ZodString: "string",
   ZodNumber: "number",
@@ -27868,7 +27868,7 @@ var asAnyOf = (def, refs) => {
   return anyOf.length ? { anyOf } : void 0;
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/nullable.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/nullable.js
 function parseNullableDef(def, refs) {
   if (["ZodString", "ZodNumber", "ZodBigInt", "ZodBoolean", "ZodNull"].includes(def.innerType._def.typeName) && (!def.innerType._def.checks || !def.innerType._def.checks.length)) {
     if (refs.target === "openApi3") {
@@ -27900,7 +27900,7 @@ function parseNullableDef(def, refs) {
   return base && { anyOf: [base, { type: "null" }] };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/number.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/number.js
 function parseNumberDef(def, refs) {
   const res = {
     type: "number"
@@ -27949,7 +27949,7 @@ function parseNumberDef(def, refs) {
   return res;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/object.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/object.js
 function parseObjectDef(def, refs) {
   const forceOptionalIntoNullable = refs.target === "openAi";
   const result = {
@@ -28019,7 +28019,7 @@ function safeIsOptional(schema) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/optional.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/optional.js
 var parseOptionalDef = (def, refs) => {
   if (refs.currentPath.toString() === refs.propertyPath?.toString()) {
     return parseDef(def.innerType._def, refs);
@@ -28038,7 +28038,7 @@ var parseOptionalDef = (def, refs) => {
   } : parseAnyDef(refs);
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/pipeline.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/pipeline.js
 var parsePipelineDef = (def, refs) => {
   if (refs.pipeStrategy === "input") {
     return parseDef(def.in._def, refs);
@@ -28058,12 +28058,12 @@ var parsePipelineDef = (def, refs) => {
   };
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/promise.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/promise.js
 function parsePromiseDef(def, refs) {
   return parseDef(def.type._def, refs);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/set.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/set.js
 function parseSetDef(def, refs) {
   const items = parseDef(def.valueType._def, {
     ...refs,
@@ -28083,7 +28083,7 @@ function parseSetDef(def, refs) {
   return schema;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/tuple.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/tuple.js
 function parseTupleDef(def, refs) {
   if (def.rest) {
     return {
@@ -28111,24 +28111,24 @@ function parseTupleDef(def, refs) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/undefined.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/undefined.js
 function parseUndefinedDef(refs) {
   return {
     not: parseAnyDef(refs)
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/unknown.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/unknown.js
 function parseUnknownDef(refs) {
   return parseAnyDef(refs);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parsers/readonly.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parsers/readonly.js
 var parseReadonlyDef = (def, refs) => {
   return parseDef(def.innerType._def, refs);
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/selectParser.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/selectParser.js
 var selectParser = (def, typeName, refs) => {
   switch (typeName) {
     case ZodFirstPartyTypeKind.ZodString:
@@ -28204,7 +28204,7 @@ var selectParser = (def, typeName, refs) => {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/parseDef.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/parseDef.js
 function parseDef(def, refs, forceResolution = false) {
   const seenItem = refs.seen.get(def);
   if (refs.override) {
@@ -28260,7 +28260,7 @@ var addMeta = (def, refs, jsonSchema) => {
   return jsonSchema;
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/zod-to-json-schema/dist/esm/zodToJsonSchema.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/zod-to-json-schema/dist/esm/zodToJsonSchema.js
 var zodToJsonSchema = (schema, options) => {
   const refs = getRefs(options);
   let definitions = typeof options === "object" && options.definitions ? Object.entries(options.definitions).reduce((acc, [name2, schema2]) => ({
@@ -28322,7 +28322,7 @@ var zodToJsonSchema = (schema, options) => {
   return combined;
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/zod-json-schema-compat.js
 function mapMiniTarget(t) {
   if (!t)
     return "draft-7";
@@ -28364,7 +28364,7 @@ function parseWithCompat(schema, data) {
   return result.data;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
 var DEFAULT_REQUEST_TIMEOUT_MSEC = 6e4;
 var Protocol = class {
   constructor(_options) {
@@ -29318,7 +29318,7 @@ function mergeCapabilities(base, additional) {
   return result;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/validation/ajv-provider.js
 var import_ajv = __toESM(require_ajv(), 1);
 var import_ajv_formats = __toESM(require_dist(), 1);
 function createDefaultAjvInstance() {
@@ -29386,7 +29386,7 @@ var AjvJsonSchemaValidator = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/server.js
 var ExperimentalServerTasks = class {
   constructor(_server) {
     this._server = _server;
@@ -29599,7 +29599,7 @@ var ExperimentalServerTasks = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/helpers.js
 function assertToolsCallTaskCapability(requests, method, entityName) {
   if (!requests) {
     throw new Error(`${entityName} does not support task creation (required for ${method})`);
@@ -29634,7 +29634,7 @@ function assertClientRequestTaskCapability(requests, method, entityName) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
 var Server = class extends Protocol {
   /**
    * Initializes this server with the given name and version information.
@@ -30005,7 +30005,7 @@ var Server = class extends Protocol {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/completable.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/completable.js
 var COMPLETABLE_SYMBOL = /* @__PURE__ */ Symbol.for("mcp.completable");
 function isCompletable(schema) {
   return !!schema && typeof schema === "object" && COMPLETABLE_SYMBOL in schema;
@@ -30019,7 +30019,7 @@ var McpZodTypeKind;
   McpZodTypeKind2["Completable"] = "McpCompletable";
 })(McpZodTypeKind || (McpZodTypeKind = {}));
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/toolNameValidation.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/toolNameValidation.js
 var TOOL_NAME_REGEX = /^[A-Za-z0-9._-]{1,128}$/;
 function validateToolName(name) {
   const warnings = [];
@@ -30077,7 +30077,7 @@ function validateAndWarnToolName(name) {
   return result.isValid;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/mcp-server.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/experimental/tasks/mcp-server.js
 var ExperimentalMcpServerTasks = class {
   constructor(_mcpServer) {
     this._mcpServer = _mcpServer;
@@ -30092,7 +30092,7 @@ var ExperimentalMcpServerTasks = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/mcp.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/mcp.js
 var McpServer = class {
   constructor(serverInfo, options) {
     this._registeredResources = {};
@@ -30884,10 +30884,10 @@ var EMPTY_COMPLETION_RESULT = {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 import process2 from "node:process";
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
 var STDIO_DEFAULT_MAX_BUFFER_SIZE = 10 * 1024 * 1024;
 var ReadBuffer = class {
   constructor(options) {
@@ -30924,7 +30924,7 @@ function serializeMessage(message) {
   return JSON.stringify(message) + "\n";
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 var StdioServerTransport = class {
   constructor(_stdin = process2.stdin, _stdout = process2.stdout, options) {
     this._stdin = _stdin;
@@ -30991,7 +30991,7 @@ var StdioServerTransport = class {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/contract.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/contract.js
 var org = "/v1/seller/organizations/{merchant_id}";
 var draft = `${org}/service-drafts/{draft_id}`;
 var read4 = "itpay.seller.read";
@@ -31084,7 +31084,7 @@ function sellRequest(operation, params, input = {}) {
   return { path: path3, method: operation.method, body: input };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/mcp.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/mcp.js
 async function serveSellMCP(directory) {
   const server = new McpServer({ name: "itpay-sell-local", version: SELL_GUIDE.version }, { instructions: "Use itpay_seller_guide first. Local tests call Provider APIs and may incur cost; disclose side effects and obtain user approval. Never pass secret values in tool arguments. This server uses its configured project directory." });
   server.tool("itpay_seller_guide", "Read the publishing guide and constraints", {}, async () => ({ content: [{ type: "text", text: JSON.stringify({ ...SELL_GUIDE, operations: SELL_OPERATIONS }) }] }));
@@ -31127,7 +31127,7 @@ async function serveSellMCP(directory) {
   await server.connect(new StdioServerTransport());
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/sell/commands.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/sell/commands.js
 import { readFileSync as readFileSync8 } from "node:fs";
 function registerSell(program3) {
   const sell = program3.command("sell").description("Create, test and submit your service for review");
@@ -31206,10 +31206,10 @@ function registerSell(program3) {
   return sell;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/main.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/main.js
 import { readFileSync as readWorkflowInputFile, statSync as statWorkflowInputFile } from "node:fs";
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/client_context.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/client_context.js
 var SUPPORTED_HOSTS = /* @__PURE__ */ new Set([
   "terminal",
   "codex",
@@ -31333,7 +31333,7 @@ function hostCapabilities(host) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/terminal_image.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/terminal_image.js
 import { readFileSync as readFileSync9 } from "node:fs";
 import path2 from "node:path";
 function supportsInlineTerminalImages() {
@@ -31354,7 +31354,7 @@ function renderInlineTerminalImage(filePath, out) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/ide.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/ide.js
 import { mkdirSync as mkdirSync8, readFileSync as readFileSync10, renameSync as renameSync5, writeFileSync as writeFileSync7 } from "node:fs";
 import { join as join3 } from "node:path";
 import { tmpdir } from "node:os";
@@ -31590,7 +31590,7 @@ function ideImageAttachBlock(attach) {
   return lines;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/terminal.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/terminal.js
 import { copyFile } from "node:fs/promises";
 async function renderTerminal(plan, options) {
   const out = options.output ?? ((line) => process.stdout.write(line));
@@ -31751,7 +31751,7 @@ function fmtPrice(amountMinor, currency) {
   return `${(amountMinor / 100).toFixed(2)} ${currency}`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/markdown.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/markdown.js
 function renderMarkdown(plan, options = {}) {
   const out = options.output ?? ((line) => process.stdout.write(line + "\n"));
   const handoff = buildAgentChatHandoff(plan);
@@ -31787,7 +31787,7 @@ function formatPrice(amountMinor, currency) {
   return `${(amountMinor / 100).toFixed(2)} ${currency}`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/plain_chat.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/plain_chat.js
 function renderPlainChat(plan, options = {}) {
   const out = options.output ?? ((line) => process.stdout.write(line));
   if (plan.linkOnlyURL) {
@@ -31845,7 +31845,7 @@ function renderInteractionText(request) {
   return lines.join("\n");
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/telegram.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/telegram.js
 function buttonsFor(plan) {
   if (plan.kind === "payment_qr" && plan.paymentIntentID) {
     return [
@@ -31931,7 +31931,7 @@ function collectTelegramMedia(plan) {
   return media;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/feishu.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/feishu.js
 function actionFor(plan, button) {
   if (button.kind === "url" && button.url) {
     return {
@@ -32044,7 +32044,7 @@ function collectFeishuMedia(plan) {
   return media;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/plan.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/plan.js
 function platformKeyForHost(host) {
   switch (host) {
     case "terminal":
@@ -32066,7 +32066,7 @@ function platformKeyForHost(host) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/index.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/index.js
 async function dispatchRender(plan, options) {
   const key = platformKeyForHost(plan.host);
   if (key === "markdown" || key === "terminal") {
@@ -32116,7 +32116,7 @@ async function dispatchRender(plan, options) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/checkout_handoff.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/checkout_handoff.js
 function shouldPrepareLocalCheckoutImage(platform2) {
   return platform2 === "markdown";
 }
@@ -32206,7 +32206,7 @@ function checkoutHandoffInstruction(agentType, platform2, amount, hasMobileLink)
   return `Backend \u5C1A\u672A\u786E\u8BA4\u4ED8\u6B3E\u3002\u628A ${urlList} \u5B9E\u9645\u53D1\u9001\u5230\u5F53\u524D\u4F1A\u8BDD\uFF0C\u8BF4\u660E\u91D1\u989D ${amount}\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002\u4E0D\u8981\u521B\u5EFA\u65B0 Checkout\u3001Payment Intent \u6216 Execution\uFF1B\u53EA\u6709\u7528\u6237\u660E\u786E\u8868\u793A\u5DF2\u4ED8\u6B3E\u6216\u8981\u6C42\u67E5\u8BE2\u72B6\u6001\u65F6\uFF0C\u624D\u6267\u884C next.command\uFF1B\u7528\u6237\u7684\u8BDD\u4E0D\u662F\u4ED8\u6B3E\u6210\u529F\u8BC1\u660E\u3002`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/locale.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/locale.js
 function normalizeCardLocale(value) {
   switch (value?.trim().toLowerCase()) {
     case void 0:
@@ -32234,13 +32234,40 @@ function localizeCardURL(value, locale) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/rail_catalog.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/rail_catalog.js
 var RailCatalogEncodingError = class extends Error {
   constructor(encoding) {
-    super(`catalog encoding ${JSON.stringify(encoding)} is not supported by this CLI \u2014 run npm install -g @itpay/cli to upgrade; the committed catalog is intact`);
+    super(`catalog encoding ${JSON.stringify(encoding)} is not supported by CLI ${CLI_VERSION} (${cliDistribution()}); obtain a compatible exact version through this installation channel. The committed catalog is intact`);
     this.name = "rail_catalog_encoding";
   }
 };
+function scopeFromProfiles(value) {
+  const profiles = Array.isArray(value) ? value : [];
+  const selected = profiles.find((p) => Array.isArray(p) && Array.isArray(p[1]) && p[1].includes("balanced")) ?? profiles[0];
+  if (!Array.isArray(selected))
+    return {
+      origin: "legacy_unknown",
+      destination: "legacy_unknown",
+      duration_basis: "legacy_unknown",
+      arrival_basis: "legacy_unknown",
+      cost_basis: "legacy_unknown",
+      duration_minutes: null,
+      estimated_total_cost: null,
+      cost_incomplete: true
+    };
+  const extras = selected[10] && typeof selected[10] === "object" ? selected[10] : {};
+  const total = typeof selected[9] === "number" && extras.ci !== true ? selected[9] / 100 : null;
+  return {
+    origin: extras.os ?? "legacy_unknown",
+    destination: extras.ds ?? "legacy_unknown",
+    duration_basis: extras.db ?? "legacy_unknown",
+    arrival_basis: extras.ab ?? "legacy_unknown",
+    cost_basis: extras.cb ?? "legacy_unknown",
+    duration_minutes: selected[8] ?? null,
+    estimated_total_cost: total,
+    cost_incomplete: extras.ci === true
+  };
+}
 function asString(v) {
   return typeof v === "string" && v.length > 0 ? v : void 0;
 }
@@ -32249,6 +32276,141 @@ function asIndex(v, bound) {
     throw new Error("shared_rows: index out of bounds");
   }
   return v;
+}
+function asObject(value) {
+  return value !== null && typeof value === "object" && !Array.isArray(value) ? value : {};
+}
+function datedTime(date3, value) {
+  const raw = asString(value);
+  if (!raw)
+    return null;
+  if (/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}/.test(raw))
+    return raw.replace("T", " ").slice(0, 16);
+  const short = raw.match(/^(\d{2}:\d{2})(?:\+(\d+))?$/);
+  const day = asString(date3);
+  if (!short || !day)
+    return null;
+  if (!short[2])
+    return `${day} ${short[1]}`;
+  const shifted = /* @__PURE__ */ new Date(`${day}T00:00:00Z`);
+  if (Number.isNaN(shifted.getTime()))
+    return null;
+  shifted.setUTCDate(shifted.getUTCDate() + Number(short[2]));
+  return `${shifted.toISOString().slice(0, 10)} ${short[1]}`;
+}
+function elapsedMinutes(departure, arrival) {
+  if (!departure || !arrival)
+    return null;
+  const start = Date.parse(departure.replace(" ", "T") + "Z");
+  const end = Date.parse(arrival.replace(" ", "T") + "Z");
+  return Number.isFinite(start) && Number.isFinite(end) && end >= start ? (end - start) / 6e4 : null;
+}
+function seatOffer(row, names) {
+  if (!Array.isArray(row))
+    return null;
+  const extras = asObject(row[7]);
+  const code = asString(row[1]);
+  return {
+    offer_ref: row[0],
+    seat_type: code ?? null,
+    seat_name: code ? names[code] ?? code : null,
+    inventory_status: row[2] ?? null,
+    quantity: row[3] ?? null,
+    unit_price_fen: row[4] ?? null,
+    eligible: row[5] === true,
+    requires_quote: row[6] === true,
+    price_source: extras.s ?? "sale_price",
+    quote_price_unverified: extras.u === true,
+    conflicted: extras.c === true,
+    ...Array.isArray(extras.o) ? { price_observations_fen: extras.o } : {}
+  };
+}
+function decodeRide(row, wait, stations, services2) {
+  if (!Array.isArray(row)) {
+    const ride = asObject(row);
+    if (!Object.keys(ride).length)
+      throw new Error("rail catalog: malformed ride row");
+    const refs2 = Array.isArray(ride.service_refs) ? ride.service_refs : [];
+    const codes2 = [...new Set(refs2.map((ref) => asObject(services2[asString(ref) ?? ""]).tc).filter((code) => typeof code === "string" && code.length > 0))];
+    const departure2 = datedTime(ride.boarding_date, ride.departure_at ?? ride.departure);
+    const arrival2 = datedTime(ride.boarding_date, ride.arrival_at ?? ride.arrival);
+    return {
+      train_codes: codes2,
+      train_code: codes2.join("/"),
+      from_station: stations[asString(ride.from_station_code) ?? ""] ?? ride.from_station ?? null,
+      to_station: stations[asString(ride.to_station_code) ?? ""] ?? ride.to_station ?? null,
+      boarding_date: ride.boarding_date ?? null,
+      departure: departure2,
+      arrival: arrival2,
+      duration_minutes: elapsedMinutes(departure2, arrival2),
+      wait_minutes: typeof wait === "number" ? wait : ride.wait_minutes ?? null,
+      same_run: ride.same_run === true,
+      onboard_stops: Array.isArray(ride.onboard_stops) ? ride.onboard_stops : []
+    };
+  }
+  const extras = asObject(row[8]);
+  const refs = Array.isArray(row[4]) ? row[4] : [];
+  const codes = [...new Set(refs.map((ref) => asObject(services2[asString(ref) ?? ""]).tc).filter((code) => typeof code === "string" && code.length > 0))];
+  const base = row[0];
+  const departure = datedTime(base, extras.dep);
+  const arrival = datedTime(base, extras.arr);
+  return {
+    train_codes: codes,
+    train_code: codes.join("/"),
+    from_station: stations[asString(row[2]) ?? ""] ?? row[2] ?? null,
+    to_station: stations[asString(row[3]) ?? ""] ?? row[3] ?? null,
+    boarding_date: base ?? null,
+    departure,
+    arrival,
+    duration_minutes: elapsedMinutes(departure, arrival),
+    wait_minutes: typeof wait === "number" ? wait : typeof row[5] === "number" ? row[5] : null,
+    same_run: row[6] === true,
+    onboard_stops: Array.isArray(row[7]) ? row[7] : []
+  };
+}
+function decodePlans(rawPlans, rawProfiles, packed, catalog, services2, names, stations) {
+  const plans = Array.isArray(rawPlans) ? rawPlans : [];
+  const profiles = Array.isArray(rawProfiles) ? rawProfiles : [];
+  const preferred = profiles.find((profile2) => Array.isArray(profile2) && Array.isArray(profile2[1]) && profile2[1].includes("balanced")) ?? profiles[0];
+  const profile = Array.isArray(preferred) ? preferred : [];
+  const serviceIndex = Array.isArray(catalog.service_index) ? catalog.service_index : [];
+  const selectedPlan = packed && typeof profile[2] === "number" ? plans[asIndex(profile[2], plans.length)] : plans.find((plan) => Array.isArray(plan) && plan[0] === profile[2]);
+  const selectedRef = Array.isArray(selectedPlan) ? selectedPlan[0] : null;
+  const decoded = plans.map((plan) => {
+    if (!Array.isArray(plan))
+      throw new Error("rail catalog: malformed ticket plan");
+    const refs = (Array.isArray(plan[1]) ? plan[1] : []).map((ref) => packed && typeof ref === "number" ? serviceIndex[asIndex(ref, serviceIndex.length)] : ref);
+    const extras = asObject(plan[7]);
+    const legs = refs.map((ref, index) => {
+      const service = asObject(services2[asString(ref) ?? ""]);
+      const offers = Array.isArray(service.of) ? service.of : [];
+      const selectedOffer = plan[0] === selectedRef && Array.isArray(profile[3]) ? profile[3][index] : void 0;
+      const chosen = packed && typeof selectedOffer === "number" ? offers[asIndex(selectedOffer, offers.length)] : offers.find((offer) => Array.isArray(offer) && offer[0] === selectedOffer);
+      return {
+        service_ref: ref ?? null,
+        train_code: service.tc ?? null,
+        from_station: stations[asString(service.f) ?? ""] ?? service.f ?? null,
+        to_station: stations[asString(service.t) ?? ""] ?? service.t ?? null,
+        departure: datedTime(service.d, service.dep),
+        arrival: datedTime(service.d, service.arr),
+        seat_options: offers.map((offer) => seatOffer(offer, names)).filter((offer) => offer !== null),
+        ...chosen ? { selected_seat: seatOffer(chosen, names) } : {}
+      };
+    });
+    const amount = asObject(plan[3]);
+    return {
+      ticket_plan_ref: plan[0],
+      passenger_count: plan[2] ?? null,
+      purchase_support: plan[6] ?? "none",
+      rail_amount_verified: plan[4] === true,
+      rail_amount_fen: { default: amount.def ?? null, minimum: amount.min ?? null, maximum: amount.max ?? null },
+      service_fee_fen: plan[5] ?? null,
+      quote_price_unverified: extras.qu === true,
+      legs
+    };
+  });
+  const selected = decoded.find((plan) => plan.ticket_plan_ref === selectedRef);
+  return { plans: decoded, ...selected ? { selected } : {} };
 }
 function regenerateRoute(ridePairs, rideTable, stations, services2) {
   const name = (code, fallback) => asString(stations[asString(code) ?? ""]) ?? asString(fallback) ?? asString(code) ?? "?";
@@ -32287,6 +32449,9 @@ function decodeRailCatalogJourneys(catalog) {
   const encoding = catalog["encoding"];
   const layerMap = catalog["choice_layers"]?.["journey_layer"] ?? {};
   const layerOf = (ref) => layerMap[ref] === "backup" ? "backup" : "main";
+  const stations = asObject(catalog.stations);
+  const services2 = asObject(catalog.services);
+  const seatNames = asObject(catalog.seat_names);
   if (encoding === void 0 || encoding === null) {
     const rows = Array.isArray(catalog["journeys"]) ? catalog["journeys"] : [];
     return {
@@ -32294,11 +32459,17 @@ function decodeRailCatalogJourneys(catalog) {
       journeys: rows.map((j) => {
         const rec = j ?? {};
         const ref = asString(rec["ref"]) ?? asString(rec["journey_id"]) ?? "?";
+        const calculationScope = scopeFromProfiles(rec["profiles"]);
+        const rides = (Array.isArray(rec.rides) ? rec.rides : []).map((ride) => decodeRide(ride, null, stations, services2));
+        const ticketPlans = decodePlans(rec.plans, rec.profiles, false, catalog, services2, seatNames, stations);
         return {
           ref,
           route: asString(rec["route"]) ?? asString(rec["route_text"]) ?? asString(rec["summary"]) ?? "",
           defaultLayer: layerOf(ref),
-          rides: Array.isArray(rec["rides"]) ? rec["rides"] : []
+          rides,
+          ...calculationScope ? { calculation_scope: calculationScope } : {},
+          ticket_plans: ticketPlans.plans,
+          ...ticketPlans.selected ? { selected_plan: ticketPlans.selected } : {}
         };
       })
     };
@@ -32311,9 +32482,6 @@ function decodeRailCatalogJourneys(catalog) {
     throw new RailCatalogEncodingError(`${String(encoding)} (unexpected journey_columns)`);
   }
   const rideTable = Array.isArray(catalog["ride_table"]) ? catalog["ride_table"] : [];
-  const stations = catalog["stations"] ?? {};
-  const services2 = catalog["services"] ?? {};
-  const seatNames = catalog["seat_names"] ?? {};
   const journeys = Array.isArray(catalog["journeys"]) ? catalog["journeys"] : [];
   return {
     packed: true,
@@ -32323,45 +32491,38 @@ function decodeRailCatalogJourneys(catalog) {
       const ref = asString(row[0]) ?? "?";
       const route = asString(row[1]) ?? (Array.isArray(row[2]) ? regenerateRoute(row[2], rideTable, stations, services2) : "");
       const rides = (Array.isArray(row[2]) ? row[2] : []).map((pair) => {
-        const ride = rideTable[asIndex(pair[0], rideTable.length)];
-        const serviceRef = Array.isArray(ride[4]) ? ride[4][0] : void 0;
-        const service = services2[asString(serviceRef) ?? ""] ?? {};
-        const offers = Array.isArray(service.of) ? service.of : [];
-        return {
-          train_code: service.tc,
-          from_station: stations[asString(ride[2]) ?? ""] ?? ride[2],
-          to_station: stations[asString(ride[3]) ?? ""] ?? ride[3],
-          boarding_date: ride[0],
-          departure: service.dep,
-          arrival: service.arr,
-          wait_minutes: pair[1],
-          seats: offers.map((offer) => ({
-            seat_type: offer[1],
-            seat_name: seatNames[asString(offer[1]) ?? ""] ?? offer[1],
-            inventory_status: offer[2],
-            quantity: offer[3],
-            unit_price_fen: offer[4]
-          }))
-        };
+        if (!Array.isArray(pair) || pair.length !== 2)
+          throw new Error("shared_rows: malformed ride pair");
+        return decodeRide(rideTable[asIndex(pair[0], rideTable.length)], pair[1], stations, services2);
       });
-      return { ref, route, defaultLayer: layerOf(ref), rides };
+      const calculationScope = scopeFromProfiles(row[6]);
+      const ticketPlans = decodePlans(row[3], row[6], true, catalog, services2, seatNames, stations);
+      return {
+        ref,
+        route,
+        defaultLayer: layerOf(ref),
+        rides,
+        ...calculationScope ? { calculation_scope: calculationScope } : {},
+        ticket_plans: ticketPlans.plans,
+        ...ticketPlans.selected ? { selected_plan: ticketPlans.selected } : {}
+      };
     })
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/output.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/output.js
 function formatMoney(amountMinor, currency) {
   const major = (amountMinor / 100).toFixed(2);
   return `${major} ${currency}`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/sink.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/sink.js
 var defaultOutput = (line) => process.stdout.write(line);
 function resolveOutput(sink) {
   return sink ?? defaultOutput;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/guidance.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/guidance.js
 function isTerminalServiceExecutionStatus(status) {
   return status === "failed" || status === "refunded" || status === "cancelled";
 }
@@ -32526,7 +32687,7 @@ function printErrorRecovery(error2, output) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/buy.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/buy.js
 async function runBuy(backend, config2, options) {
   const err = validateContext(options.host, options.target);
   if (err) {
@@ -32827,7 +32988,7 @@ function absolutePublicURL(baseURL, value) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/services.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/services.js
 var RAIL_PROGRESSIVE_FEATURES = ["rail.progressive.v2"];
 function journalTaskState(serviceExecutionID, envelope, env) {
   try {
@@ -32881,16 +33042,16 @@ function railServiceGuidance(serviceID) {
   return RAIL_SERVICE_GUIDANCE[serviceID];
 }
 var WORKFLOW_STEP_GUIDANCE = {
-  input: { meaning: "\u8F93\u5165\u6821\u9A8C", hint: "\u5BF9\u7167\u670D\u52A1\u58F0\u660E\u7684\u8F93\u5165\u5951\u7EA6\u8865\u9F50\u5B57\u6BB5\u540E\u91CD\u65B0\u53D1\u8D77" },
-  quota: { meaning: "\u989D\u5EA6\u68C0\u67E5", hint: "\u514D\u8D39\u989D\u5EA6\u6216\u9650\u6D41\u672A\u901A\u8FC7\uFF1B\u767B\u5F55\u6216\u7A0D\u540E\u91CD\u8BD5" },
-  geo: { meaning: "\u4F4D\u7F6E\u89E3\u6790", hint: "\u68C0\u67E5 origin/destination \u662F\u5426\u4E3A\u771F\u5B9E\u5730\u540D\uFF1B\u53EF\u9644 origin_city \u6216\u5750\u6807\u5BF9\u8C61\u63D0\u793A" },
-  geo_confirm: { meaning: "\u786E\u8BA4\u540E\u4F4D\u7F6E\u89E3\u6790", hint: "\u7528\u6237\u786E\u8BA4\u7684\u5730\u70B9\u4ECD\u672A\u89E3\u6790\u6210\u529F\uFF1B\u91CD\u65B0\u6267\u884C\u5E76\u8BA9\u7528\u6237\u4ECE\u5019\u9009\u9879\u4E2D\u6309\u540D\u79F0+\u5750\u6807\u9009\u62E9" },
-  resolved: { meaning: "\u4F4D\u7F6E\u89E3\u6790\u590D\u6838", hint: "\u4F4D\u7F6E\u89E3\u6790\u672A\u6EE1\u8DB3\u7EE7\u7EED\u6761\u4EF6\uFF1B\u68C0\u67E5 origin/destination \u540E\u65B0\u5EFA\u6267\u884C\u91CD\u8BD5" },
-  resolved_after_confirm: { meaning: "\u4F4D\u7F6E\u786E\u8BA4\u590D\u6838", hint: "\u786E\u8BA4\u540E\u7684\u4F4D\u7F6E\u4ECD\u672A\u901A\u8FC7\u590D\u6838\uFF1B\u91CD\u65B0\u6267\u884C\u5E76\u6838\u5BF9\u7528\u6237\u6240\u9009\u5019\u9009\u9879" },
-  search: { meaning: "\u4F9B\u5E94\u5546\u8F66\u6B21\u68C0\u7D22", hint: "\u6700\u5E38\u89C1\u662F\u5B57\u6BB5\u540D\u9519\u8BEF\uFF08\u5FC5\u987B\u662F travel_date\uFF09\u6216\u7AD9\u540D\u4E0D\u5B58\u5728\uFF1B\u6309 itpay docs show rail-booking \u6838\u5BF9\u8F93\u5165" },
-  catalog: { meaning: "\u53EF\u884C\u8F66\u6B21\u8BA1\u7B97", hint: "\u4F4D\u7F6E\u5DF2\u89E3\u6790\u4F46\u65E0\u53EF\u884C\u8F66\u6B21\uFF1B\u6362\u65E5\u671F\u6216\u6362\u7AD9\u70B9\u91CD\u8BD5" },
-  recommend: { meaning: "\u65B9\u6848\u63A8\u8350", hint: "\u5019\u9009\u96C6\u65E0\u6CD5\u4EA7\u51FA\u63A8\u8350\uFF1B\u653E\u5BBD\u6761\u4EF6\u6216\u6362\u65E5\u671F\u91CD\u8BD5" },
-  delivery: { meaning: "\u4EA4\u4ED8", hint: "\u7ED3\u679C\u7EC4\u88C5\u5931\u8D25\uFF1B\u7A0D\u540E\u91CD\u8BD5\u6216\u8054\u7CFB\u8FD0\u8425" }
+  input: { meaning: "\u8F93\u5165\u6821\u9A8C", hint: "\u6838\u5BF9\u672C\u670D\u52A1\u7684\u8F93\u5165\u5951\u7EA6\u548C\u670D\u52A1\u7AEF\u9519\u8BEF\u7801\uFF1B\u672C\u6267\u884C\u7684\u8F93\u5165\u4E0D\u80FD\u51ED\u731C\u6D4B\u4FEE\u590D" },
+  quota: { meaning: "\u989D\u5EA6\u68C0\u67E5", hint: "\u67E5\u770B\u5B9E\u9645\u989D\u5EA6\u53CA\u6388\u6743\u72B6\u6001\uFF1B\u53EA\u6309\u8FD4\u56DE\u7684\u767B\u5F55\u6216\u7B49\u5F85\u52A8\u4F5C\u5904\u7406" },
+  geo: { meaning: "\u4F4D\u7F6E\u89E3\u6790", hint: "\u67E5\u770B\u5B9E\u9645\u5730\u70B9\u89E3\u6790\u9519\u8BEF\uFF1B\u6709\u6B67\u4E49\u65F6\u8BA9\u7528\u6237\u9009\u62E9\u8FD4\u56DE\u7684\u5019\u9009" },
+  geo_confirm: { meaning: "\u786E\u8BA4\u540E\u4F4D\u7F6E\u89E3\u6790", hint: "\u6838\u5BF9\u670D\u52A1\u7AEF\u8BB0\u5F55\u7684\u5019\u9009\u4E0E\u7528\u6237\u5B9E\u9645\u9009\u62E9" },
+  resolved: { meaning: "\u4F4D\u7F6E\u89E3\u6790\u590D\u6838", hint: "\u67E5\u770B\u672A\u6EE1\u8DB3\u7684\u5B9E\u9645\u4F4D\u7F6E\u6761\u4EF6" },
+  resolved_after_confirm: { meaning: "\u4F4D\u7F6E\u786E\u8BA4\u590D\u6838", hint: "\u6838\u5BF9\u5DF2\u786E\u8BA4\u5730\u70B9\u4E0E\u670D\u52A1\u7AEF\u590D\u6838\u7ED3\u679C" },
+  search: { meaning: "\u4F9B\u5E94\u5546\u8F66\u6B21\u68C0\u7D22", hint: "\u67E5\u770B\u4F9B\u5E94\u5546\u8FD4\u56DE\u7684\u9519\u8BEF\u7801\u4E0E\u5F53\u524D\u7AD9\u5BF9\uFF1B\u4E0D\u8981\u63A8\u65AD\u662F\u5B57\u6BB5\u6216\u7AD9\u540D\u9519\u8BEF" },
+  catalog: { meaning: "\u53EF\u884C\u8F66\u6B21\u8BA1\u7B97", hint: "\u67E5\u770B\u5DF2\u4FDD\u5B58\u7ED3\u679C\u548C\u5B9E\u9645\u8FC7\u6EE4\u539F\u56E0\uFF1B\u4E0D\u8981\u65E0\u539F\u56E0\u6539\u65E5\u671F\u6216\u7AD9\u70B9" },
+  recommend: { meaning: "\u65B9\u6848\u63A8\u8350", hint: "\u67E5\u770B\u5DF2\u4FDD\u5B58\u5019\u9009\u548C\u5B9E\u9645\u63A8\u8350\u5931\u8D25\u539F\u56E0\uFF1B\u4E0D\u8981\u65E0\u539F\u56E0\u653E\u5BBD\u6761\u4EF6" },
+  delivery: { meaning: "\u4EA4\u4ED8", hint: "\u8BFB\u53D6\u5F53\u524D\u6267\u884C\u72B6\u6001\uFF1B\u5DF2\u6709\u8BA2\u5355\u6216\u4ED8\u6B3E\u72B6\u6001\u4E0D\u660E\u65F6\u5148\u6838\u5B9E\uFF0C\u4E0D\u91CD\u5EFA" }
 };
 function failedWorkflowStep(steps, errorCode) {
   if (!steps)
@@ -33475,22 +33636,25 @@ async function runServicesCheckout(backend, config2, serviceExecutionID, capabil
   const cardURL = localizeCardURL(absolutePublicURL2(config2.baseURL, checkout.card_url ?? fallbackCardURL2(config2.baseURL, checkoutID, displayToken)), locale);
   const cardPNGURL = localizeCardURL(absolutePublicURL2(config2.baseURL, checkout.card_png_url ?? checkout.qr_png_url ?? fallbackCardPNGURL2(config2.baseURL, checkoutID, displayToken)), locale);
   let itineraryTitle;
-  const booking = await backend.getServiceExecution(serviceExecutionID);
-  if (booking.execution.service_id === "itpay-rail-booking") {
-    const leg = booking.rail_booking?.legs?.[0];
-    const review = booking.workflow?.human_action?.context?.review;
-    const reviewLeg = Array.isArray(review?.legs) ? review.legs[0] : void 0;
-    const facts = leg ?? reviewLeg;
-    if (facts) {
-      itineraryTitle = [
-        facts.travel_date,
-        facts.train_code,
-        facts.from ?? facts.from_station,
-        "\u2192",
-        facts.to ?? facts.to_station,
-        facts.seat_name ?? facts.seat_type_name
-      ].filter((value) => typeof value === "string" && value.length > 0).join(" ");
+  try {
+    const booking = await backend.getServiceExecution(serviceExecutionID);
+    if (booking.execution.service_id === "itpay-rail-booking") {
+      const leg = booking.rail_booking?.legs?.[0];
+      const review = booking.workflow?.human_action?.context?.review;
+      const reviewLeg = Array.isArray(review?.legs) ? review.legs[0] : void 0;
+      const facts = leg ?? reviewLeg;
+      if (facts) {
+        itineraryTitle = [
+          facts.travel_date,
+          facts.train_code,
+          facts.from ?? facts.from_station,
+          "\u2192",
+          facts.to ?? facts.to_station,
+          facts.seat_name ?? facts.seat_type_name
+        ].filter((value) => typeof value === "string" && value.length > 0).join(" ");
+      }
     }
+  } catch {
   }
   const plan = buildCheckoutQRPlan({
     host,
@@ -33698,6 +33862,36 @@ async function runServicesPage(backend, serviceExecutionID, resultItemID, option
   const response = await backend.getServiceExecutionResultItemPage(serviceExecutionID, resultItemID, offset, limit);
   const page = response.page;
   const container = page.result ?? page;
+  const exactCandidate = limit === 1 && Array.isArray(container.candidates) && container.candidates.length === 1 ? container.candidates[0] : void 0;
+  if (exactCandidate && typeof exactCandidate.train_code === "string" && Array.isArray(exactCandidate.seats)) {
+    const offer = exactCandidate.booking_offer;
+    const seats = exactCandidate.seats.filter((seat2) => seat2.purchase_supported === true);
+    const seat = seats[0];
+    writeCommandEnvelope({
+      status: "exact_train_detail",
+      result: {
+        service_execution_id: serviceExecutionID,
+        result_item_id: resultItemID,
+        result_offset: offset,
+        candidate: exactCandidate,
+        ...offer?.service_id && offer.selection_token ? { booking_template: {
+          command: `itpay services run ${offer.service_id} --input-json <file> --json`,
+          executable: false,
+          required_input: ["file", "passengers", "seat_type"],
+          seat_choices: seats.map((choice) => ({ seat_type: choice.seat_type, seat_name: choice.seat_name })),
+          input_example: { selection: { token: offer.selection_token, ...typeof seat?.seat_type === "string" ? { seat_type: seat.seat_type } : {} }, passengers: 1 }
+        } } : {}
+      },
+      instruction: offer?.selection_token ? "\u8FD9\u662F\u5DF2\u4FDD\u5B58\u8F66\u6B21\u7684\u5F53\u524D\u8BE6\u60C5\uFF1B\u53EA\u6309 purchase_supported \u5E2D\u522B\u4EE3\u7801\u3001\u5E93\u5B58\u4E0E\u62A5\u4EF7\u72B6\u6001\u9009\u62E9\u3002\u8D2D\u7968\u6A21\u677F\u7684\u4EBA\u6570\u987B\u6309\u7528\u6237\u771F\u5B9E\u9700\u6C42\u586B\u5199\uFF1B\u67E5\u8BE2\u4EF7\u9700\u5728\u540E\u7EED\u62A5\u4EF7\u786E\u8BA4\u3002\u82E5\u7528\u6237\u4EC5\u8981\u6C42\u6BD4\u8F83\uFF0C\u7B54\u590D\u540E\u505C\u6B62\u3002" : "\u8FD9\u6761\u8F66\u6B21\u5F53\u524D\u6CA1\u6709\u53EF\u7528\u7684\u8D2D\u4E70\u51ED\u636E\uFF1B\u8BF4\u660E\u5E2D\u522B\u4E0E\u4F59\u7968\u4E8B\u5B9E\uFF0C\u4E0D\u8981\u731C\u6D4B\u4EE3\u7801\u6216\u6784\u9020\u8BA2\u5355\u3002",
+      next: null,
+      recovery: []
+    }, {
+      ...options.jsonOutput !== void 0 ? { jsonOutput: options.jsonOutput } : {},
+      ...options.output ? { output: options.output } : {},
+      plainResult: [`${exactCandidate.train_code} ${exactCandidate.from_station ?? ""} \u2192 ${exactCandidate.to_station ?? ""}`]
+    });
+    return;
+  }
   const v2Page = container.journey_page ?? {};
   const catalogPage = container.catalog_page ?? v2Page;
   const nextOffset = typeof catalogPage.next_offset === "number" ? catalogPage.next_offset : null;
@@ -33779,7 +33973,15 @@ async function runServicesReadResult(backend, serviceExecutionID, options = {}) 
         const container = response2.page.result ?? response2.page;
         const candidates = Array.isArray(container.candidates) ? container.candidates : [];
         resolvedStationPair ??= container.resolved_station_pair;
-        rows.push(...candidates.map((value) => compactExactTrain(value)));
+        rows.push(...candidates.map((value, index) => ({
+          ...compactExactTrain(value),
+          result_item_id: item.service_capability_result_item_id,
+          result_offset: offset + index,
+          detail: {
+            command: `itpay services page ${serviceExecutionID} ${item.service_capability_result_item_id} --offset ${offset + index} --limit 1 --json`,
+            reason: "\u8BFB\u53D6\u6B64\u8F66\u6B21\u7684\u5F53\u524D\u5E2D\u522B\u4E0E\u670D\u52A1\u7AEF\u8D2D\u4E70\u51ED\u636E"
+          }
+        })));
         const page = container.catalog_page ?? {};
         total = typeof container.catalog_total === "number" ? container.catalog_total : Math.max(total, rows.length);
         nextOffset = typeof page.next_offset === "number" && page.next_offset > offset ? page.next_offset : null;
@@ -33796,7 +33998,7 @@ async function runServicesReadResult(backend, serviceExecutionID, options = {}) 
           trains: rows,
           ...nextOffset !== null ? { next_offset: nextOffset } : {}
         },
-        instruction: "\u8FD9\u662F\u540C\u4E00\u5DF2\u4FDD\u5B58\u7AD9\u5BF9\u7684\u8F66\u6B21\u884C\u3002\u6309\u7528\u6237\u65F6\u9650\u3001\u5E2D\u522B\u548C\u4EBA\u6570\u7B5B\u9009\uFF1B\u96F6\u6761\u4EC5\u4EE3\u8868\u8FD9\u4E00\u7AD9\u5BF9\u3002\u8D2D\u7968\u65F6\u8BFB\u53D6\u9009\u4E2D\u9879\u7684\u5F53\u524D\u8BE6\u60C5\u548C\u670D\u52A1\u7AEF\u9009\u62E9\u51ED\u636E\u3002",
+        instruction: "\u8FD9\u662F\u540C\u4E00\u5DF2\u4FDD\u5B58\u7AD9\u5BF9\u7684\u8F66\u6B21\u884C\u3002\u6309\u7528\u6237\u65F6\u9650\u3001\u5E2D\u522B\u548C\u4EBA\u6570\u7B5B\u9009\uFF1B\u96F6\u6761\u4EC5\u4EE3\u8868\u8FD9\u4E00\u7AD9\u5BF9\u3002\u7EAF\u6BD4\u8F83\u7B54\u590D\u540E\u7ED3\u675F\uFF1B\u5DF2\u6709\u8D2D\u7968\u59D4\u6258\u5219\u6267\u884C\u6240\u9009\u884C detail.command \u8BFB\u53D6\u5F53\u524D\u5E2D\u522B\u3001\u5E93\u5B58\u548C\u8D2D\u4E70\u51ED\u636E\u3002",
         next: nextOffset !== null ? { command: `itpay services page ${serviceExecutionID} ${item.service_capability_result_item_id} --offset ${nextOffset} --limit 20 --json`, reason: "\u7EE7\u7EED\u8BFB\u53D6\u540C\u4E00\u7ED3\u679C\u7684\u5269\u4F59\u8F66\u6B21" } : null,
         recovery: []
       }, {
@@ -33811,7 +34013,13 @@ async function runServicesReadResult(backend, serviceExecutionID, options = {}) 
     const committed = await backend.getRailPlanningCatalog(serviceExecutionID, options.snapshot);
     const catalog = committed.catalog;
     const decoded = catalog ? decodeRailCatalogJourneys(catalog) : { journeys: [], packed: false };
-    const journeys = decoded.journeys;
+    const journeys = decoded.journeys.map((journey) => ({
+      ...journey,
+      detail: {
+        command: `itpay services read-result ${serviceExecutionID} --snapshot ${committed.snapshot_id} --journey ${journey.ref} --json`,
+        reason: "\u8BFB\u53D6\u540C\u4E00\u5DF2\u4FDD\u5B58\u5FEB\u7167\u7684\u6B64\u884C\u7A0B\u5B8C\u6574\u8D2D\u7968\u6761\u4EF6"
+      }
+    }));
     const counts = catalog?.counts ?? {};
     const journeyCount = journeys.length || Number(counts?.combinations ?? 0);
     writeCommandEnvelope({
@@ -33826,7 +34034,7 @@ async function runServicesReadResult(backend, serviceExecutionID, options = {}) 
         total: journeyCount,
         journeys
       },
-      instruction: "\u8FD9\u662F\u540C\u4E00\u5DF2\u4FDD\u5B58\u5FEB\u7167\u7684\u5B8C\u6574\u7D27\u51D1\u8F66\u6B21\u76EE\u5F55\u3002\u6309\u7528\u6237\u95EE\u9898\u7B5B\u9009\u5168\u90E8journeys\u5E76\u4E00\u6B21\u56DE\u7B54\uFF1B\u9700\u8981\u5355\u7A0B\u8D2D\u7968\u8BE6\u60C5\u65F6\u6309 journey \u5F15\u7528\u8BFB\u53D6\u3002\u4EF7\u683C\u548C\u4F59\u7968\u4F9B\u6BD4\u8F83\uFF0C\u8D2D\u4E70\u524D\u987B\u5B9E\u65F6\u62A5\u4EF7\u3002",
+      instruction: "\u8FD9\u662F\u540C\u4E00\u5DF2\u4FDD\u5B58\u5FEB\u7167\u7684\u7D27\u51D1\u884C\u7A0B\u76EE\u5F55\u3002\u6309\u7528\u6237\u95EE\u9898\u7B5B\u9009\u5168\u90E8 journeys \u5E76\u4E00\u6B21\u56DE\u7B54\uFF1B\u672A\u8BA1\u5165\u63A5\u9A73\u6216\u672A\u77E5\u8D39\u7528\u4E0D\u80FD\u5F53\u514D\u8D39\u3002\u9700\u8981\u8D2D\u7968\u8BE6\u60C5\u65F6\u6267\u884C\u6240\u9009\u884C detail.command\uFF1B\u4EF7\u683C\u548C\u4F59\u7968\u4ECD\u987B\u8D2D\u4E70\u524D\u5B9E\u65F6\u62A5\u4EF7\u3002",
       next: null,
       recovery: []
     }, {
@@ -33850,8 +34058,14 @@ async function runServicesReadResult(backend, serviceExecutionID, options = {}) 
         query_revision: detail.query_revision,
         journey: detail.journey
       },
-      instruction: "\u5C55\u793A\u8BE5 journey \u7684\u5B8C\u6574\u660E\u7EC6\uFF08\u8F66\u6B21\u3001\u5206\u6BB5\u3001\u5E2D\u522B\u62A5\u4EF7\u3001\u63A5\u9A73\u4F30\u8BA1\u4E0E\u98CE\u9669\u6807\u6CE8\uFF09\u3002rail_payable \u53EA\u662F\u8BE5\u884C\u7A0B\u5F53\u524D\u53EF\u8D2D\u62A5\u4EF7\u7684\u53C2\u8003\u4EF7\uFF0C\u4E0D\u662F\u9501\u4EF7\uFF1B\u4E0B\u5355\u524D\u987B\u8D70\u53D7\u4FDD\u62A4 Checkout \u6536\u96C6\u4E58\u8F66\u4EBA\u3002",
-      next: detail.journey?.booking_support === "single_leg" ? { command: `itpay services action ${serviceExecutionID} --action select_journey --actor-type human --status approved --input journey_id=${detail.journey.journey_id} --json`, reason: "\u9009\u5B9A\u6B64\u884C\u7A0B" } : { command: `itpay services next ${serviceExecutionID} --since-snapshot ${detail.snapshot_id} --json`, reason: "\u8FD4\u56DE\u89C4\u5212\u8FDB\u5C55" },
+      instruction: "\u5C55\u793A\u8BE5 journey \u7684\u5B8C\u6574\u660E\u7EC6\uFF08\u8F66\u6B21\u3001\u5206\u6BB5\u3001\u5E2D\u522B\u62A5\u4EF7\u3001\u63A5\u9A73\u4F30\u8BA1\u4E0E\u98CE\u9669\u6807\u6CE8\uFF09\u3002rail_payable \u53EA\u662F\u8BE5\u884C\u7A0B\u5F53\u524D\u53EF\u8D2D\u62A5\u4EF7\u7684\u53C2\u8003\u4EF7\uFF0C\u4E0D\u662F\u9501\u4EF7\uFF1B\u4E0B\u5355\u524D\u987B\u8D70\u53D7\u4FDD\u62A4 Checkout \u6536\u96C6\u4E58\u8F66\u4EBA\u3002\u7528\u6237\u5DF2\u660E\u786E\u59D4\u6258\u6309\u89C4\u5219\u4EE3\u9009\u65F6\u7528 select_delegated\uFF1B\u7528\u6237\u4EB2\u81EA\u9009\u5B9A\u8BE5\u884C\u7A0B\u65F6\u7528 select_user_chosen\uFF0C\u4E0D\u80FD\u628A Agent \u9009\u62E9\u8BB0\u4F5C\u4EBA\u7C7B\u52A8\u4F5C\u3002",
+      next: null,
+      ...detail.journey?.booking_support === "single_leg" ? { interaction: {
+        schema_version: "itpay.interaction.v1",
+        stage: "query_results_ready",
+        select_user_chosen: `itpay services action ${serviceExecutionID} --action select_journey --actor-type human --status approved --input journey_id=${detail.journey.journey_id} --json`,
+        select_delegated: `itpay services action ${serviceExecutionID} --action select_journey --actor-type agent --status approved --input journey_id=${detail.journey.journey_id} --input selection_mode=delegated --json`
+      } } : {},
       recovery: []
     }, {
       ...options.jsonOutput !== void 0 ? { jsonOutput: options.jsonOutput } : {},
@@ -33886,13 +34100,16 @@ function compactExactTrain(candidate) {
     travel_date: candidate.travel_date,
     departure: candidate.departure,
     arrival: candidate.arrival,
+    purchase_supported: candidate.purchase_supported ?? Boolean(candidate.booking_offer),
     seats: seats.map((seat) => ({
       seat_type: seat.seat_type,
       seat_name: seat.seat_name,
       availability_text: seat.availability_text,
       remaining: seat.remaining,
       fare_minor: seat.fare_minor,
-      quoted_total_minor: seat.quoted_total_minor
+      quoted_total_minor: seat.quoted_total_minor,
+      purchase_supported: seat.purchase_supported,
+      requires_price_refresh: seat.requires_price_refresh
     }))
   };
 }
@@ -33983,6 +34200,7 @@ function railJourneySummary(card, serviceExecutionID) {
       destination: metrics.destination_scope ?? "legacy_unknown",
       duration_basis: metrics.duration_basis ?? "legacy_unknown",
       arrival_basis: metrics.arrival_basis ?? "legacy_unknown",
+      cost_basis: metrics.cost_basis ?? "legacy_unknown",
       duration_minutes: metrics.door_to_door_min ?? null
     } } : {},
     ...card.decision_role ? { decision_role: card.decision_role } : {},
@@ -33998,7 +34216,7 @@ function railJourneySummary(card, serviceExecutionID) {
     ...card.observed_at ? { observed_at: card.observed_at } : {},
     ...card.risk_notes?.length ? { risk_notes: card.risk_notes } : {},
     ...card.booking_support === "single_leg" ? {
-      select: `itpay services action ${serviceExecutionID} --action select_journey --actor-type human --status approved --input journey_id=${card.journey_id} --json`,
+      select_user_chosen: `itpay services action ${serviceExecutionID} --action select_journey --actor-type human --status approved --input journey_id=${card.journey_id} --json`,
       // Delegated selection under explicit user rules is an agent action —
       // never record it as a human pick.
       select_delegated: `itpay services action ${serviceExecutionID} --action select_journey --actor-type agent --status approved --input journey_id=${card.journey_id} --input selection_mode=delegated --json`
@@ -34078,7 +34296,7 @@ function railPlanningEnvelope(model) {
         requires: ["current_delegation", "eligible_current_selection", "owner_permits_next_step"],
         ...bookable ? {
           steps: [
-            "\u6309\u7528\u6237\u660E\u786E\u89C4\u5219\u5728 journeys \u4E2D\u9009\u62E9\u5408\u683C\u8005\uFF08\u5361\u7247 select_delegated \u63D0\u4EA4 agent \u59D4\u6258\u9009\u62E9\uFF1B\u4EBA\u7C7B\u4EB2\u81EA\u9009\u62E9\u7528 select\uFF09",
+            "\u6309\u7528\u6237\u660E\u786E\u89C4\u5219\u5728 journeys \u4E2D\u9009\u62E9\u5408\u683C\u8005\uFF08\u5361\u7247 select_delegated \u63D0\u4EA4 agent \u59D4\u6258\u9009\u62E9\uFF1B\u4EBA\u7C7B\u4EB2\u81EA\u9009\u62E9\u7528 select_user_chosen\uFF09",
             `\u7528\u6240\u9009\u5361\u7247\u7684 booking_template \u5199 owner-only \u4E34\u65F6\u8F93\u5165\uFF08selection token + \u5E2D\u522B + \u4EBA\u6570\uFF0C\u4E0D\u542B\u8EAB\u4EFD\u4FE1\u606F\uFF09\uFF0C\u8FD0\u884C itpay services run itpay-rail-booking --input-json <file> --json`,
             "owner \u8981\u6C42\u804A\u5929 review \u65F6\u4E00\u6B21\u5408\u5E76\u8865\u9F50\u5FC5\u8981\u5B57\u6BB5\uFF0C\u771F\u5B9E\u786E\u8BA4\u540E\u63D0\u4EA4\u539F workflow:confirm_booking\uFF1B\u4E0D\u5F97\u4F2A\u9020 accept",
             `\u786E\u8BA4\u540E\u6062\u590D\u540C\u4E00\u8D2D\u4E70\u6267\u884C\uFF1Aitpay services run itpay-rail-booking --execution <\u5B9E\u9645ID> --json\uFF0C\u6CBF\u7528\u6709\u754C\u7B49\u5F85\u4E0E\u53D7\u4FDD\u62A4 Checkout`
@@ -34105,13 +34323,22 @@ function railPlanningEnvelope(model) {
   } : void 0;
   switch (expansion) {
     case "complete":
+      if (plan.search?.reason === "ground_evidence_required") {
+        return {
+          status: "awaiting_input",
+          result,
+          instruction: "\u5DF2\u67E5\u5230\u94C1\u8DEF\u73ED\u6B21\uFF0C\u4F46\u5177\u4F53\u5730\u5740\u7684\u63A5\u9A73\u6216\u51FA\u7AD9\u8BC1\u636E\u4E0D\u8DB3\uFF0C\u65E0\u6CD5\u9A8C\u8BC1\u5230\u8FBE\u65F6\u9650\uFF1B\u5269\u4F59\u7AD9\u5BF9\u672A\u7EE7\u7EED\u67E5\u8BE2\uFF0C\u4E0D\u80FD\u8BF4\u6CA1\u6709\u8F66\u3002\u5411\u7528\u6237\u8BF4\u660E\u5DF2\u67E5\u8303\u56F4\uFF0C\u5E76\u8BF7\u5176\u8865\u5145\u51C6\u786E\u8D77\u7EC8\u70B9\u5730\u5740\u6216\u53EF\u9A8C\u8BC1\u7684\u63A5\u9A73/\u51FA\u7AD9\u4FE1\u606F\uFF1B\u53D6\u5F97\u65B0\u4E8B\u5B9E\u540E\u518D\u6309\u5176\u8981\u6C42\u91CD\u65B0\u89C4\u5212\uFF0C\u4E0D\u8981\u9ED8\u8BA4\u6269\u5927\u94C1\u8DEF\u641C\u7D22\u3002",
+          next: null,
+          recovery: []
+        };
+      }
       return {
         status: "ready",
         result,
         // §7.3: the lead line carries real combination counts bucketed by
         // verified transfer count — seat rows never inflate the journey count.
         instruction: `${journeyMix ? `\u672C\u6B21\u5171${journeyMix}\uFF08\u5E2D\u522B\u4E0D\u91CD\u590D\u8BA1\u6570\uFF09\u3002` : ""}${plan.search?.reason === "budget_exhausted" ? "\u672C\u6B21\u67E5\u8BE2\u5DF2\u8FBE\u5230\u4E0A\u9650\uFF0C\u4EE5\u4E0B\u662F\u5DF2\u67E5\u5230\u7684\u65B9\u6848\uFF0C\u641C\u7D22\u8303\u56F4\u5C1A\u672A\u5168\u90E8\u6838\u9A8C\u3002" : "\u672C\u8F6E\u89C4\u5212\u5DF2\u5B8C\u6210\u3002"}\u63A8\u8350\u548Cjourneys\u662F\u6458\u8981\uFF1B\u8FFD\u95EE\u5176\u4ED6\u8F66\u6B21\u5148\u8BFB\u53D6 full_result \u7684\u5DF2\u4FDD\u5B58\u5B8C\u6574\u76EE\u5F55\u3002compare\uFF1A\u89E3\u91CA\u9996\u9009\u53CA\u6700\u591A\u4E24\u4E2A\u6709\u610F\u4E49\u5907\u9009\u7684\u65F6\u95F4/\u8D39\u7528/\u4FBF\u5229\u6027\u53D6\u820D\u540E\u7B49\u5F85\u7528\u6237\u9009\u62E9\u3002prepare_checkout\uFF1A\u7528\u6237\u5DF2\u660E\u786E\u59D4\u6258\u6309\u89C4\u5219\u9009\u62E9\u65F6\uFF0C\u6309 interaction.recipe \u9009\u5408\u683C\u8005\u5E76\u7EE7\u7EED\u5230\u5B98\u65B9\u786E\u8BA4\u9875\uFF0C\u4E0D\u518D\u6B21\u95EE\u662F\u5426\u4E0B\u5355\uFF1B\u8EAB\u4EFD\u3001review\u548C\u6700\u7EC8\u4ED8\u6B3E\u8FB9\u754C\u4ECD\u7136\u751F\u6548\u3002\u4E58\u8F66\u4EBA\u8EAB\u4EFD\u4FE1\u606F\u4E0D\u5728\u6B64\u6536\u96C6\uFF0C\u540E\u7EED\u8D2D\u4E70\u8D70\u53D7\u4FDD\u62A4 Checkout\u3002`,
-        next: journeys[0]?.booking_support === "single_leg" ? { command: railJourneySummary(journeys[0], se).select, reason: "\u7528\u6237\u5728 compare \u540E\u9009\u5B9A\u63A8\u8350\u884C\u7A0B\u65F6\u6267\u884C\uFF1Bprepare_checkout \u4E14\u89C4\u5219\u547D\u4E2D\u65F6\u7528 select_delegated" } : null,
+        next: null,
         ...queryResultsInteraction ? { interaction: queryResultsInteraction } : {},
         ...queryResultsCommunication ? { communication: queryResultsCommunication } : {},
         recovery: []
@@ -34391,7 +34618,8 @@ function servicesNextEnvelope(model) {
       quote_seat_unavailable: "\u6240\u9009\u5E2D\u522B\u5F53\u524D\u65E0\u8DB3\u591F\u4F59\u7968\uFF1B\u544A\u77E5\u7528\u6237\u5E76\u7531\u5176\u51B3\u5B9A\u662F\u5426\u6362\u65B9\u6848\u3002",
       quote_refresh_expired: "\u5B9E\u65F6\u62A5\u4EF7\u8FC7\u7A0B\u8D85\u65F6\uFF1B\u4FDD\u7559\u539F\u9009\u62E9\uFF0C\u4E0D\u628A\u65E7\u4EF7\u5F53\u53EF\u4ED8\u6B3E\u4EF7\u683C\u3002"
     }[providerErrorCode ?? ""] : void 0;
-    const failedInstruction = recovery ? quoteFailure ? quoteFailure : failedStepGuidance ? `\u6267\u884C\u5728\u300C${failedStepGuidance.meaning}\u300D\u6B65\u5931\u8D25\uFF1A${failedStepGuidance.hint}\u3002\u672C\u6267\u884C\u5DF2\u7EC8\u6B62\u4E0D\u80FD\u7EED\u7528\uFF1B\u5148\u6838\u5BF9\u539F\u56E0\uFF0C\u4E0D\u8981\u76F2\u76EE\u91CD\u653E\u3002` : state === "failed" ? `\u6267\u884C\u5DF2\u5931\u8D25${failedStep ? `\uFF08\u5931\u8D25\u6B65\u9AA4\uFF1A${failedStep}\uFF09` : ""}\u4E14\u4E0D\u53EF\u7EED\u7528\uFF1B\u4FEE\u6B63\u8F93\u5165\u540E\u7528\u540C\u4E00\u670D\u52A1\u65B0\u5EFA\u6267\u884C\u91CD\u8BD5\u3002` : "\u6267\u884C\u672A\u5B8C\u6210\uFF0C\u8BF7\u6309\u6B65\u9AA4\u9519\u8BEF\u5904\u7406\uFF1B\u4E0D\u8981\u91CD\u5EFA\u6267\u884C\u6216\u91CD\u590D\u8C03\u7528\u3002" : void 0;
+    const failureCode = providerErrorCode ?? model.workflow?.error_code;
+    const failedInstruction = recovery ? quoteFailure ? quoteFailure : failedStepGuidance ? `\u6267\u884C\u5728\u300C${failedStepGuidance.meaning}\u300D\u6B65\u5931\u8D25${failureCode ? `\uFF08\u9519\u8BEF\u7801\uFF1A${failureCode}\uFF09` : ""}\uFF1A${failedStepGuidance.hint}\u3002\u5148\u6838\u5BF9\u539F\u56E0\u548C\u5F53\u524D\u6267\u884C\u72B6\u6001\uFF0C\u4E0D\u8981\u76F2\u76EE\u91CD\u653E\u3002` : state === "failed" ? `\u6267\u884C\u5DF2\u5931\u8D25${failureCode ? `\uFF08\u9519\u8BEF\u7801\uFF1A${failureCode}\uFF09` : ""}\u4E14\u4E0D\u53EF\u7EED\u7528\uFF1B\u6838\u5BF9\u670D\u52A1\u7AEF\u539F\u56E0\u3001\u8BA2\u5355\u4E0E\u4ED8\u6B3E\u4E8B\u5B9E\u540E\u518D\u51B3\u5B9A\u4E0B\u4E00\u6B65\u3002` : "\u6267\u884C\u672A\u5B8C\u6210\uFF0C\u8BF7\u6309\u6B65\u9AA4\u9519\u8BEF\u5904\u7406\uFF1B\u4E0D\u8981\u91CD\u5EFA\u6267\u884C\u6216\u91CD\u590D\u8C03\u7528\u3002" : void 0;
     return {
       status: state,
       result: {
@@ -34403,7 +34631,7 @@ function servicesNextEnvelope(model) {
         ...failedStep ? { failed_step: failedStep, ...failedStepGuidance ? { failed_step_meaning: failedStepGuidance.meaning } : {} } : {},
         ...providerErrorCode ? { provider_error_code: providerErrorCode } : {},
         ...providerErrorCode && !quoteFailure ? { diagnostic_code: providerErrorCode } : {},
-        ...recovery ? { retryable: state === "failed" } : {}
+        ...recovery ? { retryable: false } : {}
       },
       instruction: failedInstruction ?? (state === "payment" ? model.workflow?.human_action?.context?.review ? "\u670D\u52A1\u5DF2\u5230\u4ED8\u6B3E\u6B65\u9AA4\uFF0C\u53EF\u76F4\u63A5 Checkout \u4ED8\u6B3E\uFF1B\u5982\u9700\u8C03\u6574\u5E2D\u522B/\u5EA7\u4F4D\u504F\u597D\uFF0C\u5148\u7528 confirm_booking \u52A8\u4F5C\u4FEE\u8BA2\uFF08\u4F1A\u91CD\u65B0\u62A5\u4EF7\u5E76\u9501\u5B9A\u65B0\u4EF7\uFF09\uFF0C\u5B8C\u6210\u540E\u518D\u4ED8\u6B3E\u3002" : "\u670D\u52A1\u5DF2\u5230\u4ED8\u6B3E\u6B65\u9AA4\uFF0C\u4F7F\u7528\u73B0\u6709 Checkout \u5B8C\u6210\u626B\u7801\u4ED8\u6B3E\u3002" : guidance ? "\u6309 result.guidance \u7684\u5B57\u6BB5\u5951\u7EA6\u586B\u5199\u8F93\u5165\u540E\u7EE7\u7EED\u540C\u4E00\u670D\u52A1\u6267\u884C\uFF1B\u4E0D\u8981\u81C6\u9020\u5B57\u6BB5\u540D\u3002" : "\u7EE7\u7EED\u8BFB\u53D6\u540C\u4E00\u6267\u884C\uFF1B\u7F3A\u5C11\u8F93\u5165\u65F6\u6309\u670D\u52A1\u58F0\u660E\u8865\u9F50\u3002"),
       next: recovery ? null : { command, reason: "\u7EE7\u7EED\u5F53\u524D\u6D41\u7A0B" },
@@ -34421,10 +34649,7 @@ function servicesNextEnvelope(model) {
           } : {}
         }
       } : {},
-      recovery: recovery && state === "failed" && !quoteFailure ? [
-        { command: `itpay services start ${execution.service_id} --json`, reason: "\u4FEE\u6B63\u8F93\u5165\u540E\u91CD\u65B0\u53D1\u8D77\uFF08\u672C\u6267\u884C\u5DF2\u7EC8\u6B62\u4E0D\u80FD\u7EED\u7528\uFF09" },
-        ...guidance ? [{ command: "itpay docs show rail-booking --json", reason: "\u67E5\u770B\u672C\u670D\u52A1\u8F93\u5165\u5B57\u6BB5\u5951\u7EA6\u4E0E\u793A\u4F8B" }] : []
-      ] : []
+      recovery: recovery && state === "failed" ? [{ command: `itpay services get ${id} --json`, reason: "\u6838\u5BF9\u672C\u6267\u884C\u7684\u9519\u8BEF\u3001\u7ED3\u679C\u548C\u4ED8\u6B3E\u4E8B\u5B9E" }] : []
     };
   }
   const terminalEnvelope = terminalExecutionEnvelope(model);
@@ -34440,6 +34665,24 @@ function servicesNextEnvelope(model) {
   }
   const delivery = currentDelivery;
   const deliveryMode = serviceDeliveryMode(model);
+  if (execution.service_id === "itpay-rail-exact" && currentItems.length > 0) {
+    const item = currentItems[0];
+    const container = item.safe_payload?.result ?? item.safe_payload;
+    const total = typeof container?.catalog_total === "number" ? container.catalog_total : Array.isArray(container?.candidates) ? container.candidates.length : 0;
+    return {
+      status: total > 0 ? "result_ready" : "no_result",
+      result: {
+        service_execution_id: execution.service_execution_id,
+        scope: "station_pair",
+        resolved_station_pair: container?.resolved_station_pair,
+        total,
+        result_item_id: item.service_capability_result_item_id
+      },
+      instruction: total > 0 ? "\u76F4\u8FBE\u7AD9\u5BF9\u7ED3\u679C\u5DF2\u4FDD\u5B58\u3002\u6267\u884C next.command \u4E00\u6B21\u8BFB\u53D6\u7D27\u51D1\u8F66\u6B21\u884C\uFF0C\u6309\u7528\u6237\u6761\u4EF6\u7B5B\u9009\uFF1B\u82E5\u53EA\u9700\u6BD4\u8F83\uFF0C\u7B54\u590D\u540E\u7ED3\u675F\uFF1B\u5DF2\u6709\u8D2D\u7968\u59D4\u6258\u5219\u8BFB\u53D6\u6240\u9009\u884C\u8BE6\u60C5\u3002" : "\u8FD9\u4E00\u5DF2\u89E3\u6790\u7AD9\u5BF9\u8FD4\u56DE 0 \u6761\uFF1B\u4E0D\u4EE3\u8868\u5168\u57CE\u65E0\u8F66\u3002\u82E5\u539F\u9700\u6C42\u9700\u8981\u66F4\u5E7F\u8986\u76D6\uFF0C\u53EF\u6838\u9A8C\u53E6\u4E00\u53EF\u4FE1\u7AD9\u5BF9\u6216 Smart\u3002",
+      next: { command: `itpay services read-result ${execution.service_execution_id} --json`, reason: "\u8BFB\u53D6\u8FD9\u4E00\u5DF2\u4FDD\u5B58\u7AD9\u5BF9\u7684\u5B8C\u6574\u7D27\u51D1\u7ED3\u679C" },
+      recovery: []
+    };
+  }
   const candidateSelection = model.allowed_actions?.find((action) => action.type === "select_candidate");
   if (candidateSelection && currentItems.length > 0) {
     const paidCapability = delivery?.capability_id ? model.capabilities.find((capability) => capability.capability_id === delivery.capability_id && capability.requires_payment) : void 0;
@@ -34863,7 +35106,7 @@ async function runServicesRun(backend, config2, serviceID, input, options = {}) 
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/commander/esm.mjs
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/commander/esm.mjs
 var import_index2 = __toESM(require_commander(), 1);
 var {
   program,
@@ -34880,7 +35123,7 @@ var {
   Help
 } = import_index2.default;
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/state/cart_session.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/state/cart_session.js
 import { chmodSync as chmodSync3, existsSync as existsSync8, mkdirSync as mkdirSync9, readFileSync as readFileSync11, renameSync as renameSync6, writeFileSync as writeFileSync8 } from "node:fs";
 import { randomUUID as randomUUID6 } from "node:crypto";
 import { dirname as dirname5 } from "node:path";
@@ -35027,7 +35270,7 @@ var CartSession = class _CartSession {
   }
 };
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/readyz.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/readyz.js
 async function runReadyz(backend, options = {}) {
   const response = await backend.readyz();
   const backendURL = options.backendURL ?? "https://app.itpay.ai";
@@ -35041,7 +35284,7 @@ async function runReadyz(backend, options = {}) {
   }, options);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/catalog.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/catalog.js
 async function runCatalogList(backend, options = {}) {
   const manifest = await backend.getCatalogManifest();
   const services2 = manifest.manifest.items.map(summarizeService);
@@ -35124,7 +35367,7 @@ function formatProductMoney(amountMinor, currency) {
   }).format(amountMinor / 100);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/compatibility.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/compatibility.js
 async function requirePlatformCompatibility(backend) {
   const platform2 = await backend.compatibility();
   const compatible = platform2.api_contract_revision === API_CONTRACT_REVISION && compareVersions(CLI_VERSION, platform2.minimum_cli_version) >= 0 && versionMajor(CLI_VERSION) <= platform2.maximum_cli_major;
@@ -35158,7 +35401,7 @@ function versionParts(version2) {
   return match ? [Number(match[1]), Number(match[2]), Number(match[3])] : void 0;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/render/browser.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/render/browser.js
 import { spawn as spawn2 } from "node:child_process";
 import { platform } from "node:os";
 function isPresentableURL(raw, baseURL, env = process.env) {
@@ -35215,7 +35458,7 @@ function openerArgv(url) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/presentation.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/presentation.js
 var yes = (value) => value === "yes";
 function resolvePresentation(input) {
   const blocker = businessBlocker(input.business);
@@ -35357,7 +35600,7 @@ function resolveRelay(input) {
   return { kind: "unavailable", reason: "relay \u540E\u7AEF\u672A\u542F\u7528\u3002" };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/checkout.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/checkout.js
 async function runCheckoutPresentation(backend, options) {
   const present = options.present;
   if (present !== void 0 && !["auto", "browser", "image", "link", "none"].includes(present)) {
@@ -35626,7 +35869,7 @@ function absolutePublicURL3(baseURL, value) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/pay.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/pay.js
 async function runPay(backend, options) {
   const intent = await backend.createPaymentIntent(options.checkoutID, {
     payment_method_type: options.method,
@@ -35699,7 +35942,7 @@ function payInstruction(options, verified, terminal, hasAction, amount) {
   return "\u8FD9\u662F\u53D7\u63A7\u9003\u751F\u5165\u53E3\uFF1B\u628A handoff \u4E2D\u7684\u4E8C\u7EF4\u7801\u6216\u94B1\u5305\u94FE\u63A5\u53D1\u9001\u5230\u5F53\u524D\u4F1A\u8BDD\uFF0C\u7136\u540E\u505C\u6B62\u7B49\u5F85\u3002";
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/order.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/order.js
 async function runOrder(backend, orderID, options = {}) {
   const order = await backend.getOrder(orderID);
   const [delivery, refundResponse] = await Promise.all([
@@ -35764,7 +36007,7 @@ function orderPlainResult(result) {
   return Object.entries(result).map(([key, value]) => `${key}: ${typeof value === "string" ? value : JSON.stringify(value)}`);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/vault_handoff.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/vault_handoff.js
 var AUTH_ATTACH_REASON = "The human must be able to open or scan this official ItPay authorization handoff. Render the local image in the current desktop chat; if that fails, show the unchanged official URL.";
 async function buildVaultHandoff(input) {
   const platform2 = platformKeyForHost(input.host);
@@ -35850,7 +36093,7 @@ function openClawAuthorizationAction(url, qrPNGURL, target) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/vault.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/vault.js
 function outputOptions(options, plainResult) {
   return {
     ...options.jsonOutput !== void 0 ? { jsonOutput: options.jsonOutput } : {},
@@ -35983,7 +36226,7 @@ function shellArgument2(value) {
   return `'${value.replaceAll("'", `'"'"'`)}'`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/orders.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/orders.js
 var ORDER_STATUSES = /* @__PURE__ */ new Set([
   "pending_payment",
   "paid",
@@ -36072,7 +36315,7 @@ function shellArgument3(value) {
   return `'${value.replaceAll("'", `'"'"'`)}'`;
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/feedback.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/feedback.js
 var MAX_FEEDBACK_NOTE_CODE_POINTS = 2e3;
 async function runFeedbackSubmit(backend, orderID, options) {
   const normalizedOrderID = orderID?.trim() ?? "";
@@ -36226,7 +36469,7 @@ function outputOptions2(options) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/refund.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/refund.js
 async function runRefund(backend, config2, options) {
   const reason = options.reason?.trim() || "buyer_requested";
   const refund2 = await backend.createRefund(options.orderID, { reason }, config2.bearerToken, await operationID(config2, `refund.create:${options.orderID}:${reason}`));
@@ -36366,7 +36609,7 @@ function writeRefundEnvelope(envelope, options) {
   });
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/cart.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/cart.js
 function runCartAdd(session, options) {
   const out = resolveOutput(options.output);
   const item = {
@@ -36712,7 +36955,7 @@ function writeCartNextEnvelope(envelope, options) {
   });
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/docs.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/docs.js
 import { existsSync as existsSync9, readFileSync as readFileSync12, readdirSync as readdirSync3 } from "node:fs";
 import { dirname as dirname6, resolve as resolve8 } from "node:path";
 import { fileURLToPath as fileURLToPath3 } from "node:url";
@@ -36811,7 +37054,7 @@ function shellWord(value) {
   return /^[a-zA-Z0-9._-]+$/.test(value) ? value : JSON.stringify(value);
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/install.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/install.js
 var INSTALL_AGENT_TYPES = [
   "codex-desktop",
   "codex-cli",
@@ -36877,7 +37120,7 @@ function installDefinition(agentType) {
   return { agent_type: agentType, default_host: defaultHostForAgentType(agentType) ?? null };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/skill.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/skill.js
 import { existsSync as existsSync10, readFileSync as readFileSync13 } from "node:fs";
 import { dirname as dirname7, resolve as resolve9 } from "node:path";
 import { fileURLToPath as fileURLToPath4 } from "node:url";
@@ -36929,7 +37172,7 @@ function validateSkill(content) {
   }
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/commands/next.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/commands/next.js
 function runNext(session, options = {}) {
   const envelope = nextEnvelope(session);
   writeCommandEnvelope(envelope, {
@@ -36975,7 +37218,7 @@ function resumeEnvelope(resourceType, resourceID, command, reason) {
   };
 }
 
-// ../../../../../private/tmp/itpay-workbuddy-candidate-2.1.20/node_modules/@itpay/cli/dist/src/main.js
+// ../../../../private/var/folders/38/3vfcth493232cphvml_jy4k80000gn/T/itpay-platform-bundle-74knzy/node_modules/@itpay/cli/dist/src/main.js
 var program2 = new Command();
 program2.name("itpay").description("V3 ItPay CLI \u2014 buy services, review orders, and read human-authorized purchased content").option("--agent-type <type>", "agent runtime type used for device enrollment and client-specific guidance").version(CLI_VERSION).addHelpText("after", `
 Agent quick start:
@@ -37118,7 +37361,7 @@ function reportCLIError(error2, contract) {
           } : {}
         }
       } : {},
-      instruction: incompatible ? requiredCLIVersion ? distributionUpgradeInstruction() : "\u544A\u8BC9\u7528\u6237 ItPay \u5F53\u524D\u7248\u672C\u4FE1\u606F\u65E0\u6CD5\u9A8C\u8BC1\uFF0C\u56E0\u6B64\u672C\u6B21\u670D\u52A1\u4E0D\u80FD\u5B89\u5168\u7EE7\u7EED\u3002\u505C\u6B62\u6240\u6709 ItPay \u548C npm \u64CD\u4F5C\uFF1B\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u3001\u731C\u7248\u672C\u3001\u5207\u6362 Agent Type \u6216\u5220\u9664 Device \u8EAB\u4EFD\u3002" : backendInternal ? "\u544A\u8BC9\u7528\u6237 ItPay \u5F53\u524D\u6682\u65F6\u65E0\u6CD5\u5B8C\u6210\u8FD9\u9879\u670D\u52A1\u5E76\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u5185\u90E8\u9519\u8BEF\u3001\u91CD\u8BD5\u3001\u4FEE\u6539\u8EAB\u4EFD\u3001\u521B\u5EFA\u66FF\u4EE3\u670D\u52A1\u6216\u8FDB\u5165\u4EFB\u4F55\u4ED8\u8D39\u8DEF\u5F84\u3002" : providerConnectionUnavailable ? "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u67E5\u8BE2\u6CA1\u6709\u53D1\u9001\u5230\u6570\u636E\u6765\u6E90\uFF0C\u514D\u8D39\u989D\u5EA6\u5DF2\u4FDD\u7559\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u3001\u81EA\u52A8\u91CD\u8BD5\u6216\u8FDB\u5165\u4ED8\u8D39\u8DEF\u5F84\uFF1B\u53EA\u6709\u670D\u52A1\u6062\u590D\u4E14\u7528\u6237\u660E\u786E\u8981\u6C42\u91CD\u65B0\u67E5\u8BE2\u540E\u624D\u80FD\u5F00\u59CB\u65B0\u7684\u67E5\u8BE2\u3002" : providerTemporary ? "\u544A\u8BC9\u7528\u6237\u6570\u636E\u670D\u52A1\u6682\u65F6\u4E0D\u53EF\u7528\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u662F\u5426\u4FDD\u7559\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u3001\u81EA\u52A8\u91CD\u8BD5\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\uFF1B\u53EA\u6709\u7528\u6237\u4E4B\u540E\u660E\u786E\u63D0\u51FA\u65B0\u8BF7\u6C42\u624D\u53EF\u91CD\u65B0\u5F00\u59CB\u3002" : providerInputRejected ? "\u544A\u8BC9\u7528\u6237\u6570\u636E\u6765\u6E90\u660E\u786E\u8868\u793A\u5F53\u524D\u8F93\u5165\u65E0\u6548\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u72B6\u6001\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u5185\u90E8\u9519\u8BEF\u3001\u81EA\u884C\u4FEE\u6539\u8F93\u5165\u3001\u91CD\u8BD5\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\uFF1B\u53EA\u6709\u7528\u6237\u660E\u786E\u63D0\u4F9B\u65B0\u8F93\u5165\u540E\u624D\u80FD\u91CD\u65B0\u67E5\u8BE2\u3002" : providerContractMismatch ? "\u544A\u8BC9\u7528\u6237\u5E73\u53F0\u6682\u65F6\u65E0\u6CD5\u6B63\u786E\u89E3\u91CA\u6570\u636E\u6765\u6E90\u7684\u54CD\u5E94\uFF0C\u8FD9\u4E0D\u662F\u7528\u6237\u8F93\u5165\u95EE\u9898\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u72B6\u6001\u3002\u7ACB\u5373\u505C\u6B62\uFF0C\u4E0D\u8981\u4FEE\u6539\u8F93\u5165\u3001\u91CD\u8BD5\u3001\u521B\u5EFA\u65B0\u67E5\u8BE2\u6216\u8FDB\u5165\u4ED8\u8D39\u8DEF\u5F84\u3002" : providerRejected ? "\u544A\u8BC9\u7528\u6237\u6570\u636E\u6765\u6E90\u6CA1\u6709\u63A5\u53D7\u672C\u6B21\u8BF7\u6C42\uFF0C\u4F46\u6CA1\u6709\u8BF4\u660E\u662F\u8F93\u5165\u9519\u8BEF\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u72B6\u6001\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u5185\u90E8\u9519\u8BEF\u3001\u4FEE\u6539\u8F93\u5165\u3001\u91CD\u8BD5\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\u3002" : capabilityInputInvalid ? "\u544A\u8BC9\u7528\u6237\u5F53\u524D\u8F93\u5165\u4E0D\u5B8C\u6574\u6216\u683C\u5F0F\u4E0D\u6B63\u786E\uFF1B\u6570\u636E\u6765\u6E90\u5C1A\u672A\u8C03\u7528\uFF0C\u989D\u5EA6\u6CA1\u6709\u53D8\u5316\u3002\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u6216\u539F\u6837\u91CD\u8BD5\uFF1B\u7528\u6237\u63D0\u4F9B\u4FEE\u6B63\u4FE1\u606F\u540E\u7EE7\u7EED\u540C\u4E00\u6B21\u670D\u52A1\u3002" : transportError ? transportError.attempts > 1 ? "\u4E34\u65F6\u7F51\u7EDC\u6545\u969C\uFF1BCLI \u5DF2\u4EC5\u5BF9\u53EF\u5B89\u5168\u91CD\u653E\u7684\u64CD\u4F5C\u5B8C\u6210\u6709\u9650\u81EA\u52A8\u91CD\u8BD5\uFF0C\u4F46\u4ECD\u672A\u83B7\u5F97\u5B8C\u6574\u54CD\u5E94\u3002\u6309 recovery \u67E5\u8BE2\u540C\u4E00\u8D44\u6E90\u7684\u6743\u5A01\u72B6\u6001\uFF1B\u4E0D\u8981\u521B\u5EFA\u66FF\u4EE3 Checkout\u3001Execution\u3001Payment \u6216 Refund\u3002" : "\u7F51\u7EDC\u5728\u5B8C\u6574\u54CD\u5E94\u524D\u4E2D\u65AD\uFF1B\u5F53\u524D\u5199\u64CD\u4F5C\u6CA1\u6709\u5B89\u5168\u91CD\u653E\u5408\u540C\uFF0C\u56E0\u6B64 CLI \u672A\u81EA\u52A8\u91CD\u8BD5\u3002\u6309 recovery \u67E5\u8BE2\u6743\u5A01\u72B6\u6001\uFF1B\u4E0D\u8981\u539F\u6837\u91CD\u653E\u6216\u521B\u5EFA\u66FF\u4EE3 Checkout\u3001Execution\u3001Payment \u6216 Refund\u3002" : backendOverrideError ? "\u79FB\u9664 ITPAY_BACKEND_URL \u4F7F\u7528\u6B63\u5F0F\u73AF\u5883\uFF0C\u6216\u51C6\u786E\u8BBE\u7F6E\u4E3A https://sandbox.itpay.ai\u3002" : commandError?.instruction ?? authorizationInstruction ?? contract?.instruction ?? "\u68C0\u67E5\u547D\u4EE4\u53C2\u6570\u540E\u91CD\u8BD5\u3002",
+      instruction: incompatible ? requiredCLIVersion ? distributionUpgradeInstruction() : "\u544A\u8BC9\u7528\u6237 ItPay \u5F53\u524D\u7248\u672C\u4FE1\u606F\u65E0\u6CD5\u9A8C\u8BC1\uFF0C\u56E0\u6B64\u672C\u6B21\u670D\u52A1\u4E0D\u80FD\u5B89\u5168\u7EE7\u7EED\u3002\u505C\u6B62\u6240\u6709 ItPay \u548C npm \u64CD\u4F5C\uFF1B\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u3001\u731C\u7248\u672C\u3001\u5207\u6362 Agent Type \u6216\u5220\u9664 Device \u8EAB\u4EFD\u3002" : backendInternal ? "\u544A\u8BC9\u7528\u6237 ItPay \u5F53\u524D\u6682\u65F6\u65E0\u6CD5\u5B8C\u6210\u8FD9\u9879\u670D\u52A1\u5E76\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u5185\u90E8\u9519\u8BEF\u3001\u91CD\u8BD5\u3001\u4FEE\u6539\u8EAB\u4EFD\u3001\u521B\u5EFA\u66FF\u4EE3\u670D\u52A1\u6216\u8FDB\u5165\u4EFB\u4F55\u4ED8\u8D39\u8DEF\u5F84\u3002" : providerConnectionUnavailable ? "\u544A\u8BC9\u7528\u6237\u672C\u6B21\u67E5\u8BE2\u6CA1\u6709\u53D1\u9001\u5230\u6570\u636E\u6765\u6E90\uFF0C\u514D\u8D39\u989D\u5EA6\u5DF2\u4FDD\u7559\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u3001\u81EA\u52A8\u91CD\u8BD5\u6216\u8FDB\u5165\u4ED8\u8D39\u8DEF\u5F84\uFF1B\u53EA\u6709\u670D\u52A1\u6062\u590D\u4E14\u7528\u6237\u660E\u786E\u8981\u6C42\u91CD\u65B0\u67E5\u8BE2\u540E\u624D\u80FD\u5F00\u59CB\u65B0\u7684\u67E5\u8BE2\u3002" : providerTemporary ? "\u544A\u8BC9\u7528\u6237\u6570\u636E\u670D\u52A1\u6682\u65F6\u4E0D\u53EF\u7528\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u662F\u5426\u4FDD\u7559\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u3001\u81EA\u52A8\u91CD\u8BD5\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\uFF1B\u53EA\u6709\u7528\u6237\u4E4B\u540E\u660E\u786E\u63D0\u51FA\u65B0\u8BF7\u6C42\u624D\u53EF\u91CD\u65B0\u5F00\u59CB\u3002" : providerInputRejected ? "\u544A\u8BC9\u7528\u6237\u6570\u636E\u6765\u6E90\u660E\u786E\u8868\u793A\u5F53\u524D\u8F93\u5165\u65E0\u6548\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u72B6\u6001\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u5185\u90E8\u9519\u8BEF\u3001\u81EA\u884C\u4FEE\u6539\u8F93\u5165\u3001\u91CD\u8BD5\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\uFF1B\u53EA\u6709\u7528\u6237\u660E\u786E\u63D0\u4F9B\u65B0\u8F93\u5165\u540E\u624D\u80FD\u91CD\u65B0\u67E5\u8BE2\u3002" : providerContractMismatch ? "\u544A\u8BC9\u7528\u6237\u5E73\u53F0\u6682\u65F6\u65E0\u6CD5\u6B63\u786E\u89E3\u91CA\u6570\u636E\u6765\u6E90\u7684\u54CD\u5E94\uFF0C\u8FD9\u4E0D\u662F\u7528\u6237\u8F93\u5165\u95EE\u9898\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u72B6\u6001\u3002\u7ACB\u5373\u505C\u6B62\uFF0C\u4E0D\u8981\u4FEE\u6539\u8F93\u5165\u3001\u91CD\u8BD5\u3001\u521B\u5EFA\u65B0\u67E5\u8BE2\u6216\u8FDB\u5165\u4ED8\u8D39\u8DEF\u5F84\u3002" : providerRejected ? "\u544A\u8BC9\u7528\u6237\u6570\u636E\u6765\u6E90\u6CA1\u6709\u63A5\u53D7\u672C\u6B21\u8BF7\u6C42\uFF0C\u4F46\u6CA1\u6709\u8BF4\u660E\u662F\u8F93\u5165\u9519\u8BEF\uFF0C\u5E76\u6309 result.quota \u8BF4\u660E\u989D\u5EA6\u72B6\u6001\uFF0C\u7136\u540E\u505C\u6B62\u3002\u4E0D\u8981\u8F6C\u8FF0\u5185\u90E8\u9519\u8BEF\u3001\u4FEE\u6539\u8F93\u5165\u3001\u91CD\u8BD5\u6216\u521B\u5EFA\u65B0\u67E5\u8BE2\u3002" : capabilityInputInvalid ? "\u544A\u8BC9\u7528\u6237\u5F53\u524D\u8F93\u5165\u4E0D\u5B8C\u6574\u6216\u683C\u5F0F\u4E0D\u6B63\u786E\uFF1B\u6570\u636E\u6765\u6E90\u5C1A\u672A\u8C03\u7528\uFF0C\u989D\u5EA6\u6CA1\u6709\u53D8\u5316\u3002\u4E0D\u8981\u8F6C\u8FF0\u6280\u672F\u9519\u8BEF\u6216\u539F\u6837\u91CD\u8BD5\uFF1B\u7528\u6237\u63D0\u4F9B\u4FEE\u6B63\u4FE1\u606F\u540E\u7EE7\u7EED\u540C\u4E00\u6B21\u670D\u52A1\u3002" : transportError ? transportError.attempts > 1 ? "\u4E34\u65F6\u7F51\u7EDC\u6545\u969C\uFF1BCLI \u5DF2\u4EC5\u5BF9\u53EF\u5B89\u5168\u91CD\u653E\u7684\u64CD\u4F5C\u5B8C\u6210\u6709\u9650\u81EA\u52A8\u91CD\u8BD5\uFF0C\u4F46\u4ECD\u672A\u83B7\u5F97\u5B8C\u6574\u54CD\u5E94\u3002\u6309 recovery \u67E5\u8BE2\u540C\u4E00\u8D44\u6E90\u7684\u6743\u5A01\u72B6\u6001\uFF1B\u4E0D\u8981\u521B\u5EFA\u66FF\u4EE3 Checkout\u3001Execution\u3001Payment \u6216 Refund\u3002" : "\u7F51\u7EDC\u5728\u5B8C\u6574\u54CD\u5E94\u524D\u4E2D\u65AD\uFF1B\u5F53\u524D\u5199\u64CD\u4F5C\u6CA1\u6709\u5B89\u5168\u91CD\u653E\u5408\u540C\uFF0C\u56E0\u6B64 CLI \u672A\u81EA\u52A8\u91CD\u8BD5\u3002\u6309 recovery \u67E5\u8BE2\u6743\u5A01\u72B6\u6001\uFF1B\u4E0D\u8981\u539F\u6837\u91CD\u653E\u6216\u521B\u5EFA\u66FF\u4EE3 Checkout\u3001Execution\u3001Payment \u6216 Refund\u3002" : backendOverrideError ? "\u79FB\u9664 ITPAY_BACKEND_URL \u4F7F\u7528\u6B63\u5F0F\u73AF\u5883\uFF0C\u6216\u6309\u5F53\u524D\u6D4B\u8BD5\u76EE\u6807\u51C6\u786E\u8BBE\u7F6E\u4E3A https://sandbox.itpay.ai \u6216 https://dev.itpay.ai\u3002\u4E0D\u8981\u901A\u8FC7\u5207\u6362\u73AF\u5883\u89C4\u907F\u5F53\u524D\u9519\u8BEF\u3002" : commandError?.instruction ?? authorizationInstruction ?? contract?.instruction ?? "\u68C0\u67E5\u547D\u4EE4\u53C2\u6570\u540E\u91CD\u8BD5\u3002",
       next: null,
       recovery: incompatible ? requiredCLIVersion ? [distributionUpgradeAction(requiredCLIVersion)] : [] : backendInternal || providerConnectionUnavailable || providerTemporary || providerInputRejected || providerContractMismatch || providerRejected || capabilityInputInvalid ? [] : backendOverrideError ? [] : commandError?.recovery ?? (stateError ? stateRecovery : lockError ? lockRecovery : deviceError ? deviceRecovery : identityRecovery ? httpRecovery : contract?.recovery ?? [])
     }, {
