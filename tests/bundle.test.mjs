@@ -36,17 +36,18 @@ test("upload bundle contains no npm tree", () => {
 });
 
 test("WorkBuddy Skill keeps its platform contract", () => {
-  assert.match(skill, /dangerouslyDisableSandbox/);
+  assert.doesNotMatch(skill, /dangerouslyDisableSandbox/);
+  assert.match(skill, /rail-booking --json/);
   assert.match(skill, /execute `handoff\.agent_action` exactly once when present/);
   assert.match(skill, /complete official `handoff\.url` as its only `files` element/);
-  assert.match(skill, /Never use `present_files` for a local file or QR PNG/);
+  assert.match(skill, /Never use\s+`present_files` for a local file or QR PNG/);
   assert.match(skill, /workbuddy/);
   assert.doesNotMatch(skill, /npm install -g/);
   assert.match(skill, /Default to this local CLI/);
   assert.match(skill, /Explicit MCP Vault Read/);
-  assert.match(skill, /Route The Human's Intent/);
-  assert.match(skill, /Previously Purchased Content/);
-  assert.match(skill, /service representative/);
+  assert.match(skill, /Choose one entry/);
+  assert.match(skill, /Previously purchased content/);
+  assert.match(skill, /select under the human\'s delegation/);
   assert.ok(skill.indexOf("## Explicit MCP Vault Read") < skill.indexOf("Use the CLI as the only ItPay control surface in this lane"));
   for (const tool of ["itpay_account_status", "itpay_orders_list", "itpay_vault_list", "itpay_vault_authorize", "itpay_vault_result_read"]) {
     assert.match(skill, new RegExp(tool));

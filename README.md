@@ -8,7 +8,7 @@ WorkBuddy Skill package with a pinned, offline `@itpay/cli` bundle.
 - Required entry: `SKILL.md` at the repository root.
 - Runtime: Node.js 18+ with a single-file CLI bundle; no `node_modules`, global ItPay install, or runtime npm download.
 - Agent Type: `workbuddy` for the whole flow.
-- Commands that persist `~/.itpay-v3` require the WorkBuddy Shell call to set `dangerouslyDisableSandbox: true`; denial stops the flow.
+- Commands that persist `~/.itpay-v3` use the host's ordinary persistent-file permission; denial is reported without removing identity.
 - Network scope is limited to the official ItPay Backend. Checkout is displayed for human completion; sensitive payment credentials never enter chat or CLI arguments.
 
 ## Distribution rules
