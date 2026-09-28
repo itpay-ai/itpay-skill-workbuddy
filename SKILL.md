@@ -2,7 +2,8 @@
 name: itpay
 description: >
   Use ItPay in WorkBuddy through the bundled local CLI, or through read-only
-  OAuth MCP only when the human explicitly selects the connected MCP.
+  OAuth MCP only when the human explicitly selects the connected MCP. The local
+  CLI can also record a human's rating of a purchased service.
 ---
 
 # ItPay
