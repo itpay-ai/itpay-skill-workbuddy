@@ -37,7 +37,7 @@ test("upload bundle contains no npm tree", () => {
 
 test("WorkBuddy Skill keeps its platform contract", () => {
   assert.doesNotMatch(skill, /dangerouslyDisableSandbox/);
-  assert.match(skill, /rail-booking --json/);
+  assert.match(skill, /device status --json/);
   assert.match(skill, /execute `handoff\.agent_action` exactly once when present/);
   assert.match(skill, /complete official `handoff\.url` as its only `files` element/);
   assert.match(skill, /Never use\s+`present_files` for a local file or QR PNG/);
@@ -45,9 +45,9 @@ test("WorkBuddy Skill keeps its platform contract", () => {
   assert.doesNotMatch(skill, /npm install -g/);
   assert.match(skill, /Default to this local CLI/);
   assert.match(skill, /Explicit MCP Vault Read/);
-  assert.match(skill, /Choose one entry/);
-  assert.match(skill, /Previously purchased content/);
-  assert.match(skill, /select under the human\'s delegation/);
+  assert.match(skill, /Route The Human's Intent/);
+  assert.match(skill, /View previously purchased content/);
+  assert.match(skill, /only the candidate rank the human selects/);
   assert.ok(skill.indexOf("## Explicit MCP Vault Read") < skill.indexOf("Use the CLI as the only ItPay control surface in this lane"));
   for (const tool of ["itpay_account_status", "itpay_orders_list", "itpay_vault_list", "itpay_vault_authorize", "itpay_vault_result_read"]) {
     assert.match(skill, new RegExp(tool));
@@ -77,4 +77,10 @@ test("installed Skill works from an arbitrary path without global npm or itpay",
   } finally {
     rmSync(sandbox, { recursive: true, force: true });
   }
+});
+
+test("production business contract and separate dev setup stay intact", () => {
+  assert.match(skill, /device_ready/);
+  assert.match(skill, /testing-setup\.md/);
+  assert.doesNotMatch(skill, /query_exact|query_smart|rail-booking --json/);
 });
